@@ -2,6 +2,11 @@
 
 Din Defterim Mobil Uygulaması
 
+> ## Uygulamanın Kısmen Bitmiş Bölümleri
+> ### lib/okul/ortaokul/
+> ### lib/layout
+> ### anasayfa tasarım
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
