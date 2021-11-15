@@ -1,5 +1,6 @@
 # Allah(cc) Yaratandır
 
+<!--
 *   [Kavramlar](Kavramlar)
     *   [Rahman](Rahman)
     *   [Rahim](Rahim)
@@ -7,7 +8,7 @@
     *   [İlim](İlim)
     *   [Samet](Samet)
     *   [İhlas](İhlas)
-
+-->   
 Bir resim sergisinde birbirinden güzel ve farklı tablolar sergilenmektedir. Bu tablolarda ağaçların ihtişamlı bir şekilde yükseldiğini, dağların, ovaların, denizlerin en güzel renklerle tasarlandığını ve portrelerde insan yüzlerinin tüm ayrıntılarıyla işlendiğini gördüğümüzde hayrete düşeriz. Resimleri kim çizmiştir? Ressam acaba nasıl biridir? gibi sorular aklımıza gelir.
         
 

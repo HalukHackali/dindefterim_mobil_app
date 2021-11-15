@@ -33,8 +33,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Adap ve Nezaket"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Selam", "Komşuluk", "İletişim", "Adabı-ı Muaşeret", "Ahlak"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                             context,

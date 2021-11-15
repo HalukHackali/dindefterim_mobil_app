@@ -34,15 +34,17 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Ramazan ve Oruc"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("İftar", "İmsak", "Teravih", "Oruç", "İbadet"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                             context,
                             "Ramazan Orucu ve Önemi",
                             const UniteIcerik(
                               unideninAdi: 'Ramazan Orucu ve Önemi',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF: UniteIcerikMarkDown(
+                                mdLink:
+                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              ),
                             ),
                             0xff4C7ABA),
                         const SizedBox(height: 5),
@@ -51,7 +53,10 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                             "Ramazan ve Orucla İlgili Kavramlar",
                             const UniteIcerik(
                               unideninAdi: 'Ramazan Orucu ve Önemi',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF: UniteIcerikMarkDown(
+                                mdLink:
+                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              ),
                             ),
                             0xff4C7ABA),
                         const SizedBox(height: 5),
@@ -60,7 +65,10 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                             "Kültürümüzde Ramzan ve Oruc",
                             const UniteIcerik(
                               unideninAdi: 'Kültürümüzde Ramzan ve Oruc',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF: UniteIcerikMarkDown(
+                                mdLink:
+                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              ),
                             ),
                             0xff4C7ABA),
                         const SizedBox(height: 5),
@@ -69,8 +77,10 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                             "Bir Peygamber Tanıyorum:Hz.Davut",
                             const UniteIcerik(
                               unideninAdi: 'Bir Peygamber Tanıyorum:Hz.Davut',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-
+                              mdLinkF: UniteIcerikMarkDown(
+                                mdLink:
+                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              ),
                             ),
                             0xff4C7ABA),
                         const SizedBox(height: 5),
@@ -80,7 +90,10 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                                   'Bir Dua Öğreniyorum: Rabbena Duaları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF: UniteIcerikMarkDown(
+                                mdLink:
+                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              ),
                             ),
                             0xff4C7ABA),
                         const SizedBox(height: 5),

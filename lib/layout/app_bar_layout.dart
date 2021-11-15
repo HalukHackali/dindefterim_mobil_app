@@ -3,14 +3,13 @@ import 'package:flutter/material.dart';
 import '../yedek_unite_icerik.dart';
 
 AppBar buildAppBar(BuildContext context) {
-
   return AppBar(
     leading: const Icon(Icons.menu),
     title: const Text("Dindefterim"),
     actions: <Widget>[
       IconButton(
         icon: const Icon(Icons.account_circle),
-        color: Colors.grey,
+        color: Colors.white,
         tooltip: 'Kullanıcı Girişi',
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -25,12 +24,11 @@ AppBar buildAppBar(BuildContext context) {
             context,
             MaterialPageRoute<void>(
               builder: (BuildContext context) {
-                return Scaffold(
-                  appBar: AppBar(
-                    title: const Text('Uygulama Hakında'),
-                  ),
-                  body: const Center(
-                    child: UniteIcerik(unideninAdi: 'Henüz Yapılmadı',),
+                return const Scaffold(
+                  body: Center(
+                    child: UniteIcerik(
+                      unideninAdi: 'Uygulama Hakkında',
+                    ),
                   ),
                 );
               },

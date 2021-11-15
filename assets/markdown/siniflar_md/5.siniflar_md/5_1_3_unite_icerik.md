@@ -1,5 +1,6 @@
 # Allah(cc) Rahman ve Rahimdir
 
+<!--
 *   [Kavramlar](Kavramlar)
     *   [Rahman](Rahman)
     *   [Rahim](Rahim)
@@ -7,7 +8,7 @@
     *   [İlim](İlim)
     *   [Samet](Samet)
     *   [İhlas](İhlas)
-
+-->   
 Rahman; dünyada, bütün canlılara şefkat gösteren,hamet eden ve her türlü nimeti sürekli veren anlamlarına gelir.
 
 > BİLGİ KUTUSU

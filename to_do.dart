@@ -3,7 +3,7 @@
 // learn:
 // finished:
 
-// todo: Ünite konu sayfası yapılacak.
+// finished: Ünite konu sayfası yapıldı.
 
 // todo: 'Ünite kavramları' eklenecek
 
@@ -17,7 +17,7 @@
 
 // todo: 'Drawer' menu eklenecek
 
-// todo: App Logo çizilecek
+// finished: App Logo tasarlandı
 
 // todo: Renk şablonu oluşturulacak
 
@@ -29,8 +29,7 @@
 
 // todo: Video-Ses dosyaları eklenecek
 
-
-// learn: 'MarkDown' içerik ekleme öğrenilecek
+// finished: 'MarkDown' içerik ekleme öğrenildi
 
 // learn: 'FireBase' öğrenilecek
 

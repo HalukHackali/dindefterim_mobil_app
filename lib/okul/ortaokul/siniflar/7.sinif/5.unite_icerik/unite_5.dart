@@ -34,8 +34,7 @@ class _Yedi_E_Besinci_UniteState extends State<Yedi_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("7.Sınıf 5.Ünite"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             '7.Sınıf 1.Ünite',

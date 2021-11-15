@@ -1,6 +1,6 @@
 # Allah(cc) Görür ve İşitir
 
-
+<!--
 *   [Kavramlar](Kavramlar)
     *   [Rahman](Rahman)
     *   [Rahim](Rahim)
@@ -8,3 +8,4 @@
     *   [İlim](İlim)
     *   [Samet](Samet)
     *   [İhlas](İhlas)
+-->   

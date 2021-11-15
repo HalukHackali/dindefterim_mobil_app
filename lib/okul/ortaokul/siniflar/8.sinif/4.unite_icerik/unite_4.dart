@@ -32,8 +32,7 @@ class _Sekizinci_D_Dorduncu_UniteState extends State<Sekizinci_D_Dorduncu_Unite>
                       children: [
                         const UniteAdi("8.Sınıf 4.Ünite"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             '8.Sınıf 1.Ünite',

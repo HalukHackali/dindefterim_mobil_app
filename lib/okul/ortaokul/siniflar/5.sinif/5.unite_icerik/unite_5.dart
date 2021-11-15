@@ -34,8 +34,7 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("Çevremizde Dinin İzleri"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Cami", "Şadırvan", "İlahi", "Minare", "Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'Mimarimizde Dinin İzleri',

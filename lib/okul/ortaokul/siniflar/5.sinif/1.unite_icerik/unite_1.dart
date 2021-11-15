@@ -37,7 +37,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                           height: 10,
                         ),
                         KavramlarOgrenmeAlani(
-                            "1.Kavram", "2.Kavram", "1.Öğrenme Alanı"),
+                            "Rahman", "Rahim", "Kadir",  "İlim", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                             context,

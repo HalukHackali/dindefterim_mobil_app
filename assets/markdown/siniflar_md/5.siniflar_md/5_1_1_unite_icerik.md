@@ -1,5 +1,6 @@
 # Allah(cc) Vardır ve Birdir
 
+<!--
 *   [Kavramlar](Kavramlar)
     *   [Rahman](Rahman)
     *   [Rahim](Rahim)
@@ -7,7 +8,7 @@
     *   [İlim](İlim)
     *   [Samet](Samet)
     *   [İhlas](İhlas)
-        
+-->          
 ## Bir şey kendi kendine var olabilir mi? Niçin?
 
 İnsan düşünen, merak eden ve akıllı bir varlıktır. Aklımızla olayların nasıl olduğunu düşünür ve sebeplerini bulmaya çalışırız. Küçücük bir tohumun nasıl ağaca dönüşüp meyveler verdiğini, arının binlerce çeşit çiçeğin arasından bal özünü nasıl topladığını düşünmeye başladığımızda bu olayların rastgele olamayacağını anlarız.

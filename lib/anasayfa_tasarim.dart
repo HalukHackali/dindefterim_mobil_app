@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 import 'layout/app_bar_layout.dart';
 import 'layout/bottom_navigation_bar.dart';
 import 'layout/hazirlaniyor.dart';
@@ -18,7 +19,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _aktifIcerikNo = 0;
-  late List<Widget> _icerikler;
+  //late List<Widget> _icerikler;
 
 //todo: Henüz AnaSayfa ve Ayarlar Yok
   // @override
@@ -199,6 +200,8 @@ class SinifWidget extends StatelessWidget {
     Key? key,
   }) : super(key: key);
 
+
+
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -219,7 +222,8 @@ class SinifWidget extends StatelessWidget {
                       height: 70.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage("assets/robot-2192617_640.png"),
+                        scale: 1.0,
+                          image: AssetImage("assets/logo.png"),
                         ),
                       ),
                     ),

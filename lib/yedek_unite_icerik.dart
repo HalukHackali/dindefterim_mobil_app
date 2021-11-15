@@ -15,10 +15,10 @@ class UniteIcerik extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blueAccent[700],
+          backgroundColor: Colors.blue,
           title: Text(
             unideninAdi,
-            style: TextStyle(fontSize: 15.0),
+            style: const TextStyle(fontSize: 15.0),
           ),
         ),
         body: Center(
@@ -29,7 +29,7 @@ class UniteIcerik extends StatelessWidget {
                   //HERE we need to add the text renderer
                   return Markdown(data: snapshot.data.toString());
                 }
-                return Markdown(data: snapshot.data.toString());
+                return const Text("Veri Çekilemedi");
               }),
         ),
       ),

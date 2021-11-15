@@ -1,5 +1,6 @@
 # Bir Peygambeer Tanıyorum: Hz.İbrahim(as)
 
+<!--
 *   [Kavramlar](Kavramlar)
     *   [Rahman](Rahman)
     *   [Rahim](Rahim)
@@ -7,3 +8,4 @@
     *   [İlim](İlim)
     *   [Samet](Samet)
     *   [İhlas](İhlas)
+-->   

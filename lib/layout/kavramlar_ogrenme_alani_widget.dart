@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
-class KavramlarOgrenmeAlani extends StatelessWidget {KavramlarOgrenmeAlani( this.kavramBir, this.kavramIki, this.ogrenmeAlani);
+class KavramlarOgrenmeAlani extends StatelessWidget {KavramlarOgrenmeAlani( this.kavramBir, this.kavramIki,  this.kavramUc, this.kavramDort, this.ogrenmeAlani);
 final String kavramBir;
 final String kavramIki;
+final String kavramUc;
+final String kavramDort;
 final String ogrenmeAlani;
 
   @override
@@ -21,7 +23,7 @@ final String ogrenmeAlani;
                 // print('Card tapped.');
               },
               child: SizedBox(
-                height: 100,
+                height: 130,
                 child: Center(
                   child: Column(
                     children: [
@@ -34,7 +36,7 @@ final String ogrenmeAlani;
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      const SizedBox(height: 15),
+                      const SizedBox(height: 10),
                       Text(
                         kavramBir,
                         style: TextStyle(
@@ -43,7 +45,6 @@ final String ogrenmeAlani;
                           fontWeight: FontWeight.normal,
                         ),
                       ),
-                      const SizedBox(height: 5),
                       Text(
                         kavramIki,
                         style: TextStyle(
@@ -51,6 +52,22 @@ final String ogrenmeAlani;
                           color: Colors.indigo[700],
                           fontWeight: FontWeight.normal,
                         ),
+                      ),
+                      Text(
+                        kavramUc,
+                        style: TextStyle(
+                          fontSize: 16,
+                          color: Colors.indigo[700],
+                          fontWeight: FontWeight.normal,
+                        ),
+                      ),
+                        Text(
+                          kavramDort,
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.indigo[700],
+                            fontWeight: FontWeight.normal,
+                          ),
                       ),
                     ],
                   ),
@@ -74,7 +91,7 @@ final String ogrenmeAlani;
                 // print('Card tapped.');
               },
               child: SizedBox(
-                height: 100,
+                height: 130,
                 child: Column(
                   children: [
                     const SizedBox(height: 10),
