@@ -27,7 +27,7 @@ class BottomNavBarWidget extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const MyHomePage()));
               },
-              child: Icon(Icons.home)),
+              child: const Icon(Icons.home)),
           label: "Anasayfa",
         ),
         BottomNavigationBarItem(
@@ -38,7 +38,7 @@ class BottomNavBarWidget extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const Hazirlaniyor()));
               },
-              child: Icon(Icons.settings)),
+              child: const Icon(Icons.settings)),
           label: "Ayarlar",
         ),
         BottomNavigationBarItem(
@@ -49,7 +49,7 @@ class BottomNavBarWidget extends StatelessWidget {
                     MaterialPageRoute(
                         builder: (context) => const Hazirlaniyor()));
               },
-              child: Icon(Icons.account_circle)),
+              child: const Icon(Icons.account_circle)),
           label: "Kullanıcı",
         ),
       ],
