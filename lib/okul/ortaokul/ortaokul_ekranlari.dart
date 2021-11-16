@@ -118,7 +118,7 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                         sinifAdiYazi: "6.Sınıf",  sinifLink: altincinciSinif(),
                       ),
                     ],
-                  ), // todo: SinifWidget() aşağıda tanımlandı düzenlenecek ve her widgeta özel yapılacak.
+                  ),
                   const SizedBox(
                     height: 15.0,
                   ),

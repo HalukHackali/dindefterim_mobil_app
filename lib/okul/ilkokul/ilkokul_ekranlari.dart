@@ -112,7 +112,7 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                         width: 15.0,
                       ),
                     ],
-                  ), // todo: SinifWidget() aşağıda tanımlandı düzenlenecek ve her widgeta özel yapılacak.
+                  ),
                   const SizedBox(
                     height: 15.0,
                   ),
