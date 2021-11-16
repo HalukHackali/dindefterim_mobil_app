@@ -34,101 +34,105 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: buildAppBar(context),
-        body: ListView(
-          children: [
-            Column(
-              children: <Widget>[
-                const SizedBox(
-                  height: 25.0,
-                ),
-                const SinifWidget(),
-                const SizedBox(
-                  height: 55.0,
-                ),
-                seritBantCard("İlkokul", IlkokulEkranlari()),
-                const SizedBox(
-                  height: 10.0,
-                ),
-                seritBantCard("Ortaokul", OrtaokulEkranlari()),
-                const SizedBox(
-                  height: 10.0,
-                ),
-                seritBantCard("Lise", LiseEkranlari()),
-                const SizedBox(
-                  height: 30.0,
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Material(
-                        elevation: 3.0,
-                        child: Container(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: const <Widget>[],
-                          ),
-                          decoration: BoxDecoration(
-                            color: Colors.grey,
-                            borderRadius: BorderRadius.circular(15.0),
-                          ),
-                          alignment: Alignment.center,
-                          width: MediaQuery.of(context).size.width * 0.3,
-                          height: 3.0,
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 20.0,
-                      ),
-                      const Icon(Icons.description_sharp),
-                      const SizedBox(
-                        width: 20.0,
-                      ),
-                      const SizedBox(
-                        height: 30.0,
-                      ),
-                      Material(
-                        elevation: 3.0,
-                        child: Container(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: const <Widget>[],
-                          ),
-                          decoration: const BoxDecoration(
-                            color: Colors.grey,
-                          ),
-                          alignment: Alignment.center,
-                          width: MediaQuery.of(context).size.width * 0.3,
-                          height: 3.0,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(
-                  height: 20.0,
-                ),
-                seritBantCard("Dökümanlar", Hazirlaniyor()),
-                const SizedBox(
-                  height: 10.0,
-                ),
-                seritBantCard("Testler", Hazirlaniyor()),
-                const SizedBox(
-                  height: 10.0,
-                ),
-              ],
-            ),
-          ],
-        ),
-        drawer: DrawerWidget(),
+        body: anaEkranMenuListView(context),
+        drawer: const DrawerWidget(),
         bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _aktifIcerikNo),
       ),
     );
   }
 
-  // OrtaokulEkranlari()
+  // finished: Ana Ekran Menu Barları Listesi
+  ListView anaEkranMenuListView(BuildContext context) {
+    return ListView(
+      children: [
+        Column(
+          children: <Widget>[
+            const SizedBox(
+              height: 25.0,
+            ),
+            const IsimLogoCard(),
+            const SizedBox(
+              height: 55.0,
+            ),
+            seritBantCard("İlkokul", IlkokulEkranlari()),
+            const SizedBox(
+              height: 10.0,
+            ),
+            seritBantCard("Ortaokul", OrtaokulEkranlari()),
+            const SizedBox(
+              height: 10.0,
+            ),
+            seritBantCard("Lise", LiseEkranlari()),
+            const SizedBox(
+              height: 30.0,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Material(
+                    elevation: 3.0,
+                    child: Container(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const <Widget>[],
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.grey,
+                        borderRadius: BorderRadius.circular(15.0),
+                      ),
+                      alignment: Alignment.center,
+                      width: MediaQuery.of(context).size.width * 0.3,
+                      height: 3.0,
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 20.0,
+                  ),
+                  const Icon(Icons.description_sharp),
+                  const SizedBox(
+                    width: 20.0,
+                  ),
+                  const SizedBox(
+                    height: 30.0,
+                  ),
+                  Material(
+                    elevation: 3.0,
+                    child: Container(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: const <Widget>[],
+                      ),
+                      decoration: const BoxDecoration(
+                        color: Colors.grey,
+                      ),
+                      alignment: Alignment.center,
+                      width: MediaQuery.of(context).size.width * 0.3,
+                      height: 3.0,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 20.0,
+            ),
+            seritBantCard("Dökümanlar", Hazirlaniyor()),
+            const SizedBox(
+              height: 10.0,
+            ),
+            seritBantCard("Testler", Hazirlaniyor()),
+            const SizedBox(
+              height: 10.0,
+            ),
+          ],
+        ),
+      ],
+    );
+  }
 
+  // finished: Bar Şablonu
   Widget seritBantCard(String kademeAdi, Widget kademeSayfasiLinki) {
     return Material(
       child: Container(
@@ -191,9 +195,9 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-
-class SinifWidget extends StatelessWidget {
-  const SinifWidget({
+// finished: Ana Sayfa Logo App Name Card
+class IsimLogoCard extends StatelessWidget {
+  const IsimLogoCard({
     Key? key,
   }) : super(key: key);
 
