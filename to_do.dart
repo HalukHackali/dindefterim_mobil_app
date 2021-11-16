@@ -15,7 +15,7 @@
 
 // todo: 'Kullanıcı' sayfası eklenecek
 
-// todo: 'Drawer' menu eklenecek
+// fixme: 'Drawer' menu düzenlenecek
 
 // finished: App Logo tasarlandı
 
@@ -40,6 +40,8 @@
 // learn: 'Services' konusu öğrenilecek
 
 // learn: 'Provider' konusu öğrenilecek
+
+// learn: 'Sliver' konusu öğrenilecek
 
 // fixme: Yazı fontları gözden geçirilecek
 
