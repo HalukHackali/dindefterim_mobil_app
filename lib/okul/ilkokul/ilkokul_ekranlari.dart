@@ -33,7 +33,7 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.lightBlue[600],
-          title: const Text("İlkokul"),
+          title: const Text("İlkokul <aktif değil>"),
         ),
         body: SafeArea(
           child: ListView(

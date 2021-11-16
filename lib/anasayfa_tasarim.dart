@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 55.0,
             ),
-            seritBantCard("İlkokul", IlkokulEkranlari()),
+            seritBantCard("İlkokul ---aktf.değil", IlkokulEkranlari()),
             const SizedBox(
               height: 10.0,
             ),
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 10.0,
             ),
-            seritBantCard("Lise", LiseEkranlari()),
+            seritBantCard("Lise --- aktf.değil", LiseEkranlari()),
             const SizedBox(
               height: 30.0,
             ),
@@ -118,11 +118,11 @@ class _MyHomePageState extends State<MyHomePage> {
             const SizedBox(
               height: 20.0,
             ),
-            seritBantCard("Dökümanlar", Hazirlaniyor()),
+            seritBantCard("Evraklar --- aktf.değil", Hazirlaniyor()),
             const SizedBox(
               height: 10.0,
             ),
-            seritBantCard("Testler", Hazirlaniyor()),
+            seritBantCard("Testler --- aktf.değil", Hazirlaniyor()),
             const SizedBox(
               height: 10.0,
             ),
