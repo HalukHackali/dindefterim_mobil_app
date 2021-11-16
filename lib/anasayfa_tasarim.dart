@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-
 import 'layout/app_bar_layout.dart';
 import 'layout/bottom_navigation_bar.dart';
+import 'layout/drawer_menu.dart';
 import 'layout/hazirlaniyor.dart';
 import 'okul/ilkokul/ilkokul_ekranlari.dart';
 import 'okul/lise/lise_ekranlari.dart';
@@ -34,96 +34,94 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
         appBar: buildAppBar(context),
-        body: SafeArea(
-          child: ListView(
-            children: [
-              Column(
-                children: <Widget>[
-                  const SizedBox(
-                    height: 25.0,
-                  ),
-                  const SinifWidget(),
-                  const SizedBox(
-                    height: 55.0,
-                  ),
-                  seritBantCard("İlkokul", IlkokulEkranlari()),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
-                  seritBantCard("Ortaokul", OrtaokulEkranlari()),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
-                  seritBantCard("Lise", LiseEkranlari()),
-                  const SizedBox(
-                    height: 30.0,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
+        body: ListView(
+          children: [
+            Column(
+              children: <Widget>[
+                const SizedBox(
+                  height: 25.0,
+                ),
+                const SinifWidget(),
+                const SizedBox(
+                  height: 55.0,
+                ),
+                seritBantCard("İlkokul", IlkokulEkranlari()),
+                const SizedBox(
+                  height: 10.0,
+                ),
+                seritBantCard("Ortaokul", OrtaokulEkranlari()),
+                const SizedBox(
+                  height: 10.0,
+                ),
+                seritBantCard("Lise", LiseEkranlari()),
+                const SizedBox(
+                  height: 30.0,
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Material(
+                        elevation: 3.0,
+                        child: Container(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: const <Widget>[],
                           ),
-                        ),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const Icon(Icons.description_sharp),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: const BoxDecoration(
-                              color: Colors.grey,
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
+                          decoration: BoxDecoration(
+                            color: Colors.grey,
+                            borderRadius: BorderRadius.circular(15.0),
                           ),
+                          alignment: Alignment.center,
+                          width: MediaQuery.of(context).size.width * 0.3,
+                          height: 3.0,
                         ),
-                      ],
-                    ),
+                      ),
+                      const SizedBox(
+                        width: 20.0,
+                      ),
+                      const Icon(Icons.description_sharp),
+                      const SizedBox(
+                        width: 20.0,
+                      ),
+                      const SizedBox(
+                        height: 30.0,
+                      ),
+                      Material(
+                        elevation: 3.0,
+                        child: Container(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: const <Widget>[],
+                          ),
+                          decoration: const BoxDecoration(
+                            color: Colors.grey,
+                          ),
+                          alignment: Alignment.center,
+                          width: MediaQuery.of(context).size.width * 0.3,
+                          height: 3.0,
+                        ),
+                      ),
+                    ],
                   ),
-                  const SizedBox(
-                    height: 20.0,
-                  ),
-                  seritBantCard("Dökümanlar", Hazirlaniyor()),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
-                  seritBantCard("Testler", Hazirlaniyor()),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
-                ],
-              ),
-            ],
-
-          ),
+                ),
+                const SizedBox(
+                  height: 20.0,
+                ),
+                seritBantCard("Dökümanlar", Hazirlaniyor()),
+                const SizedBox(
+                  height: 10.0,
+                ),
+                seritBantCard("Testler", Hazirlaniyor()),
+                const SizedBox(
+                  height: 10.0,
+                ),
+              ],
+            ),
+          ],
         ),
+        drawer: DrawerWidget(),
         bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _aktifIcerikNo),
       ),
     );
@@ -194,13 +192,10 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 
-
 class SinifWidget extends StatelessWidget {
   const SinifWidget({
     Key? key,
   }) : super(key: key);
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -222,7 +217,7 @@ class SinifWidget extends StatelessWidget {
                       height: 70.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                        scale: 1.0,
+                          scale: 1.0,
                           image: AssetImage("assets/logo.png"),
                         ),
                       ),

@@ -4,7 +4,12 @@ import '../yedek_unite_icerik.dart';
 
 AppBar buildAppBar(BuildContext context) {
   return AppBar(
-    leading: const Icon(Icons.menu),
+    leading: Builder(
+      builder: (context) => IconButton(
+        icon: const Icon(Icons.menu_open),
+        onPressed: () => Scaffold.of(context).openDrawer(),
+      ),
+    ),
     title: const Text("Dindefterim"),
     actions: <Widget>[
       IconButton(
