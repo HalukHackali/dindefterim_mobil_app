@@ -7,6 +7,7 @@ AppBar buildAppBar(BuildContext context) {
     leading: Builder(
       builder: (context) => IconButton(
         icon: const Icon(Icons.menu_open),
+        tooltip: 'Menüyü Aç',
         onPressed: () => Scaffold.of(context).openDrawer(),
       ),
     ),
