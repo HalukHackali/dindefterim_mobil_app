@@ -16,7 +16,7 @@ class MyClass {
     *   [Philosophy](#philosophy)
     *   [Inline HTML](#html)
     *   [Automatic Escaping for Special Characters](#autoescape)
-*   [Block Elements](#BlockElements)
+*   [Block Elements](#block)
     *   [Paragraphs and Line Breaks](#p)
     *   [Headers](#header)
     *   [Blockquotes](#blockquote)
@@ -52,7 +52,7 @@ filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html
 [Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
 inspiration for Markdown's syntax is the format of plain text email.
 
-## BlockElements
+## Block Elements
 
 ### Paragraphs and Line Breaks
 
