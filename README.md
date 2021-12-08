@@ -46,7 +46,7 @@ www.dindefterim.com
 
 ![](https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/mokap.png)
 
----### My top 10 technologies
+---
 ### My top 10 technologies
 
 | <img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/badges/android_studio_button_icon_151887.png" width="120"/> |<img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/badges/dart_button_icon_151933.png" width="75"  /> |<img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/badges/flutter_button_icon_151957.png" width="80"/>|<img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/badges/docker_button_icon_151885.png" width="80"/>|<img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/badges/jetbrains_webstorm_button_icon_151873.png" width="100"/>|
