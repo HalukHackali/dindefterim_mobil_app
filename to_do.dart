@@ -5,9 +5,9 @@
 
 // finished: Ünite konu sayfası yapıldı.
 
-// todo: 'Ünite kavramları' eklenecek
+// todo: 'Ünite kavramları' eklenecek (4-6-7-8-9-10-11-12 sınıflar için)
 
-// todo: 'Öğrenme Alanları' eklenecek
+// todo: 'Öğrenme Alanları' eklenecek (4-6-7-8-9-10-11-12 sınıflar için)
 
 // todo: 'Ünite Soruları' eklenecek
 
