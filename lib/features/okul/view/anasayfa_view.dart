@@ -226,7 +226,7 @@ class IsimLogoCard extends StatelessWidget {
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                           scale: 1.0,
-                          image: AssetImage("assets/logo.png"),
+                          image: AssetImage("assets/app_logo/logo.png"),
                         ),
                       ),
                     ),

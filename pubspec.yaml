@@ -30,16 +30,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   flutter_lints: ^1.0.0
 
 flutter:
   uses-material-design: true
   assets:
-    - assets/robot-2192617_640.png
-    - assets/settings.png
-    - assets/logo.png
-    - assets/markdown/siniflar_md/5.siniflar_md/
+    - assets/app_logo/
+    - assets/widgets_images/
+    - assets/markdown/
 
   # fonts:
   #   - family: Schyler

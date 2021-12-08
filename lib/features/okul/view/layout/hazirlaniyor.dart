@@ -101,7 +101,7 @@ class SinifWidget extends StatelessWidget {
                       height: 70.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage("assets/settings.png"),
+                          image: AssetImage("assets/widgets_images/img_settings.png"),
                         ),
                       ),
                     ),
