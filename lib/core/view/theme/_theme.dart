@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+part of main;
 
-final ThemeData myTheme = ThemeData(
+
+final ThemeData _myTheme = ThemeData(
   brightness: Brightness.light,
   primaryColor: const Color(0xff000000),
   primaryColorBrightness: Brightness.dark,
@@ -377,19 +378,21 @@ final ThemeData myTheme = ThemeData(
     secondarySelectedColor: Color(0x3d000000),
     selectedColor: Color(0x3d000000),
     shape: StadiumBorder(
-        side: BorderSide(
-          color: Color(0xff000000),
-          width: 0,
-          style: BorderStyle.none,
-        )),
+      side: BorderSide(
+        color: Color(0xff000000),
+        width: 0,
+        style: BorderStyle.none,
+      ),
+    ),
   ),
   dialogTheme: const DialogTheme(
-      shape: RoundedRectangleBorder(
-        side: BorderSide(
-          color: Color(0xff000000),
-          width: 0,
-          style: BorderStyle.none,
-        ),
-        borderRadius: BorderRadius.all(Radius.circular(0.0)),
-      )),
+    shape: RoundedRectangleBorder(
+      side: BorderSide(
+        color: Color(0xff000000),
+        width: 0,
+        style: BorderStyle.none,
+      ),
+      borderRadius: BorderRadius.all(Radius.circular(0.0)),
+    ),
+  ),
 );
