@@ -1,5 +1,7 @@
-part of main;
+// part of theme;
 
+/*
+import 'package:flutter/material.dart';
 
 final ThemeData _myTheme = ThemeData(
   brightness: Brightness.light,
@@ -10,7 +12,7 @@ final ThemeData _myTheme = ThemeData(
   canvasColor: const Color(0xfffafafa),
   scaffoldBackgroundColor: const Color(0xfffafafa),
   bottomAppBarColor: const Color(0xffffffff),
-  cardColor: const Color(0xffffffff),
+  cardColor: const Color(0xff263238),
   dividerColor: const Color(0x1f000000),
   highlightColor: const Color(0x66bcbcbc),
   splashColor: const Color(0x66c8c8c8),
@@ -396,3 +398,5 @@ final ThemeData _myTheme = ThemeData(
     ),
   ),
 );
+
+*/

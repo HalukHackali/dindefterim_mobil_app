@@ -13,7 +13,7 @@ AppBar buildAppBar(BuildContext context) {
     ),
     title: Text(
       "Dindefterim",
-      style: Theme.of(context).primaryTextTheme.headline1,
+      style: Theme.of(context).primaryTextTheme.headline5,
     ),
     actions: <Widget>[
       IconButton(

@@ -1,15 +1,11 @@
+import 'package:flutter/material.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/lise/lise_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:flutter/material.dart';
-
 import 'layout/app_bar_layout.dart';
 import 'layout/bottom_navigation_bar.dart';
 import 'layout/drawer_menu.dart';
 import 'layout/hazirlaniyor.dart';
-
-
-
 
 
 class AnaSayfaView extends StatefulWidget {
@@ -22,7 +18,7 @@ class AnaSayfaView extends StatefulWidget {
 }
 
 class _AnaSayfaViewState extends State<AnaSayfaView> {
-  int _aktifIcerikNo = 0;
+  final int _aktifIcerikNo = 0;
   //late List<Widget> _icerikler;
 
 //todo: Henüz AnaSayfa ve Ayarlar Yok
@@ -58,15 +54,15 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
             const SizedBox(
               height: 55.0,
             ),
-            seritBantCard("İlkokul ---aktf.değil", IlkokulEkranlari()),
+            greyButton("İlkokul ---aktf.değil", IlkokulEkranlari()),
             const SizedBox(
               height: 10.0,
             ),
-            seritBantCard("Ortaokul", OrtaokulEkranlari()),
+            greyButton("Ortaokul", OrtaokulEkranlari()),
             const SizedBox(
               height: 10.0,
             ),
-            seritBantCard("Lise --- aktf.değil", LiseEkranlari()),
+            greyButton("Lise --- aktf.değil", LiseEkranlari()),
             const SizedBox(
               height: 30.0,
             ),
@@ -122,11 +118,11 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
             const SizedBox(
               height: 20.0,
             ),
-            seritBantCard("Evraklar --- aktf.değil", Hazirlaniyor()),
+            greyButton("Evraklar --- aktf.değil", Hazirlaniyor()),
             const SizedBox(
               height: 10.0,
             ),
-            seritBantCard("Testler --- aktf.değil", Hazirlaniyor()),
+            greyButton("Testler --- aktf.değil", Hazirlaniyor()),
             const SizedBox(
               height: 10.0,
             ),
@@ -136,8 +132,8 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
     );
   }
 
-  // finished: Bar Şablonu
-  Widget seritBantCard(String kademeAdi, Widget kademeSayfasiLinki) {
+// finished: Bar Şablonu
+  Widget greyButton(String kademeAdi, Widget kademeSayfasiLinki) {
     return Material(
       child: Container(
         child: InkWell(
@@ -156,10 +152,7 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
                       flex: 5,
                       child: Text(
                         kademeAdi,
-                        style: const TextStyle(
-                            fontSize: 25.0,
-                            fontWeight: FontWeight.normal,
-                            color: Colors.white70),
+                        style: Theme.of(context).textTheme.headline5,
                       ),
                     ),
                     const SizedBox(
@@ -169,7 +162,6 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
                       flex: 1,
                       child: Icon(
                         Icons.keyboard_arrow_right,
-                        color: Colors.grey,
                         size: 40.0,
                       ),
                     )
@@ -180,12 +172,12 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
           ),
         ),
         decoration: BoxDecoration(
-          gradient: const LinearGradient(
+          gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              Color(0xff263238),
-              Color(0xff263238),
+              Theme.of(context).cardColor,
+              Theme.of(context).cardColor,
             ],
           ),
           color: Colors.white,
@@ -234,27 +226,24 @@ class IsimLogoCard extends StatelessWidget {
                   const SizedBox(
                     width: 15.0,
                   ),
-                  const Expanded(
+                  Expanded(
                     flex: 2,
                     child: Text(
                       "DinDefterim",
-                      style: TextStyle(
-                          fontSize: 28.0,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.indigo),
+                      style: Theme.of(context).textTheme.headline4,
                     ),
                   )
                 ],
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(2.0),
+            Padding(
+              padding: const EdgeInsets.all(2.0),
               child: Text(
                 "Din Kültürü ve Ahlak Bilgisi",
-                style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.pinkAccent),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline5!
+                    .copyWith(color: Colors.pinkAccent),
               ),
             ),
           ],

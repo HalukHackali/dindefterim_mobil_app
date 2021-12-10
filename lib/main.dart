@@ -1,9 +1,7 @@
-library main;
-
+import 'package:dindefterim_sari/features/okul/view/anasayfa_view.dart';
 import 'package:flutter/material.dart';
-import 'features/okul/view/anasayfa_view.dart';
 
-part './core/view/theme/_theme.dart';
+import 'core/view/theme/app_theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,12 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeManager.craeteTheme(AppThemeLight()),
+      // theme: ThemeManager.craeteTheme(AppThemeDark()),
       title: 'DinDefterim',
-      theme: _myTheme,
-      home: const AnaSayfaView(),
+      home: AnaSayfaView(),
     );
   }
 }
-
-
