@@ -34,7 +34,12 @@ class LightColors implements IColors {
     colorScheme = const ColorScheme.light().copyWith(
         onPrimary: colors.hardGrey,
         onSecondary: colors.hardGrey,
-        onSurface: colors.mediumGreyBold);
+        onSurface: colors.mediumGrey,
+        onBackground: colors.mediumGreyBold,
+        onError: colors.redCustom,
+    );
+
+
     brightness = Brightness.light;
   }
 }
