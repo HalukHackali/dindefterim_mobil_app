@@ -1,4 +1,4 @@
-import 'package:dindefterim_sari/features/okul/view/layout/hazirlaniyor.dart';
+import 'package:dindefterim_sari/features/okul/view/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/features/okul/view/layout/kavramlar_ogrenme_alani_widget.dart';
 import 'package:dindefterim_sari/features/okul/view/layout/unite_adi.dart';
 import 'package:dindefterim_sari/features/okul/view/layout/unite_alt_konu_adi.dart';
@@ -99,7 +99,7 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
-                            const Hazirlaniyor(),
+                            const NoReadyPage(),
                             0xff4C7ABA),
                         const SizedBox(height: 5),
                       ],

@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Hazirlaniyor extends StatefulWidget {
-  const Hazirlaniyor({
+class NoReadyPage extends StatefulWidget {
+  const NoReadyPage({
     Key? key,
   }) : super(key: key);
 
   @override
-  State<Hazirlaniyor> createState() => _HazirlaniyorState();
+  State<NoReadyPage> createState() => _NoReadyPageState();
 }
 
-class _HazirlaniyorState extends State<Hazirlaniyor> {
+class _NoReadyPageState extends State<NoReadyPage> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -19,7 +19,7 @@ class _HazirlaniyorState extends State<Hazirlaniyor> {
           children: [
             const Padding(
               padding: EdgeInsets.only(top: 120.0, right: 18, left: 18),
-              child: SinifWidget(),
+              child: NoReadyCardWidget(),
             ),
             Padding(
               padding: const EdgeInsets.all(12.0),
@@ -76,8 +76,8 @@ class _HazirlaniyorState extends State<Hazirlaniyor> {
   }
 }
 
-class SinifWidget extends StatelessWidget {
-  const SinifWidget({
+class NoReadyCardWidget extends StatelessWidget {
+  const NoReadyCardWidget({
     Key? key,
   }) : super(key: key);
 

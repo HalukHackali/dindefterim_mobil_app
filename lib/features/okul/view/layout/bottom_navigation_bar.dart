@@ -1,7 +1,7 @@
-import 'package:dindefterim_sari/features/okul/view/anasayfa_view.dart';
+import 'package:dindefterim_sari/features/okul/view/mainpage_view.dart';
 import 'package:flutter/material.dart';
 
-import 'hazirlaniyor.dart';
+import 'no_ready_page.dart';
 
 class BottomNavBarWidget extends StatelessWidget {
   const BottomNavBarWidget({
@@ -25,7 +25,7 @@ class BottomNavBarWidget extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const AnaSayfaView()));
+                        builder: (context) => const MainPageView()));
               },
               child: const Icon(Icons.home)),
           label: "Anasayfa",
@@ -36,7 +36,7 @@ class BottomNavBarWidget extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const Hazirlaniyor()));
+                        builder: (context) => const NoReadyPage()));
               },
               child: const Icon(Icons.settings)),
           label: "Ayarlar",
@@ -47,7 +47,7 @@ class BottomNavBarWidget extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const Hazirlaniyor()));
+                        builder: (context) => const NoReadyPage()));
               },
               child: const Icon(Icons.account_circle)),
           label: "Kullanıcı",

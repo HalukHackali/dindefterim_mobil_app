@@ -5,20 +5,17 @@ import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul
 import 'layout/app_bar_layout.dart';
 import 'layout/bottom_navigation_bar.dart';
 import 'layout/drawer_menu.dart';
-import 'layout/hazirlaniyor.dart';
+import 'layout/no_ready_page.dart';
 
-
-class AnaSayfaView extends StatefulWidget {
-  const AnaSayfaView({
-    Key? key,
-  }) : super(key: key);
+class MainPageView extends StatefulWidget {
+  const MainPageView({Key? key}) : super(key: key);
 
   @override
-  State<AnaSayfaView> createState() => _AnaSayfaViewState();
+  State<MainPageView> createState() => _MainPageViewState();
 }
 
-class _AnaSayfaViewState extends State<AnaSayfaView> {
-  final int _aktifIcerikNo = 0;
+class _MainPageViewState extends State<MainPageView> {
+  final int _activeContentNo = 0;
   //late List<Widget> _icerikler;
 
 //todo: Henüz AnaSayfa ve Ayarlar Yok
@@ -33,16 +30,16 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: buildAppBar(context),
-        body: anaEkranMenuListView(context),
+        appBar: customBuildAppBar(context),
+        body: mainScreenMenuListView(context),
         drawer: const DrawerWidget(),
-        bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _aktifIcerikNo),
+        bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _activeContentNo),
       ),
     );
   }
 
   // finished: Ana Ekran Menu Barları Listesi
-  ListView anaEkranMenuListView(BuildContext context) {
+  ListView mainScreenMenuListView(BuildContext context) {
     return ListView(
       children: [
         Column(
@@ -50,7 +47,7 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
             const SizedBox(
               height: 25.0,
             ),
-            const IsimLogoCard(),
+            const AppLogoBannerCard(),
             const SizedBox(
               height: 55.0,
             ),
@@ -118,11 +115,11 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
             const SizedBox(
               height: 20.0,
             ),
-            greyButton("Evraklar --- aktf.değil", Hazirlaniyor()),
+            greyButton("Evraklar --- aktf.değil", NoReadyPage()),
             const SizedBox(
               height: 10.0,
             ),
-            greyButton("Testler --- aktf.değil", Hazirlaniyor()),
+            greyButton("Testler --- aktf.değil", NoReadyPage()),
             const SizedBox(
               height: 10.0,
             ),
@@ -192,8 +189,8 @@ class _AnaSayfaViewState extends State<AnaSayfaView> {
 }
 
 // finished: Ana Sayfa Logo App Name Card
-class IsimLogoCard extends StatelessWidget {
-  const IsimLogoCard({
+class AppLogoBannerCard extends StatelessWidget {
+  const AppLogoBannerCard({
     Key? key,
   }) : super(key: key);
 

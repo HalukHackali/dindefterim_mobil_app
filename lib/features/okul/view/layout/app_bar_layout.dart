@@ -2,7 +2,7 @@ import 'package:dindefterim_sari/features/okul/model/appbar_markdown_page.dart';
 import 'package:flutter/material.dart';
 
 
-AppBar buildAppBar(BuildContext context) {
+AppBar customBuildAppBar(BuildContext context) {
   return AppBar(
     leading: Builder(
       builder: (context) => IconButton(

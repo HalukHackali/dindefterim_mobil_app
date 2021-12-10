@@ -2,7 +2,7 @@
 import 'package:dindefterim_sari/features/okul/model/kademeler/lise/lise_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/view/layout/bottom_navigation_bar.dart';
-import 'package:dindefterim_sari/features/okul/view/layout/hazirlaniyor.dart';
+import 'package:dindefterim_sari/features/okul/view/layout/no_ready_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -265,7 +265,7 @@ class SinifCardWidget extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const Hazirlaniyor()));
+            MaterialPageRoute(builder: (context) => const NoReadyPage()));
       },
       child: Stack(
         children: [

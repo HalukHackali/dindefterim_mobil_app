@@ -1,4 +1,4 @@
-import 'package:dindefterim_sari/features/okul/view/anasayfa_view.dart';
+import 'package:dindefterim_sari/features/okul/view/mainpage_view.dart';
 import 'package:flutter/material.dart';
 
 import 'core/view/theme/app_theme.dart';
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeManager.craeteTheme(AppThemeLight()),
       // theme: ThemeManager.craeteTheme(AppThemeDark()),
       title: 'DinDefterim',
-      home: AnaSayfaView(),
+      home: MainPageView(),
     );
   }
 }
