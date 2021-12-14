@@ -28,7 +28,7 @@ or <a href="mailto:halukh@protonmail.com"><b>email</b></a> me.
 
 ---
 
-#  <img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/logo.png" width="60"> dindefterim_mobil_app
+#  <img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/app_logo/logo.png" width="60"> dindefterim_mobil_app
 
 Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması
 
