@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeManager.craeteTheme(AppThemeLight()),
-      // theme: ThemeManager.craeteTheme(AppThemeDark()),
+      // theme: ThemeManager.createTheme(AppThemeDark()),
       title: 'DinDefterim',
-      home: MainPageView(),
+      home: const MainPageView(),
     );
   }
 }

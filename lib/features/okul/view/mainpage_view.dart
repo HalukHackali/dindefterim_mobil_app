@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'layout/app_bar_layout.dart';
-import 'layout/bottom_navigation_bar.dart';
+import '../../../core/view/widget/base/bottom_navigation_bar.dart';
 import 'layout/drawer_menu.dart';
 import '../../../core/view/widget/base/main_screen_list_widget.dart';
 
@@ -13,15 +13,18 @@ class MainPageView extends StatefulWidget {
 
 class _MainPageViewState extends State<MainPageView> {
   final int _activeContentNo = 0;
-  //late List<Widget> _icerikler;
+  late List<Widget> _icerikler;
 
-//todo: Henüz AnaSayfa ve Ayarlar Yok
-  // @override
-  // void initState() {
-  //   super.initState();
-  //
-  //   _icerikler = [AnaSayfa(), Ayarlar(), Kullanıcı()];
-  // }
+//todo: Henüz AnaSayfa, Ayarlar ve Kullanıcı Yok !!!
+  @override
+  void initState() {
+    super.initState();
+
+    _icerikler = [
+      mainScreenMenuListView(context),
+    ];
+    //_icerikler = [mainScreenMenuListView(context), Ayarlar(), Kullanıcı()];
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,8 +33,9 @@ class _MainPageViewState extends State<MainPageView> {
         appBar: customBuildAppBar(context),
         body: mainScreenMenuListView(context),
         drawer: const DrawerWidget(),
-        bottomNavigationBar:
-            BottomNavBarWidget(aktifIcerikNo: _activeContentNo),
+        bottomNavigationBar: BottomNavBarWidget(
+          activeContentNo: _activeContentNo,
+        ),
       ),
     );
   }

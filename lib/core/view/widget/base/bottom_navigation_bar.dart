@@ -1,24 +1,25 @@
 import 'package:dindefterim_sari/features/okul/view/mainpage_view.dart';
 import 'package:flutter/material.dart';
 
-import 'no_ready_page.dart';
+import '../../../../features/okul/view/layout/no_ready_page.dart';
 
 class BottomNavBarWidget extends StatelessWidget {
   const BottomNavBarWidget({
     Key? key,
-    required int aktifIcerikNo,
-  }) : _aktifIcerikNo = aktifIcerikNo, super(key: key);
+    required int activeContentNo,
+  })  : _activeContentNo = activeContentNo,
+        super(key: key);
 
-  final int _aktifIcerikNo;
+  final int _activeContentNo;
 
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
       backgroundColor: Colors.blue,
-      currentIndex: _aktifIcerikNo,
+      currentIndex: _activeContentNo,
       selectedItemColor: Colors.white,
-      unselectedItemColor: Colors.grey[700],
-      items:  [
+      unselectedItemColor: Theme.of(context).colorScheme.onSecondary,
+      items: [
         BottomNavigationBarItem(
           icon: InkWell(
               onTap: () {
@@ -32,24 +33,22 @@ class BottomNavBarWidget extends StatelessWidget {
         ),
         BottomNavigationBarItem(
           icon: InkWell(
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const NoReadyPage()));
-              },
-              child: const Icon(Icons.settings)),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const NoReadyPage()));
+            },
+            child: const Icon(Icons.settings),
+          ),
           label: "Ayarlar",
         ),
         BottomNavigationBarItem(
           icon: InkWell(
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const NoReadyPage()));
-              },
-              child: const Icon(Icons.account_circle)),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const NoReadyPage()));
+            },
+            child: const Icon(Icons.account_circle),
+          ),
           label: "Kullanıcı",
         ),
       ],

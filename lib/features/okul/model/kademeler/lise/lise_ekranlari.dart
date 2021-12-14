@@ -1,39 +1,32 @@
+import 'package:dindefterim_sari/core/view/widget/base/diveder_page_widget.dart';
+import 'package:dindefterim_sari/core/view/widget/base/sinif_divider_widget.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:dindefterim_sari/features/okul/view/layout/bottom_navigation_bar.dart';
-import 'package:dindefterim_sari/features/okul/view/layout/no_ready_page.dart';
+import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
+import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/6.sinif/altincii_sinif.dart';
+import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
+import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
+import 'package:dindefterim_sari/core/view/widget/base/bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
-
-
-
-
 class LiseEkranlari extends StatefulWidget {
-
-  const LiseEkranlari({Key? key,}) : super(key: key);
+  const LiseEkranlari({
+    Key? key,
+  }) : super(key: key);
 
   @override
   _LiseEkranlariState createState() => _LiseEkranlariState();
 }
 
 class _LiseEkranlariState extends State<LiseEkranlari> {
-  int _aktifIcerikNo = 0;
-  late List<Widget> _icerikler;
-
-//todo: Henüz AnaSayfa ve Ayarlar Yok
-  // @override
-  // void initState() {
-  //   super.initState();
-  //
-  //   _icerikler = [AnaSayfa(), Ayarlar(), Kullanıcı()];
-  // }
+  final int _aktifIcerikNo = 0;
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.lightBlue[600],
+          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
           title: const Text("Lise"),
         ),
         body: SafeArea(
@@ -44,61 +37,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   const SizedBox(
                     height: 25.0,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 12.0, left: 12.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const Text(
-                          "Sınıflar",
-                          style: TextStyle(
-                            fontSize: 24.0,
-                            color: Colors.black87,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: const BoxDecoration(
-                              color: Colors.grey,
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  const SinifDividerWidget(),
                   const SizedBox(
                     height: 20.0,
                   ),
@@ -108,6 +47,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "9",
                         sinifAdiYazi: "9.Sınıf",
+                        sinifLink: besinciSinif(),
                       ),
                       SizedBox(
                         width: 15.0,
@@ -115,9 +55,10 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "10",
                         sinifAdiYazi: "10.Sınıf",
+                        sinifLink: altincinciSinif(),
                       ),
                     ],
-                  ), // todo: SinifWidget() aşağıda tanımlandı düzenlenecek ve her widgeta özel yapılacak.
+                  ),
                   const SizedBox(
                     height: 15.0,
                   ),
@@ -127,6 +68,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "11",
                         sinifAdiYazi: "11.Sınıf",
+                        sinifLink: yedinciSinif(),
                       ),
                       SizedBox(
                         width: 15.0,
@@ -134,82 +76,36 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "12",
                         sinifAdiYazi: "12.Sınıf",
+                        sinifLink: sekizinciSinif(),
                       ),
                     ],
                   ),
                   const SizedBox(
                     height: 15.0,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 12.0, left: 12.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            height: 3.0,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15.0,
-                        ),
-                        const Icon(Icons.description_sharp),
-                        const SizedBox(
-                          width: 15.0,
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: const BoxDecoration(
-                              color: Colors.grey,
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            height: 3.0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  const DividerPageWidget(),
                   const SizedBox(
                     height: 15.0,
                   ),
-                  seritBantCard("İlkokul", IlkokulEkranlari()),
+                  seritBantCard("İlkokul", const IlkokulEkranlari()),
                   const SizedBox(
                     height: 10.0,
                   ),
-                  seritBantCard("Ortaokul", OrtaokulEkranlari()),
+                  seritBantCard("Ortaokul", const OrtaokulEkranlari()),
                   const SizedBox(
                     height: 30.0,
                   ),
-
                 ],
               ),
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _aktifIcerikNo),
+        bottomNavigationBar:
+            BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
       ),
     );
   }
+
   Widget seritBantCard(String kademeAdi, Widget kademeSayfasiLinki) {
     return Material(
       child: Container(
@@ -270,16 +166,18 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
       ),
     );
   }
-
-
 }
 
 class SinifCardWidget extends StatelessWidget {
   final String? sinifAdi;
   final String? sinifAdiYazi;
+  final Widget sinifLink;
 
   const SinifCardWidget(
-      {Key? key, required this.sinifAdi, required this.sinifAdiYazi})
+      {Key? key,
+      required this.sinifAdi,
+      required this.sinifAdiYazi,
+      required this.sinifLink})
       : super(key: key);
 
   @override
@@ -287,9 +185,7 @@ class SinifCardWidget extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) => const NoReadyPage()));
+            context, MaterialPageRoute(builder: (context) => sinifLink));
       },
       child: Stack(
         children: [
@@ -298,7 +194,7 @@ class SinifCardWidget extends StatelessWidget {
             height: 140,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(16.0),
-              color: const Color(0xff4C7ABA),
+              color: Theme.of(context).colorScheme.background,
             ),
           ),
           Container(
@@ -308,7 +204,6 @@ class SinifCardWidget extends StatelessWidget {
               borderRadius: BorderRadius.circular(12.0),
             ),
             child: Padding(
-
               padding: const EdgeInsets.only(bottom: 20),
               child: Center(
                 child: Container(
@@ -343,11 +238,12 @@ class SinifCardWidget extends StatelessWidget {
                     bottomRight: Radius.circular(10)),
                 color: Color(0xffFEDB22),
               ),
-              child: const Center(
+              child: Center(
                   child: Text(
                 "Lise",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
+                  color: Theme.of(context).colorScheme.onPrimary,
                 ),
               )),
             ),
@@ -365,20 +261,16 @@ class SinifCardWidget extends StatelessWidget {
               ),
               child: Center(
                   child: Text(
-                    sinifAdiYazi!,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  )),
+                sinifAdiYazi!,
+                style: const TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontStyle: FontStyle.italic,
+                ),
+              )),
             ),
           ),
-
-
         ],
-
-
       ),
     );
   }

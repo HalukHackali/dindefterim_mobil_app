@@ -1,10 +1,10 @@
-
+import 'package:dindefterim_sari/core/view/widget/base/diveder_page_widget.dart';
+import 'package:dindefterim_sari/core/view/widget/base/sinif_divider_widget.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/lise/lise_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:dindefterim_sari/features/okul/view/layout/bottom_navigation_bar.dart';
-import 'package:dindefterim_sari/features/okul/view/layout/no_ready_page.dart';
+import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
+import 'package:dindefterim_sari/core/view/widget/base/bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-
 
 class IlkokulEkranlari extends StatefulWidget {
   const IlkokulEkranlari({
@@ -16,24 +16,15 @@ class IlkokulEkranlari extends StatefulWidget {
 }
 
 class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
-  int _aktifIcerikNo = 0;
-  late List<Widget> _icerikler;
-
-//todo: Henüz AnaSayfa ve Ayarlar Yok
-  // @override
-  // void initState() {
-  //   super.initState();
-  //
-  //   _icerikler = [AnaSayfa(), Ayarlar(), Kullanıcı()];
-  // }
+  final int _aktifIcerikNo = 0;
 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.lightBlue[600],
-          title: const Text("İlkokul <aktif değil>"),
+          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+          title: const Text("İlkokul"),
         ),
         body: SafeArea(
           child: ListView(
@@ -43,61 +34,7 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                   const SizedBox(
                     height: 25.0,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 12.0, left: 12.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const Text(
-                          "Sınıflar",
-                          style: TextStyle(
-                            fontSize: 24.0,
-                            color: Colors.black87,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 20.0,
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: const BoxDecoration(
-                              color: Colors.grey,
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.3,
-                            height: 3.0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  const SinifDividerWidget(),
                   const SizedBox(
                     height: 20.0,
                   ),
@@ -107,76 +44,24 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "4",
                         sinifAdiYazi: "4.Sınıf",
+                        sinifLink: besinciSinif(),
                       ),
                       SizedBox(
                         width: 15.0,
                       ),
                     ],
                   ),
-                  const SizedBox(
-                    height: 15.0,
-                  ),
 
+
+                  const DividerPageWidget(),
                   const SizedBox(
                     height: 15.0,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(right: 12.0, left: 12.0),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius: BorderRadius.circular(15.0),
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            height: 3.0,
-                          ),
-                        ),
-                        const SizedBox(
-                          width: 15.0,
-                        ),
-                        const Icon(Icons.description_sharp),
-                        const SizedBox(
-                          width: 15.0,
-                        ),
-                        const SizedBox(
-                          height: 30.0,
-                        ),
-                        Material(
-                          elevation: 3.0,
-                          child: Container(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: const <Widget>[],
-                            ),
-                            decoration: const BoxDecoration(
-                              color: Colors.grey,
-                            ),
-                            alignment: Alignment.center,
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            height: 3.0,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(
-                    height: 125.0,
-                  ),
-                  seritBantCard("Ortaokul", OrtaokulEkranlari()),
+                  seritBantCard("Ortaokul", const OrtaokulEkranlari()),
                   const SizedBox(
                     height: 10.0,
                   ),
-                  seritBantCard("Lise", LiseEkranlari()),
+                  seritBantCard("Lise", const LiseEkranlari()),
                   const SizedBox(
                     height: 30.0,
                   ),
@@ -185,7 +70,8 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavBarWidget(aktifIcerikNo: _aktifIcerikNo),
+        bottomNavigationBar:
+        BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
       ),
     );
   }
@@ -255,17 +141,21 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
 class SinifCardWidget extends StatelessWidget {
   final String? sinifAdi;
   final String? sinifAdiYazi;
+  final Widget sinifLink;
 
   const SinifCardWidget(
-      {Key? key, required this.sinifAdi, required this.sinifAdiYazi})
+      {Key? key,
+        required this.sinifAdi,
+        required this.sinifAdiYazi,
+        required this.sinifLink})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(context,
-            MaterialPageRoute(builder: (context) => const NoReadyPage()));
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => sinifLink));
       },
       child: Stack(
         children: [
@@ -274,7 +164,7 @@ class SinifCardWidget extends StatelessWidget {
             height: 140,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(16.0),
-              color: const Color(0xff4C7ABA),
+              color: Theme.of(context).colorScheme.background,
             ),
           ),
           Container(
@@ -318,13 +208,14 @@ class SinifCardWidget extends StatelessWidget {
                     bottomRight: Radius.circular(10)),
                 color: Color(0xffFEDB22),
               ),
-              child: const Center(
+              child: Center(
                   child: Text(
-                "İlkokul",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                ),
-              )),
+                    "İlkokul",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.onPrimary,
+                    ),
+                  )),
             ),
           ),
           Padding(
@@ -340,13 +231,13 @@ class SinifCardWidget extends StatelessWidget {
               ),
               child: Center(
                   child: Text(
-                sinifAdiYazi!,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontStyle: FontStyle.italic,
-                ),
-              )),
+                    sinifAdiYazi!,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  )),
             ),
           ),
         ],
