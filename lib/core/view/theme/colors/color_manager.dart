@@ -23,6 +23,7 @@ class _AppColors {
 
 abstract class IColors {
   _AppColors get colors;
+  Color? pinkCustom;
   Color? scaffoldBackgroundColor;
   Color? appBarColor;
   Color? tabBarColor;
@@ -30,6 +31,7 @@ abstract class IColors {
   Color? tabbarNormalColor;
   Brightness? brightness;
   ColorScheme? colorScheme;
+
 }
 
 

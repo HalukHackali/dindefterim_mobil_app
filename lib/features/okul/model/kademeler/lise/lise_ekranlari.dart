@@ -1,5 +1,6 @@
 import 'package:dindefterim_sari/core/view/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/core/view/widget/base/sinif_divider_widget.dart';
+import 'package:dindefterim_sari/core/view/widget/card/sinif_card_widget.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
@@ -43,11 +44,12 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children:  [
                       SinifCardWidget(
                         sinifAdi: "9",
                         sinifAdiYazi: "9.Sınıf",
                         sinifLink: besinciSinif(),
+                        kademeAdi: "Lise",
                       ),
                       SizedBox(
                         width: 15.0,
@@ -56,6 +58,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                         sinifAdi: "10",
                         sinifAdiYazi: "10.Sınıf",
                         sinifLink: altincinciSinif(),
+                        kademeAdi: "Lise",
                       ),
                     ],
                   ),
@@ -64,19 +67,21 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children:  [
                       SinifCardWidget(
                         sinifAdi: "11",
                         sinifAdiYazi: "11.Sınıf",
-                        sinifLink: yedinciSinif(),
+                        sinifLink: const yedinciSinif(),
+                        kademeAdi: "Lise",
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 15.0,
                       ),
                       SinifCardWidget(
                         sinifAdi: "12",
                         sinifAdiYazi: "12.Sınıf",
-                        sinifLink: sekizinciSinif(),
+                        sinifLink: const sekizinciSinif(),
+                        kademeAdi: "Lise",
                       ),
                     ],
                   ),
@@ -87,11 +92,11 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   const SizedBox(
                     height: 15.0,
                   ),
-                  seritBantCard("İlkokul", const IlkokulEkranlari()),
+                  seritBantCard("İlkokul",  IlkokulEkranlari()),
                   const SizedBox(
                     height: 10.0,
                   ),
-                  seritBantCard("Ortaokul", const OrtaokulEkranlari()),
+                  seritBantCard("Ortaokul",  OrtaokulEkranlari()),
                   const SizedBox(
                     height: 30.0,
                   ),
@@ -168,110 +173,3 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
   }
 }
 
-class SinifCardWidget extends StatelessWidget {
-  final String? sinifAdi;
-  final String? sinifAdiYazi;
-  final Widget sinifLink;
-
-  const SinifCardWidget(
-      {Key? key,
-      required this.sinifAdi,
-      required this.sinifAdiYazi,
-      required this.sinifLink})
-      : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: (context) => sinifLink));
-      },
-      child: Stack(
-        children: [
-          Container(
-            width: MediaQuery.of(context).size.width * 0.45,
-            height: 140,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(16.0),
-              color: Theme.of(context).colorScheme.background,
-            ),
-          ),
-          Container(
-            width: MediaQuery.of(context).size.width * 0.45,
-            height: 140,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12.0),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.only(bottom: 20),
-              child: Center(
-                child: Container(
-                  width: MediaQuery.of(context).size.width * 0.30,
-                  height: 75,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12.0),
-                    color: const Color(0xffE207C7),
-                  ),
-                  child: Center(
-                    child: Text(
-                      sinifAdi!,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 14),
-            child: Container(
-              width: 80,
-              height: 28,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(10),
-                    bottomRight: Radius.circular(10)),
-                color: Color(0xffFEDB22),
-              ),
-              child: Center(
-                  child: Text(
-                "Lise",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.onPrimary,
-                ),
-              )),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 108),
-            child: Container(
-              width: MediaQuery.of(context).size.width * 0.45,
-              height: 32,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(16),
-                    bottomRight: Radius.circular(16)),
-                color: Color(0xff263238),
-              ),
-              child: Center(
-                  child: Text(
-                sinifAdiYazi!,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontStyle: FontStyle.italic,
-                ),
-              )),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}

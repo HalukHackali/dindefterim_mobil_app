@@ -52,7 +52,7 @@ class TextThemeLight implements ITextTheme {
       headline1: TextStyle(fontSize: 96.0, fontWeight: FontWeight.normal),
       headline2: TextStyle(fontSize: 60.0, fontWeight: FontWeight.normal,),
       headline3: TextStyle(fontSize: 48.0, fontWeight: FontWeight.normal,),
-      headline4: TextStyle(fontSize: 34.0, fontWeight: FontWeight.normal,),
+      headline4: TextStyle(fontSize: 34, fontWeight: FontWeight.normal,),
       headline5: TextStyle(fontSize: 24.0, fontWeight: FontWeight.normal,),
       headline6: TextStyle(fontSize: 20.0, fontWeight: FontWeight.normal),
 

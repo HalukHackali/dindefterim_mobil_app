@@ -25,6 +25,9 @@ class DarkColors implements IColors {
   @override
   Color? tabbarSelectedColor;
 
+  @override
+  Color? pinkCustom;
+
   DarkColors() {
     appBarColor = colors.darkGrey;
     scaffoldBackgroundColor = colors.darkGrey;
@@ -35,4 +38,6 @@ class DarkColors implements IColors {
         .copyWith(onPrimary: colors.darkBlue, onSecondary: colors.darkGrey);
     brightness = Brightness.dark;
   }
+
+
 }

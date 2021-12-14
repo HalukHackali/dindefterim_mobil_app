@@ -8,11 +8,10 @@ import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar
 import 'package:dindefterim_sari/features/okul/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
 import 'package:dindefterim_sari/core/view/widget/base/bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-
+import 'package:dindefterim_sari/core/view/widget/card/sinif_card_widget.dart';
 
 class OrtaokulEkranlari extends StatefulWidget {
-
-  const OrtaokulEkranlari({Key? key,}) : super(key: key);
+  const OrtaokulEkranlari({Key? key}) : super(key: key);
 
   @override
   _OrtaokulEkranlariState createState() => _OrtaokulEkranlariState();
@@ -27,7 +26,7 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-          title: const Text("Ortaokul"),
+          title: Text("Ortaokul"),
         ),
         body: SafeArea(
           child: ListView(
@@ -43,17 +42,21 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: <Widget>[
                       SinifCardWidget(
                         sinifAdi: "5",
-                        sinifAdiYazi: "5.Sınıf", sinifLink: besinciSinif(),
+                        sinifAdiYazi: "5.Sınıf",
+                        sinifLink: const besinciSinif(),
+                        kademeAdi: "Ortaokul",
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 15.0,
                       ),
                       SinifCardWidget(
                         sinifAdi: "6",
-                        sinifAdiYazi: "6.Sınıf",  sinifLink: altincinciSinif(),
+                        sinifAdiYazi: "6.Sınıf",
+                        sinifLink: const altincinciSinif(),
+                        kademeAdi: "Ortaokul",
                       ),
                     ],
                   ),
@@ -62,17 +65,21 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       SinifCardWidget(
                         sinifAdi: "7",
-                        sinifAdiYazi: "7.Sınıf", sinifLink: yedinciSinif(),
+                        sinifAdiYazi: "7.Sınıf",
+                        sinifLink: const yedinciSinif(),
+                        kademeAdi: "Ortaokul",
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 15.0,
                       ),
                       SinifCardWidget(
                         sinifAdi: "8",
-                        sinifAdiYazi: "8.Sınıf", sinifLink: sekizinciSinif(),
+                        sinifAdiYazi: "8.Sınıf",
+                        sinifLink: const sekizinciSinif(),
+                        kademeAdi: "Ortaokul",
                       ),
                     ],
                   ),
@@ -91,17 +98,16 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                   const SizedBox(
                     height: 30.0,
                   ),
-
                 ],
               ),
             ],
           ),
         ),
-        bottomNavigationBar: BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
+        bottomNavigationBar:
+            BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
       ),
     );
   }
-
 
   Widget seritBantCard(String kademeAdi, Widget kademeSayfasiLinki) {
     return Material(
@@ -163,121 +169,4 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
       ),
     );
   }
-
-}
-
-class SinifCardWidget extends StatelessWidget {
-  final String? sinifAdi;
-  final String? sinifAdiYazi;
-  final Widget sinifLink;
-
-  const SinifCardWidget(
-      {Key? key, required this.sinifAdi, required this.sinifAdiYazi, required this.sinifLink})
-      : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        Navigator.push(
-            context,
-            MaterialPageRoute(
-                builder: (context) =>  sinifLink));
-      },
-      child: Stack(
-        children: [
-          Container(
-            width: MediaQuery.of(context).size.width * 0.45,
-            height: 140,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(16.0),
-              color: Theme.of(context).colorScheme.background,
-            ),
-          ),
-          Container(
-            width: MediaQuery.of(context).size.width * 0.45,
-            height: 140,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12.0),
-            ),
-            child: Padding(
-
-              padding: const EdgeInsets.only(bottom: 20),
-              child: Center(
-                child: Container(
-                  width: MediaQuery.of(context).size.width * 0.30,
-                  height: 75,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12.0),
-                    color: const Color(0xffE207C7),
-                  ),
-                  child: Center(
-                    child: Text(
-                      sinifAdi!,
-                      style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 32.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 14),
-            child: Container(
-              width: 80,
-              height: 28,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(10),
-                    bottomRight: Radius.circular(10)),
-                color: Color(0xffFEDB22),
-              ),
-              child:  Center(
-                  child: Text(
-                "Ortaokul",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Theme.of(context).colorScheme.onPrimary,
-                ),
-              )),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 108),
-            child: Container(
-              width: MediaQuery.of(context).size.width * 0.45,
-              height: 32,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(16),
-                    bottomRight: Radius.circular(16)),
-                color: Color(0xff263238),
-              ),
-              child: Center(
-                  child: Text(
-                    sinifAdiYazi!,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  )),
-            ),
-          ),
-
-
-
-        ],
-
-
-      ),
-    );
-  }
-
-
-
 }

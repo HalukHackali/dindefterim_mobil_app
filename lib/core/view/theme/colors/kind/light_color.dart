@@ -1,7 +1,6 @@
 part of '../color_manager.dart';
 
 class LightColors implements IColors {
-
   @override
   final _AppColors colors = _AppColors();
 
@@ -25,23 +24,28 @@ class LightColors implements IColors {
   @override
   Brightness? brightness;
 
+  @override
+  Color? pinkCustom;
+
   LightColors() {
     appBarColor = colors.darkBlue;
     scaffoldBackgroundColor = colors.white;
     tabBarColor = colors.darkBlue;
     tabbarNormalColor = colors.darkerGrey;
-    tabbarSelectedColor = colors.darkBlue;
-    colorScheme = const ColorScheme.light().copyWith(
-       // primary: colors. ----,
-        onPrimary: colors.hardGrey,
-        onSecondary: colors.hardGrey,
-        onSurface: colors.mediumGrey,
-        onBackground: colors.mediumGreyBold,
-       //  onError: colors. ---,
-        secondaryVariant: colors.white,
-        background: colors.lightBlue
-    );
+    tabbarSelectedColor = colors.white;
     brightness = Brightness.light;
+    pinkCustom = colors.pinkCustom;
+    colorScheme = const ColorScheme.light().copyWith(
+      //primary: colors. ----,
+      onPrimary: colors.hardGrey,
+      onSecondary: colors.hardGrey,
+      onSurface: colors.mediumGrey,
+      onBackground: colors.mediumGreyBold,
+      //  onError: colors. ---,
+      secondaryVariant: colors.white,
+      background: colors.lightBlue,
+      surface: colors.pinkCustom,
+    );
   }
 }
 
