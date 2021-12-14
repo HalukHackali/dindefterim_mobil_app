@@ -38,7 +38,7 @@ flutter:
   assets:
     - assets/app_logo/
     - assets/widgets_images/
-    - assets/markdown/
+    - assets/markdown/siniflar_md/5.siniflar_md/
 
   # fonts:
   #   - family: Schyler

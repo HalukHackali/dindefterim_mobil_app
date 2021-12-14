@@ -43,7 +43,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                                   'Hz. Muhammed’in Evliliği ve Çocukları',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -52,7 +52,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                               unideninAdi: "Bir Eş Olarak Hz.Muhammed",
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -61,7 +61,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                               unideninAdi: 'Bir Baba Olarak Hz.Muhammed',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -70,7 +70,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                               unideninAdi: 'Bir Dede Olarak Hz.Muhammed',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -80,7 +80,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                                   'Hz.Muhammed ve Ailesinin Örnek Davranışları',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -89,7 +89,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                               unideninAdi: 'Hz.Hasan ve Hz.Hüseyin',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -99,13 +99,13 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                                   'Bir Sure Tanıyorum: Kevser Suresi ve Anlamı',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
                             const NoReadyPage(),
-                            0xff5593B1),
+                            ),
                         const SizedBox(height: 5),
                       ],
                     ),

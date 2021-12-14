@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DividerPageWidget extends StatelessWidget {
+  final allPadding = const EdgeInsets.all(8.0);
   const DividerPageWidget({
     Key? key,
   }) : super(key: key);
@@ -8,7 +9,7 @@ class DividerPageWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: allPadding,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [

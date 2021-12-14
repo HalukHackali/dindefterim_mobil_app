@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class StretchButton extends StatefulWidget {
+
   const StretchButton(
       {required this.kademeSayfasiLinki, required this.kademeAdi});
 
@@ -12,6 +13,7 @@ class StretchButton extends StatefulWidget {
 }
 
 class _StretchButtonState extends State<StretchButton> {
+  final leftPadding = const EdgeInsets.only(left: 12.0);
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -27,7 +29,7 @@ class _StretchButtonState extends State<StretchButton> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 12.0),
+                padding: leftPadding,
                 child: Row(
                   children: <Widget>[
                     Expanded(

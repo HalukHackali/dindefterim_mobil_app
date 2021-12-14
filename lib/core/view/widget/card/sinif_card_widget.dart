@@ -6,7 +6,7 @@ class SinifCardWidget extends StatelessWidget {
   final Widget sinifLink;
   final String? kademeAdi;
 
-  SinifCardWidget(
+  const SinifCardWidget(
       {required this.sinifAdi,
       required this.sinifAdiYazi,
       required this.sinifLink,
@@ -26,7 +26,7 @@ class SinifCardWidget extends StatelessWidget {
             height: 140,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(16.0),
-              color: Theme.of(context).colorScheme.background,
+              color: Theme.of(context).colorScheme.primary,
             ),
           ),
           Container(
@@ -43,7 +43,7 @@ class SinifCardWidget extends StatelessWidget {
                   height: 75,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12.0),
-                    color: Color(0xffE207C7),
+                    color: Theme.of(context).colorScheme.surface,
                   ),
                   child: Center(
                     child: Text(
@@ -60,13 +60,13 @@ class SinifCardWidget extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 14),
             child: Container(
-              width: 80,
+              width: 75,
               height: 28,
-              decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
+              decoration:  BoxDecoration(
+                borderRadius: const BorderRadius.only(
                     topRight: Radius.circular(10),
                     bottomRight: Radius.circular(10)),
-                color: Color(0xffFEDB22),
+                color: Theme.of(context).colorScheme.primaryVariant,
               ),
               child: Center(
                 child: Text(

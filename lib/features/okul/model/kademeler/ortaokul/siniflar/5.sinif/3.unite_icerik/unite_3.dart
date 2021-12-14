@@ -43,7 +43,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                               unideninAdi: 'Nezaket Kuralları',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -52,7 +52,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                               unideninAdi: 'Selamlaşma Adabı',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -61,7 +61,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                               unideninAdi: 'İletişim ve Konuşma Adabı',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -70,7 +70,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                               unideninAdi: 'Sofra Adabı"',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -79,7 +79,7 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                               unideninAdi: 'Hz. Lokman’dan (a.s.) Öğütler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -89,13 +89,13 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                                   'Bir Dua Tanıyorum: Tahiyyat Duası ve Anlamı',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
                             const NoReadyPage(),
-                            0xff5593B1),
+                            ),
                         const SizedBox(height: 5),
                       ],
                     ),

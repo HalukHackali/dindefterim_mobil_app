@@ -45,7 +45,7 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                                     "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                               ),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -57,7 +57,7 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                                     "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                               ),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -69,7 +69,7 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                                     "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                               ),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -81,7 +81,7 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                                     "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                               ),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
@@ -94,13 +94,13 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                                     "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                               ),
                             ),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
                             const NoReadyPage(),
-                            0xff4C7ABA),
+                            ),
                         const SizedBox(height: 5),
                       ],
                     ),

@@ -4,9 +4,6 @@ import 'package:dindefterim_sari/features/okul/view/layout/unite_adi.dart';
 import 'package:dindefterim_sari/features/okul/view/layout/unite_alt_konu_adi.dart';
 import 'package:flutter/material.dart';
 
-
-
-
 class Alti_A_Birinci_Unite extends StatefulWidget {
   const Alti_A_Birinci_Unite();
 
@@ -15,7 +12,6 @@ class Alti_A_Birinci_Unite extends StatefulWidget {
 }
 
 class _Alti_A_Birinci_UniteState extends State<Alti_A_Birinci_Unite> {
-
   bool shouldPop = true;
 
   @override
@@ -36,39 +32,44 @@ class _Alti_A_Birinci_UniteState extends State<Alti_A_Birinci_Unite> {
                       children: [
                         const UniteAdi("6.Sınıf 1.Ünite"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
+                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                            '6.Sınıf 1.Ünite',
-                            const NoReadyPage(), 0xff4C7ABA),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                            '6.Sınıf 2.Ünite',
-                            const NoReadyPage(), 0xff4C7ABA),
+                        unitAltKonuAdiBant(
+                          context,
+                          '6.Sınıf 1.Ünite',
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '6.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            0xff4C7ABA),
+                          context,
+                          '6.Sınıf 2.Ünite',
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '6.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            0xff4C7ABA),
+                          context,
+                          '6.Sınıf 3.Ünite',
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '6.Sınıf 4.Ünite',
-                            const NoReadyPage(),
-                            0xff4C7ABA),
+                          context,
+                          '6.Sınıf 3.Ünite',
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            0xff5593B1),
+                          context,
+                          '6.Sınıf 4.Ünite',
+                          const NoReadyPage(),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),
