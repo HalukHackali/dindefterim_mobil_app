@@ -43,6 +43,6 @@
 
 // learn: 'Sliver' konusu öğrenilecek
 
-// fixme: Yazı fontları gözden geçirilecek
+// finished: Yazı fontları gözden geçirilecek
 
 // finished: App iskeleti yapıldı
