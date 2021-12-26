@@ -1,23 +1,26 @@
-import 'package:dindefterim_sari/features/okul/view/mainpage_view.dart';
 import 'package:flutter/material.dart';
-
-import 'core/view/theme/app_theme.dart';
+import 'features/okul/view/user_view/feature/app_screen.dart';
+import 'features/okul/view/user_view/size_confige.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeManager.craeteTheme(AppThemeLight()),
-      // theme: ThemeManager.createTheme(AppThemeDark()),
-      title: 'DinDefterim',
-      home: const MainPageView(),
+      debugShowCheckedModeBanner: true,
+      title: 'Dindefterim App',
+      theme: ThemeData(
+        fontFamily: "Nunito",
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: Builder(builder: (context) {
+        SizeConfig.initSize(context);
+        return const ApprScreen();
+      }),
     );
   }
 }

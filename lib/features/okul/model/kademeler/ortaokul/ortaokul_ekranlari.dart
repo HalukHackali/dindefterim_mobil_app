@@ -10,6 +10,7 @@ import 'package:dindefterim_sari/core/view/widget/base/bottom_navigation_bar.dar
 import 'package:flutter/material.dart';
 import 'package:dindefterim_sari/core/view/widget/card/sinif_card_widget.dart';
 
+
 class OrtaokulEkranlari extends StatefulWidget {
   const OrtaokulEkranlari({Key? key}) : super(key: key);
 
@@ -26,7 +27,7 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-          title: Text("Ortaokul"),
+          title: const Text("Ortaokul"),
         ),
         body: SafeArea(
           child: ListView(
@@ -42,20 +43,20 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
+                    children: const <Widget>[
                       SinifCardWidget(
                         sinifAdi: "5",
                         sinifAdiYazi: "5.Sınıf",
-                        sinifLink: const besinciSinif(),
+                        sinifLink: besinciSinif(),
                         kademeAdi: "Ortaokul",
                       ),
-                      const SizedBox(
+                      SizedBox(
                         width: 15.0,
                       ),
                       SinifCardWidget(
                         sinifAdi: "6",
                         sinifAdiYazi: "6.Sınıf",
-                        sinifLink: const altincinciSinif(),
+                        sinifLink: altincinciSinif(),
                         kademeAdi: "Ortaokul",
                       ),
                     ],
@@ -65,20 +66,20 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                    children: const [
                       SinifCardWidget(
                         sinifAdi: "7",
                         sinifAdiYazi: "7.Sınıf",
-                        sinifLink: const yedinciSinif(),
+                        sinifLink: yedinciSinif(),
                         kademeAdi: "Ortaokul",
                       ),
-                      const SizedBox(
+                      SizedBox(
                         width: 15.0,
                       ),
                       SinifCardWidget(
                         sinifAdi: "8",
                         sinifAdiYazi: "8.Sınıf",
-                        sinifLink: const sekizinciSinif(),
+                        sinifLink: sekizinciSinif(),
                         kademeAdi: "Ortaokul",
                       ),
                     ],

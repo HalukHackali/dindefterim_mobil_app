@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class NoReadyPage extends StatefulWidget {
@@ -34,20 +33,20 @@ class _NoReadyPageState extends State<NoReadyPage> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children:  <Widget>[
-                         Row(
-                           mainAxisAlignment: MainAxisAlignment.spaceAround,
-                           children: const [
-                             Icon(Icons.subdirectory_arrow_left_sharp, size: 45,),
-                             Text(
-                               "Geri Dön ",
-                               textAlign: TextAlign.center,
-                               style: TextStyle(
-                                   fontSize: 28.0,
-                                   fontWeight: FontWeight.bold,
-                                   color: Colors.black),
-                             ),
-                           ],
-                         ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: const [
+                            Icon(Icons.subdirectory_arrow_left_sharp, size: 45,),
+                            Text(
+                              "Geri Dön ",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  fontSize: 28.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black),
+                            ),
+                          ],
+                        ),
                       ],
                     ),
                     decoration: BoxDecoration(

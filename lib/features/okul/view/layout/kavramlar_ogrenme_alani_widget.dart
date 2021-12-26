@@ -40,7 +40,7 @@ final String ogrenmeAlani;
                       Text(
                         kavramBir,
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 12,
                           color: Colors.indigo[700],
                           fontWeight: FontWeight.normal,
                         ),
@@ -48,7 +48,7 @@ final String ogrenmeAlani;
                       Text(
                         kavramIki,
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 12,
                           color: Colors.indigo[700],
                           fontWeight: FontWeight.normal,
                         ),
@@ -56,7 +56,7 @@ final String ogrenmeAlani;
                       Text(
                         kavramUc,
                         style: TextStyle(
-                          fontSize: 16,
+                          fontSize: 12,
                           color: Colors.indigo[700],
                           fontWeight: FontWeight.normal,
                         ),
@@ -64,7 +64,7 @@ final String ogrenmeAlani;
                         Text(
                           kavramDort,
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 12,
                             color: Colors.indigo[700],
                             fontWeight: FontWeight.normal,
                           ),

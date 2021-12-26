@@ -1,4 +1,4 @@
-import 'package:dindefterim_sari/features/okul/view/mainpage_view.dart';
+import 'package:dindefterim_sari/features/okul/view/user_view/feature/app_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../features/okul/view/layout/no_ready_page.dart';
@@ -24,9 +24,9 @@ class BottomNavBarWidget extends StatelessWidget {
           icon: InkWell(
               onTap: () {
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const MainPageView()));
+                  context,
+                  MaterialPageRoute(builder: (context) => const ApprScreen()),
+                );
               },
               child: const Icon(Icons.home)),
           label: "Anasayfa",
@@ -45,7 +45,7 @@ class BottomNavBarWidget extends StatelessWidget {
           icon: InkWell(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const NoReadyPage()));
+                  MaterialPageRoute(builder: (context) => const ApprScreen()));
             },
             child: const Icon(Icons.account_circle),
           ),
