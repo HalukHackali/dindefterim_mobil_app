@@ -22,6 +22,10 @@ dependencies:
   # State Managements
 
   # Utility
+  flutter_rating_bar: ^4.0.0
+  font_awesome_flutter: ^9.2.0
+  line_icons: ^2.0.1
+  flutter_svg: ^1.0.0
 
   # Google
   google_fonts: ^2.1.0
@@ -36,18 +40,18 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/images/
     - assets/app_logo/
     - assets/widgets_images/
     - assets/markdown/siniflar_md/5.siniflar_md/
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Bold.ttf
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Black.ttf
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+        - asset: assets/fonts/Nunito-Light.ttf
+        - asset: assets/fonts/Nunito-ExtraLight.ttf
