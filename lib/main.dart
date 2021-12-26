@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
-import 'features/okul/view/user_view/feature/app_screen.dart';
-import 'features/okul/view/user_view/size_confige.dart';
+
+import 'core/feature/app_screen.dart';
+import 'core/size_confige.dart';
+
+
+
 
 void main() {
   runApp( MyApp());
