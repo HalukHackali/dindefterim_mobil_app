@@ -8,7 +8,7 @@ import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekiz
 import 'package:dindefterim_sari/ui/widget/base/bottom_navigation_bar.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
-import 'package:dindefterim_sari/ui/widget/card/sinif_card_widget.dart';
+import 'package:dindefterim_sari/ui/widget/card/old_sinif_card_widget.dart';
 
 import 'package:flutter/material.dart';
 

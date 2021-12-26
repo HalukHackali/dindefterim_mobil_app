@@ -13,52 +13,52 @@ import 'diveder_page_widget.dart';
 SingleChildScrollView mainScreenMenuListView(BuildContext context) {
   return SingleChildScrollView(
     child: Column(
-      children: const <Widget>[
-        SizedBox(
+      children:  <Widget>[
+        const SizedBox(
           height: 25.0,
         ),
-        AppLogoBannerCard(),
-        SizedBox(
+        const AppLogoBannerCard(),
+        const SizedBox(
           height: 55.0,
         ),
         StretchButton(
           kademeSayfasiLinki: IlkokulEkranlari(),
           kademeAdi: "İlkokul --aktf.değil",
         ),
-        SizedBox(
+        const SizedBox(
           height: 10.0,
         ),
-        StretchButton(
+        const StretchButton(
           kademeSayfasiLinki: OrtaokulEkranlari(),
           kademeAdi: "Ortaokul",
         ),
-        SizedBox(
+        const SizedBox(
           height: 10.0,
         ),
-        StretchButton(
-          kademeSayfasiLinki: LiseEkranlari(),
+        const StretchButton(
+          kademeSayfasiLinki: const LiseEkranlari(),
           kademeAdi: "Lise --aktf.değil",
         ),
-        SizedBox(
+        const SizedBox(
           height: 30.0,
         ),
         // todo: Sayfayı Ayıran Divider Widget
-        DividerPageWidget(),
-        SizedBox(
+        const DividerPageWidget(),
+        const SizedBox(
           height: 20.0,
         ),
-        StretchButton(
+        const StretchButton(
           kademeSayfasiLinki: NoReadyPage(),
           kademeAdi: "Evraklar ---aktf.değil",
         ),
-        SizedBox(
+        const SizedBox(
           height: 10.0,
         ),
-        StretchButton(
-          kademeSayfasiLinki: NoReadyPage(),
+        const StretchButton(
+          kademeSayfasiLinki: const NoReadyPage(),
           kademeAdi: "Testler ---aktf.değil",
         ),
-        SizedBox(
+        const SizedBox(
           height: 10.0,
         ),
       ],

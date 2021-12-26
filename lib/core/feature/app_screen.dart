@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../constants.dart';
 import '../size_confige.dart';
 import 'banner.dart';
-import 'bottom_navigation_bar.dart';
+import 'botton_nav_bar_model.dart';
 import 'kademeler_list.dart';
 import 'siniflar_list.dart';
 
@@ -15,7 +15,6 @@ class ApprScreen extends StatefulWidget {
 }
 
 class _ApprScreenState extends State<ApprScreen> {
-  int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,31 +27,17 @@ class _ApprScreenState extends State<ApprScreen> {
               // const UserAppBar(),
               SizedBox(height: getRelativeHeight(0.025)),
               const MainScreenBanner(),
-              SizedBox(height: getRelativeHeight(0.005)),
-              SearchField(),
               SizedBox(height: getRelativeHeight(0.025)),
+              SearchField(),
+              SizedBox(height: getRelativeHeight(0.030)),
               const KademelerList(),
-              SizedBox(height: getRelativeHeight(0.01)),
+              SizedBox(height: getRelativeHeight(0.025)),
               const SiniflarList(),
             ],
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavigation(
-        selectedIndex: _selectedIndex,
-        onItemPressed: (index) {
-          setState(() {
-            _selectedIndex = index;
-          });
-        },
-        centerIcon: Icons.place,
-        itemIcons: const [
-          Icons.home,
-          Icons.notifications,
-          Icons.message,
-          Icons.account_box,
-        ],
-      ),
+      bottomNavigationBar: const ButtomNavBarModel(),
     );
   }
 }

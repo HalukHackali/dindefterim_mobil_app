@@ -1,18 +1,15 @@
-
+import 'package:dindefterim_sari/core/feature/bottom_navigation_bar.dart';
+import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:dindefterim_sari/ui/widget/base/bottom_navigation_bar.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
+import 'package:dindefterim_sari/ui/widget/card/kademe_card_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/sinif_card_widget.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/lise_ekranlari.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/6.sinif/altincii_sinif.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
-
-
 
 class OrtaokulEkranlari extends StatefulWidget {
   const OrtaokulEkranlari({Key? key}) : super(key: key);
@@ -22,7 +19,7 @@ class OrtaokulEkranlari extends StatefulWidget {
 }
 
 class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
-  final int _aktifIcerikNo = 0;
+  int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -34,142 +31,108 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
         ),
         body: SafeArea(
           child: ListView(
+            scrollDirection: Axis.vertical,
             children: [
-              Column(
-                children: <Widget>[
-                  const SizedBox(
-                    height: 25.0,
-                  ),
-                  const SinifDividerWidget(),
-                  const SizedBox(
-                    height: 20.0,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: const <Widget>[
-                      SinifCardWidget(
-                        sinifAdi: "5",
-                        sinifAdiYazi: "5.Sınıf",
-                        sinifLink: besinciSinif(),
-                        kademeAdi: "Ortaokul",
-                      ),
-                      SizedBox(
-                        width: 15.0,
-                      ),
-                      SinifCardWidget(
-                        sinifAdi: "6",
-                        sinifAdiYazi: "6.Sınıf",
-                        sinifLink: altincinciSinif(),
-                        kademeAdi: "Ortaokul",
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 15.0,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
-                      SinifCardWidget(
-                        sinifAdi: "7",
-                        sinifAdiYazi: "7.Sınıf",
-                        sinifLink: yedinciSinif(),
-                        kademeAdi: "Ortaokul",
-                      ),
-                      SizedBox(
-                        width: 15.0,
-                      ),
-                      SinifCardWidget(
-                        sinifAdi: "8",
-                        sinifAdiYazi: "8.Sınıf",
-                        sinifLink: sekizinciSinif(),
-                        kademeAdi: "Ortaokul",
-                      ),
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 15.0,
-                  ),
-                  const DividerPageWidget(),
-                  const SizedBox(
-                    height: 15.0,
-                  ),
-                  seritBantCard("İlkokul", const IlkokulEkranlari()),
-                  const SizedBox(
-                    height: 10.0,
-                  ),
-                  seritBantCard("Lise", const LiseEkranlari()),
-                  const SizedBox(
-                    height: 30.0,
-                  ),
-                ],
+              const SizedBox(
+                height: 25.0,
               ),
-            ],
-          ),
-        ),
-        bottomNavigationBar:
-            BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
-      ),
-    );
-  }
-
-  Widget seritBantCard(String kademeAdi, Widget kademeSayfasiLinki) {
-    return Material(
-      child: Container(
-        child: InkWell(
-          onTap: () {
-            Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => kademeSayfasiLinki));
-          },
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.only(left: 12.0),
-                child: Row(
+              const SinifDividerWidget(),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                padding: EdgeInsets.symmetric(horizontal: getRelativeWidth(0.035)),
+                child: Column(
                   children: <Widget>[
-                    Expanded(
-                      flex: 5,
-                      child: Text(
-                        kademeAdi,
-                        style: const TextStyle(
-                            fontSize: 25.0,
-                            fontWeight: FontWeight.normal,
-                            color: Colors.white70),
-                      ),
-                    ),
                     const SizedBox(
-                      width: 55.0,
+                      height: 10.0,
                     ),
-                    const Expanded(
-                      flex: 1,
-                      child: Icon(
-                        Icons.keyboard_arrow_right,
-                        color: Colors.grey,
-                        size: 40.0,
-                      ),
-                    )
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: const [
+                        Sinif_Card_Widget(
+                          sinifAdi: '5.Sınıf',
+                          kademeAdi: "Ortaokul",
+                          sinifLink: besinciSinif(),
+                          resim: "assets/images/5_sinif.png",
+                          sinifRenk: Color(0xffB8ACFF),
+                          sinifRenk_2: Color(0xffB8ACFF),
+                          sinifRenk_3: Color(0xffB8ACFF),
+                        ),
+                        Sinif_Card_Widget(
+                          sinifAdi: '6.Sınıf',
+                          kademeAdi: "Ortaokul",
+                          sinifLink: besinciSinif(),
+                          resim: "assets/images/6_sinif.png",
+                          sinifRenk: Color(0xffB8ACFF),
+                          sinifRenk_2: Color(0xffB8ACFF),
+                          sinifRenk_3: Color(0xffB8ACFF),
+                        ),
+                        Sinif_Card_Widget(
+                          sinifAdi: '7.Sınıf',
+                          kademeAdi: "Ortaokul",
+                          sinifLink: besinciSinif(),
+                          resim: "assets/images/7_sinif.png",
+                          sinifRenk: Color(0xffB8ACFF),
+                          sinifRenk_2: Color(0xffB8ACFF),
+                          sinifRenk_3: Color(0xffB8ACFF),
+                        ),
+                        Sinif_Card_Widget(
+                          sinifAdi: '8.Sınıf',
+                          kademeAdi: "Ortaokul",
+                          sinifLink: besinciSinif(),
+                          resim: "assets/images/8_sinif.png",
+                          sinifRenk: Color(0xffB8ACFF),
+                          sinifRenk_2: Color(0xffB8ACFF),
+                          sinifRenk_3: Color(0xffB8ACFF),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
+              const DividerPageWidget(),
+              const SizedBox(
+                height: 15.0,
+              ),
+              const KademeCardWidget(
+                kategoriIcon: Icon(Icons.favorite),
+                sinifAdi: "5-6-7-8",
+                kademeAdi: "Ortaokul",
+                kademeLink: OrtaokulEkranlari(),
+                kademefRenk: Color(0xffFFCA8C),
+                kademefRenk_2: Color(0xffFFCA8C),
+              ),
+              const SizedBox(
+                height: 10.0,
+              ),
+              const KademeCardWidget(
+                kategoriIcon: Icon(Icons.favorite),
+                sinifAdi: "9-10-11-12",
+                kademeAdi: "Lise",
+                kademeLink: LiseEkranlari(),
+                kademefRenk: Color(0xff5DF9D3),
+                kademefRenk_2: Color(0xff5DF9D3),
+              ),
+              const SizedBox(
+                height: 30.0,
+              ),
             ],
           ),
         ),
-        decoration: BoxDecoration(
-          gradient: const LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Color(0xff263238),
-              Color(0xff263238),
-            ],
-          ),
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(15.0),
+        bottomNavigationBar: BottomNavigation(
+          selectedIndex: _selectedIndex,
+          onItemPressed: (index) {
+            setState(() {
+              _selectedIndex = index;
+            });
+          },
+          centerIcon: Icons.place,
+          itemIcons: const [
+            Icons.home,
+            Icons.notifications,
+            Icons.message,
+            Icons.account_box,
+          ],
         ),
-        alignment: Alignment.center,
-        width: MediaQuery.of(context).size.width - 40.0,
-        height: 50.0,
       ),
     );
   }

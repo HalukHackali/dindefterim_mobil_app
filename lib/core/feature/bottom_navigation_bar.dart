@@ -131,7 +131,7 @@ class BottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const NoReadyPage()),
+                          builder: (context) => const ApprScreen()),
                     );
                   },
                   child: Container(

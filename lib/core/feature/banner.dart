@@ -39,7 +39,7 @@ class MainScreenBanner extends StatelessWidget {
                 ),
                 child: Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: getRelativeWidth(0.03)),
+                      EdgeInsets.symmetric(horizontal: getRelativeWidth(0.02)),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -54,7 +54,7 @@ class MainScreenBanner extends StatelessWidget {
 
                         ],
                       ),
-                      SizedBox(width: getRelativeWidth(0.012)),
+                      SizedBox(width: getRelativeWidth(0.035)),
                       Flexible(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,18 +66,18 @@ class MainScreenBanner extends StatelessWidget {
                                 //color: Colors.black,
                                 color: const Color(0xff3465A4),
                                 fontWeight: FontWeight.bold,
-                                fontSize: getRelativeWidth(0.065),
+                                fontSize: getRelativeWidth(0.068),
                               ),
                             ),
-                            SizedBox(height: getRelativeHeight(0.02)),
+                            SizedBox(height: getRelativeHeight(0.0010)),
                             Row(
                               children: [
                                 Flexible(
                                   child: Text(
                                     "Din Kültürü ve Ahlak Bilgisi  Özetler,  Resimler,  Videolar,  Testler",
-                                    style: TextStyle(
-                                        color: Colors.black.withOpacity(0.85),
-                                        fontSize: getRelativeWidth(0.033)),
+                                      style: TextStyle(
+                                          fontSize: getRelativeWidth(0.035),
+                                          fontWeight: FontWeight.bold)
                                   ),
                                 ),
                                 SizedBox(width: getRelativeWidth(0.03)),

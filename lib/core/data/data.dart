@@ -17,13 +17,13 @@ class Data {
       title: "İlkokul",
       kademelerNumber: '4',
       icon: Icons.favorite,
-      kademeLink: const IlkokulEkranlari(),
+      kademeLink:  IlkokulEkranlari(),
     ),
     Kamede(
       title: "Ortaokul",
       kademelerNumber: '5-6-7-8',
       icon: LineIcons.heart,
-      kademeLink: const OrtaokulEkranlari(),
+      kademeLink:  OrtaokulEkranlari(),
     ),
     Kamede(
       title: "Lise",
@@ -35,7 +35,7 @@ class Data {
       title: "LGS",
       kademelerNumber: '8',
       icon: LineIcons.heart,
-      kademeLink: const IlkokulEkranlari(),
+      kademeLink:  IlkokulEkranlari(),
     ),
   ];
 
@@ -78,7 +78,7 @@ class Data {
       image: "assets/images/8_sinif.png",
       reviews: 9,
       reviewScore: 2,
-      sinifLink: const IlkokulEkranlari(),
+      sinifLink:  IlkokulEkranlari(),
     ),
     Sinif(
       name: "9.Sınıf",
@@ -86,7 +86,7 @@ class Data {
       image: "assets/images/9_sinif.png",
       reviews: 12,
       reviewScore: 9,
-      sinifLink: const IlkokulEkranlari(),
+      sinifLink:  IlkokulEkranlari(),
     ),
   ];
 }
