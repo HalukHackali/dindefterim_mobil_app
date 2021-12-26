@@ -41,8 +41,7 @@ www.dindefterim.com
 > - anasayfa tasarım
 ----
 
-
-![](https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/mokap.png)
+<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/Screenshot_1640489537.png" width="400">
 
 ---
 ### My top 10 technologies
