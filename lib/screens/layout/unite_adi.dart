@@ -13,7 +13,7 @@ class UniteAdi extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        color: Theme.of(context).colorScheme.primaryVariant,
+        color: const Color(0xffFEA741),
       ),
       child: SizedBox(
         height: 55,
@@ -21,7 +21,7 @@ class UniteAdi extends StatelessWidget {
           child: Text(
             unideninAdi,
             style: Theme.of(context).textTheme.headline4!.copyWith(
-                  color: Theme.of(context).colorScheme.primary,
+                  color: const Color(0xff586191),
                 ),
           ),
         ),

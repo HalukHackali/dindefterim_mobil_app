@@ -1,16 +1,17 @@
-
+import 'package:dindefterim_sari/model/kademeler/lise/siniflar/11.sinif/onbirinci_sinif.dart';
+import 'package:dindefterim_sari/model/kademeler/lise/siniflar/12.sinif/onikinci_sinif.dart';
+import 'package:flutter/material.dart';
+import 'package:dindefterim_sari/core/constants.dart';
+import 'package:dindefterim_sari/core/feature/botton_nav_bar_model.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
+import 'package:dindefterim_sari/model/kademeler/lise/siniflar/10.sinif/onuncu_sinif.dart';
+import 'package:dindefterim_sari/model/kademeler/lise/siniflar/9.sinif/dokuzuncu_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/6.sinif/altincii_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
-import 'package:dindefterim_sari/ui/widget/base/bottom_navigation_bar.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/old_sinif_card_widget.dart';
-
-import 'package:flutter/material.dart';
 
 class LiseEkranlari extends StatefulWidget {
   const LiseEkranlari({
@@ -22,14 +23,13 @@ class LiseEkranlari extends StatefulWidget {
 }
 
 class _LiseEkranlariState extends State<LiseEkranlari> {
-  final int _aktifIcerikNo = 0;
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: kBackgroundColor,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+          backgroundColor: const Color(0xff586191),
           title: const Text("Lise"),
         ),
         body: SafeArea(
@@ -46,11 +46,11 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children:  const [
+                    children: const [
                       SinifCardWidget(
                         sinifAdi: "9",
                         sinifAdiYazi: "9.Sınıf",
-                        sinifLink: besinciSinif(),
+                        sinifLink: DokuzuncuSinif(),
                         kademeAdi: "Lise",
                       ),
                       SizedBox(
@@ -59,7 +59,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "10",
                         sinifAdiYazi: "10.Sınıf",
-                        sinifLink: altincinciSinif(),
+                        sinifLink: OnuncuSinif(),
                         kademeAdi: "Lise",
                       ),
                     ],
@@ -69,11 +69,11 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children:  const [
+                    children: const [
                       SinifCardWidget(
                         sinifAdi: "11",
                         sinifAdiYazi: "11.Sınıf",
-                        sinifLink: yedinciSinif(),
+                        sinifLink: OnbirinciSinif(),
                         kademeAdi: "Lise",
                       ),
                       SizedBox(
@@ -82,7 +82,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                       SinifCardWidget(
                         sinifAdi: "12",
                         sinifAdiYazi: "12.Sınıf",
-                        sinifLink: sekizinciSinif(),
+                        sinifLink: OnikinciiSinif(),
                         kademeAdi: "Lise",
                       ),
                     ],
@@ -94,11 +94,11 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
                   const SizedBox(
                     height: 15.0,
                   ),
-                  seritBantCard("İlkokul",  IlkokulEkranlari()),
+                  seritBantCard("İlkokul", IlkokulEkranlari()),
                   const SizedBox(
                     height: 10.0,
                   ),
-                  seritBantCard("Ortaokul",  OrtaokulEkranlari()),
+                  seritBantCard("Ortaokul", OrtaokulEkranlari()),
                   const SizedBox(
                     height: 30.0,
                   ),
@@ -107,8 +107,7 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
             ],
           ),
         ),
-        bottomNavigationBar:
-            BottomNavBarWidget(activeContentNo: _aktifIcerikNo),
+        bottomNavigationBar: const ButtomNavBarModel(),
       ),
     );
   }
@@ -174,4 +173,3 @@ class _LiseEkranlariState extends State<LiseEkranlari> {
     );
   }
 }
-

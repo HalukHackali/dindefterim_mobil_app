@@ -31,10 +31,10 @@ class SinifDividerWidget extends StatelessWidget {
           const SizedBox(
             width: 20.0,
           ),
-          Text(
-            "Sınıflar",
-            style: Theme.of(context).textTheme.headline4!.copyWith(color: Theme.of(context).colorScheme.background)
-          ),
+          Text("Sınıflar",
+              style: Theme.of(context).textTheme.headline4!.copyWith(
+                    color: const Color(0xff586191),
+                  )),
           const SizedBox(
             width: 20.0,
           ),

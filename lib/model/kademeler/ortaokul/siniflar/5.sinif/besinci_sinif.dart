@@ -1,3 +1,5 @@
+import 'package:dindefterim_sari/core/constants.dart';
+import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:flutter/material.dart';
 
 import '1.unite_icerik/unite_1.dart';
@@ -19,18 +21,30 @@ class _besinciSinifState extends State<besinciSinif> {
     return DefaultTabController(
       length: 5,
       child: Scaffold(
+        backgroundColor: kBackgroundColor,
         appBar: AppBar(
-          title: const Text("5.Sınıf Üniteler"),
-          bottom:  TabBar(
-            tabs: const [
+          backgroundColor: const Color(0xff9182F9),
+          iconTheme: const IconThemeData(
+            color: Color(0xffEFF2F7),
+          ),
+          title: Text(
+            "5.Sınıf Üniteler",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: const Color(0xffEFF2F7),
+              fontSize: getRelativeWidth(0.061),
+            ),
+          ),
+          bottom: const TabBar(
+            tabs: [
               Tab(text: "1.Ünite"),
               Tab(text: "2.Ünite"),
               Tab(text: "3.Ünite"),
               Tab(text: "4.Ünite"),
               Tab(text: "5.Ünite"),
             ],
-            indicatorColor: Theme.of(context).colorScheme.secondaryVariant,
-            labelColor: Theme.of(context).colorScheme.secondaryVariant,
+            indicatorColor: Color(0xff586191),
+            labelColor: Color(0xffEFF2F7),
           ),
         ),
         body: const TabBarView(

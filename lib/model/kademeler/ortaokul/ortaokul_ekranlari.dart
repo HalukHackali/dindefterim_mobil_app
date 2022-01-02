@@ -1,11 +1,13 @@
+import 'package:dindefterim_sari/core/constants.dart';
 import 'package:dindefterim_sari/core/feature/bottom_navigation_bar.dart';
 import 'package:dindefterim_sari/core/size_confige.dart';
-import 'package:dindefterim_sari/ui/widget/base/bottom_navigation_bar.dart';
+import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/6.sinif/altincii_sinif.dart';
+import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
+import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/kademe_card_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/sinif_card_widget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/lise_ekranlari.dart';
@@ -25,9 +27,20 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: kBackgroundColor,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-          title: const Text("Ortaokul"),
+          iconTheme: const IconThemeData(
+            color: Color(0xff586191),
+          ),
+          backgroundColor: const Color(0xff85E4FD),
+          title: Text(
+            "Ortaokul",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: kHardTextColor,
+              fontSize: getRelativeWidth(0.061),
+            ),
+          ),
         ),
         body: SafeArea(
           child: ListView(
@@ -39,7 +52,8 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
               const SinifDividerWidget(),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
-                padding: EdgeInsets.symmetric(horizontal: getRelativeWidth(0.035)),
+                padding:
+                    EdgeInsets.symmetric(horizontal: getRelativeWidth(0.035)),
                 child: Column(
                   children: <Widget>[
                     const SizedBox(
@@ -56,50 +70,57 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                           sinifRenk: Color(0xffB8ACFF),
                           sinifRenk_2: Color(0xffB8ACFF),
                           sinifRenk_3: Color(0xffB8ACFF),
+                          arkaPlanRenk: Color(0xff31DFB5),
                         ),
                         Sinif_Card_Widget(
                           sinifAdi: '6.Sınıf',
                           kademeAdi: "Ortaokul",
-                          sinifLink: besinciSinif(),
+                          sinifLink: altincinciSinif(),
                           resim: "assets/images/6_sinif.png",
                           sinifRenk: Color(0xffB8ACFF),
                           sinifRenk_2: Color(0xffB8ACFF),
                           sinifRenk_3: Color(0xffB8ACFF),
+                          arkaPlanRenk: Color(0xff9182F9),
                         ),
                         Sinif_Card_Widget(
                           sinifAdi: '7.Sınıf',
                           kademeAdi: "Ortaokul",
-                          sinifLink: besinciSinif(),
+                          sinifLink: yedinciSinif(),
                           resim: "assets/images/7_sinif.png",
-                          sinifRenk: Color(0xffB8ACFF),
-                          sinifRenk_2: Color(0xffB8ACFF),
-                          sinifRenk_3: Color(0xffB8ACFF),
+                          sinifRenk: Color(0xff5DF9D3),
+                          sinifRenk_2: Color(0xff5DF9D3),
+                          sinifRenk_3: Color(0xff5DF9D3),
+                          arkaPlanRenk: Color(0xffFFCA8C),
                         ),
                         Sinif_Card_Widget(
                           sinifAdi: '8.Sınıf',
                           kademeAdi: "Ortaokul",
-                          sinifLink: besinciSinif(),
+                          sinifLink: sekizinciSinif(),
                           resim: "assets/images/8_sinif.png",
-                          sinifRenk: Color(0xffB8ACFF),
-                          sinifRenk_2: Color(0xffB8ACFF),
-                          sinifRenk_3: Color(0xffB8ACFF),
+                          sinifRenk: Color(0xff5DF9D3),
+                          sinifRenk_2: Color(0xff5DF9D3),
+                          sinifRenk_3: Color(0xff5DF9D3),
+                          arkaPlanRenk: Color(0xff45BAFB),
                         ),
                       ],
                     ),
                   ],
                 ),
               ),
-              const DividerPageWidget(),
               const SizedBox(
                 height: 15.0,
               ),
-              const KademeCardWidget(
+              const DividerPageWidget(),
+              const SizedBox(
+                height: 10.0,
+              ),
+              KademeCardWidget(
                 kategoriIcon: Icon(Icons.favorite),
-                sinifAdi: "5-6-7-8",
-                kademeAdi: "Ortaokul",
-                kademeLink: OrtaokulEkranlari(),
+                sinifAdi: "4",
+                kademeAdi: "İlkokul",
+                kademeLink: IlkokulEkranlari(),
                 kademefRenk: Color(0xffFFCA8C),
-                kademefRenk_2: Color(0xffFFCA8C),
+                kademefRenk_2: Color(0xffFEA741),
               ),
               const SizedBox(
                 height: 10.0,
@@ -109,8 +130,8 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                 sinifAdi: "9-10-11-12",
                 kademeAdi: "Lise",
                 kademeLink: LiseEkranlari(),
-                kademefRenk: Color(0xff5DF9D3),
-                kademefRenk_2: Color(0xff5DF9D3),
+                kademefRenk: Color(0xff85E4FD),
+                kademefRenk_2: Color(0xffFFCA8C),
               ),
               const SizedBox(
                 height: 30.0,

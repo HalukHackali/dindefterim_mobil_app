@@ -1,14 +1,15 @@
 import 'package:dindefterim_sari/core/constants.dart';
-import 'package:dindefterim_sari/core/feature/bottom_navigation_bar.dart';
 import 'package:dindefterim_sari/core/feature/botton_nav_bar_model.dart';
+import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/lise_ekranlari.dart';
 import 'package:dindefterim_sari/ui/widget/card/sinif_card_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/kademe_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/5.sinif/besinci_sinif.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
+
+import '4.sinif/dorduncu_sinif.dart';
 
 class IlkokulEkranlari extends StatefulWidget {
   IlkokulEkranlari({
@@ -20,7 +21,6 @@ class IlkokulEkranlari extends StatefulWidget {
 }
 
 class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
-  int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +28,18 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
       child: Scaffold(
         backgroundColor: kBackgroundColor,
         appBar: AppBar(
-          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-          title: const Text("İlkokul"),
+          iconTheme: const IconThemeData(
+            color: Color(0xff586191),
+          ),
+          backgroundColor: const Color(0xffFFCA8C),
+          title: Text(
+            "İlkokul",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: kHardTextColor,
+              fontSize: getRelativeWidth(0.061),
+            ),
+          ),
         ),
         body: SafeArea(
           child: ListView(
@@ -46,11 +56,12 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                       Sinif_Card_Widget(
                         sinifAdi: '4.Sınıf',
                         kademeAdi: "İlkokul",
-                        sinifLink: besinciSinif(),
+                        sinifLink: DorduncuSinif(),
                         resim: "assets/images/4_sinif.png",
                         sinifRenk: Color(0xffB8ACFF),
                         sinifRenk_2: Color(0xffB8ACFF),
                         sinifRenk_3: Color(0xffB8ACFF),
+                        arkaPlanRenk: kHardTextColor,
                       ),
                     ],
                   ),
@@ -66,8 +77,8 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                     sinifAdi: "5-6-7-8",
                     kademeAdi: "Ortaokul",
                     kademeLink: OrtaokulEkranlari(),
-                    kademefRenk: Color(0xffFFCA8C),
-                    kademefRenk_2: Color(0xffFFCA8C),
+                    kademefRenk: Color(0xff5DF9D3),
+                    kademefRenk_2: Color(0xff45BAFB),
                   ),
                   const SizedBox(
                     height: 10.0,
@@ -77,8 +88,8 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                     sinifAdi: "9-10-11-12",
                     kademeAdi: "Lise",
                     kademeLink: LiseEkranlari(),
-                    kademefRenk: Color(0xff5DF9D3),
-                    kademefRenk_2: Color(0xff5DF9D3),
+                    kademefRenk: Color(0xff85E4FD),
+                    kademefRenk_2:  Color(0xffFFCA8C),
                   ),
                   const SizedBox(
                     height: 30.0,

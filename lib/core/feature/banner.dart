@@ -20,10 +20,10 @@ class MainScreenBanner extends StatelessWidget {
                 width: getRelativeWidth(0.88),
                 height: getRelativeHeight(0.17),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(40),
+                  borderRadius: BorderRadius.circular(30),
                   boxShadow: const [
                     BoxShadow(
-                      blurRadius: 40,
+                      blurRadius: 30,
                       offset: Offset(0, 15),
                       color: kPrimaryDarkColor,
                     )
@@ -32,8 +32,11 @@ class MainScreenBanner extends StatelessWidget {
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
+
                       Color(0xffFEA741),
                       Color(0xffFFCA8C),
+
+
                     ],
                   ),
                 ),
@@ -47,8 +50,8 @@ class MainScreenBanner extends StatelessWidget {
                         alignment: Alignment.center,
                         children: [
                           SizedBox(
-                            height: getRelativeWidth(0.25),
-                            width: getRelativeWidth(0.25),
+                            height: getRelativeWidth(0.22),
+                            width: getRelativeWidth(0.22),
                             child: Image.asset("assets/app_logo/logo.png"),
                           ),
 
@@ -74,24 +77,24 @@ class MainScreenBanner extends StatelessWidget {
                               children: [
                                 Flexible(
                                   child: Text(
-                                    "Din Kültürü ve Ahlak Bilgisi  Özetler,  Resimler,  Videolar,  Testler",
+                                    "Din Kültürü ve Ahlak Bilgisi",
                                       style: TextStyle(
-                                          fontSize: getRelativeWidth(0.035),
+                                          fontSize: getRelativeWidth(0.034),
                                           fontWeight: FontWeight.bold)
                                   ),
                                 ),
-                                SizedBox(width: getRelativeWidth(0.03)),
+                                SizedBox(width: getRelativeWidth(0.02)),
                                 Container(
                                   decoration: BoxDecoration(
                                       color: Colors.white.withOpacity(0.2),
                                       borderRadius: BorderRadius.circular(15)),
                                   padding:
                                       EdgeInsets.all(getRelativeWidth(0.012)),
-                                  child: Icon(
-                                    Icons.menu_book_sharp,
-                                    color: Color(0xff3465A4),
-                                    size: getRelativeWidth(0.080),
-                                  ),
+                                  child: SizedBox(
+                                    height: getRelativeWidth(0.10),
+                                    width: getRelativeWidth(0.10),
+                                    child: Image.asset("assets/images/world.png"),
+                                ),
                                 )
                               ],
                             ),
@@ -111,7 +114,22 @@ class MainScreenBanner extends StatelessWidget {
             child: SizedBox(
               height: getRelativeWidth(0.12),
               width: getRelativeWidth(0.12),
-              child: Image.asset("assets/images/flowers_1.png"),
+              child: Image.asset("assets/images/book_1.png"),
+            ),
+          ),
+        ),
+
+        Positioned.fill(
+          child: Align(
+            alignment: Alignment.topLeft,
+            child: Padding(
+              padding: EdgeInsets.symmetric(
+                  vertical: getRelativeHeight(0.014),
+                  horizontal: getRelativeWidth(0.19)),
+              child: Container(
+                  height: getRelativeWidth(0.06),
+                  width: getRelativeWidth(0.06),
+                  child: Image.asset("assets/images/send.png")),
             ),
           ),
         ),
@@ -126,7 +144,7 @@ class MainScreenBanner extends StatelessWidget {
               child: SizedBox(
                   height: getRelativeWidth(0.08),
                   width: getRelativeWidth(0.08),
-                  child: Image.asset("assets/images/flowers_3.png")),
+                  child: Image.asset("assets/images/pencil.png")),
             ),
           ),
         )

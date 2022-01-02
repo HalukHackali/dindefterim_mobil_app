@@ -6,13 +6,13 @@ const kHardTextColor = Color(0xff586191);
 
 //const kPrimaryDarkColor = Color(0xff46BDFA);
 const kPrimaryDarkColor = Color(0xffFFCA8C);
-const kPrimarylightColor = Color(0xff77E2FE);
+const kPrimaryLightColor = Color(0xff77E2FE);
 const kBackgroundColor = Color(0xffEFF2F7);
 
 const List<Color> kCategoriesPrimaryColor = [
   Color(0xffFFCA8C),
   Color(0xff5DF9D3),
-  Color(0xff85E4FD),
+  Color(0xff5DF9D3),
   Color(0xffB8ACFF),
   Color(0xffB8ACFF),
   Color(0xffB8ACFF),

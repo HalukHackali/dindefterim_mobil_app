@@ -26,7 +26,7 @@ class SinifCardWidget extends StatelessWidget {
             height: 140,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(16.0),
-              color: Theme.of(context).colorScheme.primary,
+              color: Color(0xff45BAFB),
             ),
           ),
           Container(
@@ -43,14 +43,14 @@ class SinifCardWidget extends StatelessWidget {
                   height: 75,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12.0),
-                    color: Theme.of(context).colorScheme.surface,
+                    color: Color(0xffB5C8E7),
                   ),
                   child: Center(
                     child: Text(
                       sinifAdi!,
                       style: Theme.of(context).textTheme.headline3!.copyWith(
-                          color:
-                              Theme.of(context).colorScheme.secondaryVariant),
+                            color: Color(0xff586191),
+                          ),
                     ),
                   ),
                 ),
@@ -62,11 +62,11 @@ class SinifCardWidget extends StatelessWidget {
             child: Container(
               width: 75,
               height: 28,
-              decoration:  BoxDecoration(
+              decoration: BoxDecoration(
                 borderRadius: const BorderRadius.only(
                     topRight: Radius.circular(10),
                     bottomRight: Radius.circular(10)),
-                color: Theme.of(context).colorScheme.primaryVariant,
+                color: Color(0xff586191),
               ),
               child: Center(
                 child: Text(
@@ -88,7 +88,7 @@ class SinifCardWidget extends StatelessWidget {
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(16),
                     bottomRight: Radius.circular(16)),
-                color: Color(0xff263238),
+                color: Color(0xff586191),
               ),
               child: Center(
                   child: Text(

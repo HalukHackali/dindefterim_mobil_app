@@ -1,6 +1,5 @@
 import 'package:dindefterim_sari/core/data/data.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../constants.dart';
@@ -109,7 +108,7 @@ class SiniflarList extends StatelessWidget {
                             ],
                           ),
                           Container(
-                            height: getRelativeHeight(0.12),
+                            height: getRelativeHeight(0.15),
                             width: double.infinity,
                             decoration: const BoxDecoration(
                                 color: Colors.white,
@@ -123,50 +122,23 @@ class SiniflarList extends StatelessWidget {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text(
-                                    sinif.name,
-                                    style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: kHardTextColor,
-                                        fontSize: getRelativeWidth(0.041)),
+                                  Expanded(
+                                    child: Text(
+                                      sinif.name,
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: kHardTextColor,
+                                          fontSize: getRelativeWidth(0.041)),
+                                    ),
                                   ),
                                   SizedBox(height: getRelativeHeight(0.005)),
-                                  Text(
-                                    sinif.speciality,
-                                    style: TextStyle(
-                                        color: Colors.black.withOpacity(0.8),
-                                        fontSize: getRelativeWidth(0.032)),
-                                  ),
-                                  SizedBox(height: getRelativeHeight(0.005)),
-                                  Row(
-                                    children: [
-                                      RatingBar.builder(
-                                        unratedColor:
-                                            Colors.grey.withOpacity(0.5),
-                                        itemSize: getRelativeWidth(0.035),
-                                        initialRating:
-                                            sinif.reviewScore.toDouble(),
-                                        minRating: 0,
-                                        allowHalfRating: true,
-                                        direction: Axis.horizontal,
-                                        itemPadding: EdgeInsets.symmetric(
-                                            horizontal: getRelativeWidth(0.005)),
-                                        itemCount: 5,
-                                        updateOnDrag: false,
-                                        itemBuilder: (context, _) => const Icon(
-                                          Icons.star,
-                                          color: Colors.orange,
-                                        ),
-                                        onRatingUpdate: (value) {},
-                                      ),
-                                      SizedBox(width: getRelativeWidth(0.01)),
-                                      Text(
-                                        "(${sinif.reviews} Görüldü)",
-                                        style: TextStyle(
-                                            color: Colors.black.withOpacity(0.8),
-                                            fontSize: getRelativeWidth(0.022)),
-                                      )
-                                    ],
+                                  Expanded(
+                                    child: Text(
+                                      sinif.speciality,
+                                      style: TextStyle(
+                                          color: Colors.black.withOpacity(0.8),
+                                          fontSize: getRelativeWidth(0.032)),
+                                    ),
                                   ),
                                 ],
                               ),

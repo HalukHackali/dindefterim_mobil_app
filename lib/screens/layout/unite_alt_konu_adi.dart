@@ -1,11 +1,16 @@
+import 'package:dindefterim_sari/core/constants.dart';
+import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:flutter/material.dart';
 
 Widget unitAltKonuAdiBant(
-    BuildContext context, String konuAdi, Widget pageLink, ) {
+  BuildContext context,
+  String konuAdi,
+  Widget pageLink,
+) {
   return Container(
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(10),
-      color: Theme.of(context).colorScheme.background,
+      color: const Color(0xff77E2FE),
     ),
     child: InkWell(
       onTap: () {
@@ -16,9 +21,14 @@ Widget unitAltKonuAdiBant(
       child: SizedBox(
         height: 42,
         child: Center(
-          child: Text(konuAdi,
-              style: Theme.of(context).textTheme.bodyText1!.copyWith(
-                  color: Theme.of(context).colorScheme.secondaryVariant)),
+          child: Text(
+            konuAdi,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: kHardTextColor,
+              fontSize: getRelativeWidth(0.043),
+            ),
+          ),
         ),
       ),
     ),

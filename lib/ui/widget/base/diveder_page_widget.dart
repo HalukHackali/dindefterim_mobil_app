@@ -32,7 +32,7 @@ class DividerPageWidget extends StatelessWidget {
           const SizedBox(
             width: 20.0,
           ),
-          const Icon(Icons.description_sharp),
+          const Icon(Icons.description_sharp, color: Color(0xff586191), size: 32,),
           const SizedBox(
             width: 20.0,
           ),

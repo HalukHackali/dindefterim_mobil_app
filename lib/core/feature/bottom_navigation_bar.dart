@@ -43,34 +43,28 @@ class BottomNavigation extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          GestureDetector(
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const ApprScreen()),
-                              );
-                            },
-                            child: Icon(
-                              itemIcons[0],
-                              color: selectedIndex == 0
-                                  ? Color(0xff46BDFA)
+                          Builder(
+                            builder: (context) => IconButton(
+                              icon: const Icon(Icons.menu),
+                              color: selectedIndex == 1
+                                  ? const Color(0xff46BDFA)
                                   : kLightTextColor,
-                              size: getRelativeWidth(0.07),
+                              tooltip: 'Menüyü Aç',
+                              onPressed: () =>
+                                  Scaffold.of(context).openDrawer(),
                             ),
                           ),
                           GestureDetector(
                             onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const NoReadyPage()),
-                              );
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                      content:
+                                          Text('Bu Sayfa Henüz Aktif Değil!')));
                             },
                             child: Icon(
                               itemIcons[1],
                               color: selectedIndex == 1
-                                  ? Color(0xff46BDFA)
+                                  ? const Color(0xff46BDFA)
                                   : kLightTextColor,
                             ),
                           ),
@@ -85,31 +79,29 @@ class BottomNavigation extends StatelessWidget {
                         children: [
                           GestureDetector(
                             onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const NoReadyPage()),
-                              );
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                      content:
+                                          Text('Bu Sayfa Henüz Aktif Değil!')));
                             },
                             child: Icon(
                               itemIcons[2],
                               color: selectedIndex == 2
-                                  ? Color(0xff46BDFA)
+                                  ? const Color(0xff46BDFA)
                                   : kLightTextColor,
                             ),
                           ),
                           GestureDetector(
                             onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const NoReadyPage()),
-                              );
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                      content:
+                                          Text('Bu Sayfa Henüz Aktif Değil!')));
                             },
                             child: Icon(
                               itemIcons[3],
                               color: selectedIndex == 3
-                                  ? Color(0xff46BDFA)
+                                  ? const Color(0xff46BDFA)
                                   : kLightTextColor,
                             ),
                           ),
@@ -140,7 +132,7 @@ class BottomNavigation extends StatelessWidget {
                         BoxShadow(
                           blurRadius: 25,
                           offset: const Offset(0, 5),
-                          color: Color(0xff46BDFA).withOpacity(0.75),
+                          color: const Color(0xff46BDFA).withOpacity(0.75),
                         )
                       ],
                       borderRadius: const BorderRadius.all(Radius.circular(18)),
@@ -148,7 +140,7 @@ class BottomNavigation extends StatelessWidget {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          kPrimarylightColor,
+                          kPrimaryLightColor,
                           Color(0xff46BDFA),
                         ],
                       ),

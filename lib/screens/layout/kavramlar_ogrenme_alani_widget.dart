@@ -15,7 +15,7 @@ final String ogrenmeAlani;
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              color: Colors.cyan,
+              color: Color(0xffFFCA8C),
             ),
             child: InkWell(
               splashColor: Colors.blue.withAlpha(30),
@@ -83,7 +83,7 @@ final String ogrenmeAlani;
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              color: Colors.cyan,
+              color: Color(0xff5DF9D3),
             ),
             child: InkWell(
               splashColor: Colors.blue.withAlpha(30),

@@ -1,3 +1,5 @@
+import 'package:dindefterim_sari/core/constants.dart';
+import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:flutter/material.dart';
 
 import '1.unite_icerik/unite_1.dart';
@@ -15,20 +17,26 @@ class sekizinciSinif extends StatefulWidget {
 }
 
 class _sekizinciSinifState extends State<sekizinciSinif> {
-  int _aktifIcerikNo = 0;
-  late List<Widget> _icerikler;
-
-
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 5,
       child: Scaffold(
+        backgroundColor: kBackgroundColor,
         appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: const Text("8.Sınıf Üniteler"),
-
+          backgroundColor: const Color(0xff9182F9),
+          iconTheme: const IconThemeData(
+            color: Color(0xffEFF2F7),
+          ),
+          title: Text(
+            "8.Sınıf Üniteler",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: const Color(0xffEFF2F7),
+              fontSize: getRelativeWidth(0.061),
+            ),
+          ),
           bottom: const TabBar(
             tabs: [
               Tab(text: "1.Ünite"),
@@ -37,8 +45,8 @@ class _sekizinciSinifState extends State<sekizinciSinif> {
               Tab(text: "4.Ünite"),
               Tab(text: "5.Ünite"),
             ],
-            indicatorColor: Colors.white,
-            labelColor: Colors.white,
+            indicatorColor: Color(0xff586191),
+            labelColor: Color(0xffEFF2F7),
           ),
         ),
         body: const TabBarView(
