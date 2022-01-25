@@ -3,14 +3,13 @@ import 'package:flutter/material.dart';
 import 'core/feature/app_screen.dart';
 import 'core/size_confige.dart';
 
-
-
-
 void main() {
-  runApp( MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

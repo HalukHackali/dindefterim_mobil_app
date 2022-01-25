@@ -22,8 +22,8 @@ class AppLogoBannerCard extends StatelessWidget {
                   Expanded(
                     flex: 1,
                     child: Container(
-                      width: 70.0,
-                      height: 70.0,
+                      width: 100.0,
+                      height: 100.0,
                       decoration: const BoxDecoration(
                         image: DecorationImage(
                           scale: 1.0,
@@ -35,24 +35,7 @@ class AppLogoBannerCard extends StatelessWidget {
                   const SizedBox(
                     width: 15.0,
                   ),
-                  Expanded(
-                    flex: 2,
-                    child: Text(
-                      "DinDefterim",
-                      style: Theme.of(context).textTheme.headline4,
-                    ),
-                  )
                 ],
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(2.0),
-              child: Text(
-                "Din Kültürü ve Ahlak Bilgisi",
-                style: Theme.of(context)
-                    .textTheme
-                    .headline5!
-                    .copyWith(color: Colors.pinkAccent),
               ),
             ),
           ],

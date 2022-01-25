@@ -1,5 +1,3 @@
-
-
 import 'package:dindefterim_sari/core/model/kademe.dart';
 import 'package:dindefterim_sari/core/model/sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
@@ -17,13 +15,13 @@ class Data {
       title: "İlkokul",
       kademelerNumber: '4',
       icon: Icons.favorite,
-      kademeLink:  IlkokulEkranlari(),
+      kademeLink: IlkokulEkranlari(),
     ),
     Kamede(
       title: "Ortaokul",
       kademelerNumber: '5-6-7-8',
       icon: LineIcons.heart,
-      kademeLink:  OrtaokulEkranlari(),
+      kademeLink: const OrtaokulEkranlari(),
     ),
     Kamede(
       title: "Lise",
@@ -35,7 +33,7 @@ class Data {
       title: "LGS",
       kademelerNumber: '8',
       icon: LineIcons.heart,
-      kademeLink:  IlkokulEkranlari(),
+      kademeLink: IlkokulEkranlari(),
     ),
   ];
 
@@ -78,7 +76,7 @@ class Data {
       image: "assets/images/8_sinif.png",
       reviews: 9,
       reviewScore: 2,
-      sinifLink:  IlkokulEkranlari(),
+      sinifLink: IlkokulEkranlari(),
     ),
     Sinif(
       name: "9.Sınıf",
@@ -86,7 +84,7 @@ class Data {
       image: "assets/images/9_sinif.png",
       reviews: 12,
       reviewScore: 9,
-      sinifLink:  IlkokulEkranlari(),
+      sinifLink: IlkokulEkranlari(),
     ),
   ];
 }

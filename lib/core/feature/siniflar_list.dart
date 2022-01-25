@@ -8,7 +8,6 @@ import '../size_confige.dart';
 class SiniflarList extends StatelessWidget {
   const SiniflarList({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -29,8 +28,8 @@ class SiniflarList extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => link.sinifLink));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => link.sinifLink));
                 },
                 child: SizedBox(
                   width: cardWidth,
@@ -102,19 +101,23 @@ class SiniflarList extends StatelessWidget {
                                 ),
                               ),
                               SizedBox(
-                                  width: cardWidth,
-                                  height: getRelativeHeight(0.19),
-                                  child: Image.asset(sinif.image)),
+                                width: cardWidth,
+                                height: getRelativeHeight(0.19),
+                                child: Image.asset(sinif.image),
+                              ),
                             ],
                           ),
                           Container(
+                            //height: getRelativeHeight(0.15),
                             height: getRelativeHeight(0.15),
                             width: double.infinity,
                             decoration: const BoxDecoration(
-                                color: Colors.white,
-                                borderRadius: BorderRadius.only(
-                                    bottomLeft: Radius.circular(25),
-                                    bottomRight: Radius.circular(25))),
+                              color: Colors.white,
+                              borderRadius: BorderRadius.only(
+                                bottomLeft: Radius.circular(25),
+                                bottomRight: Radius.circular(25),
+                              ),
+                            ),
                             child: Padding(
                               padding: EdgeInsets.symmetric(
                                   vertical: getRelativeHeight(0.02),
@@ -150,8 +153,9 @@ class SiniflarList extends StatelessWidget {
                         child: Align(
                           alignment: Alignment.centerLeft,
                           child: Padding(
-                            padding: EdgeInsets.only(top: getRelativeHeight(0.04))
-                                .copyWith(left: cardWidth * 0.7),
+                            padding:
+                                EdgeInsets.only(top: getRelativeHeight(0.04))
+                                    .copyWith(left: cardWidth * 0.7),
                             child: Container(
                               decoration: const BoxDecoration(boxShadow: [
                                 BoxShadow(

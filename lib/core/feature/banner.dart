@@ -32,33 +32,34 @@ class MainScreenBanner extends StatelessWidget {
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                     colors: [
-
                       Color(0xffFEA741),
                       Color(0xffFFCA8C),
-
-
                     ],
                   ),
                 ),
                 child: Padding(
                   padding:
-                      EdgeInsets.symmetric(horizontal: getRelativeWidth(0.02)),
+                      //EdgeInsets.symmetric(horizontal: getRelativeWidth(0.04)),
+                      EdgeInsets.all(1),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    //crossAxisAlignment: CrossAxisAlignment.center,
+                    //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Stack(
-                        alignment: Alignment.center,
+                        // alignment: Alignment.center,
                         children: [
                           SizedBox(
-                            height: getRelativeWidth(0.22),
-                            width: getRelativeWidth(0.22),
-                            child: Image.asset("assets/app_logo/logo.png"),
+                            //height: getRelativeHeight(0.12),
+                            width: getRelativeWidth(0.87),
+                            child: Image.asset(
+                              "assets/app_logo/logo.png",
+                              scale: 0.8,
+                            ),
                           ),
-
                         ],
                       ),
-                      SizedBox(width: getRelativeWidth(0.035)),
-                      Flexible(
+                      // SizedBox(width: getRelativeWidth(0.035)),
+                      /* Flexible(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -76,12 +77,10 @@ class MainScreenBanner extends StatelessWidget {
                             Row(
                               children: [
                                 Flexible(
-                                  child: Text(
-                                    "Din Kültürü ve Ahlak Bilgisi",
+                                  child: Text("Din Kültürü ve Ahlak Bilgisi",
                                       style: TextStyle(
                                           fontSize: getRelativeWidth(0.034),
-                                          fontWeight: FontWeight.bold)
-                                  ),
+                                          fontWeight: FontWeight.bold)),
                                 ),
                                 SizedBox(width: getRelativeWidth(0.02)),
                                 Container(
@@ -93,14 +92,16 @@ class MainScreenBanner extends StatelessWidget {
                                   child: SizedBox(
                                     height: getRelativeWidth(0.10),
                                     width: getRelativeWidth(0.10),
-                                    child: Image.asset("assets/images/world.png"),
-                                ),
+                                    child:
+                                        Image.asset("assets/images/world.png"),
+                                  ),
                                 )
                               ],
                             ),
                           ],
                         ),
                       )
+                      */
                     ],
                   ),
                 ),
@@ -111,29 +112,17 @@ class MainScreenBanner extends StatelessWidget {
         Positioned.fill(
           child: Align(
             alignment: Alignment.topLeft,
-            child: SizedBox(
-              height: getRelativeWidth(0.12),
-              width: getRelativeWidth(0.12),
-              child: Image.asset("assets/images/book_1.png"),
-            ),
-          ),
-        ),
-
-        Positioned.fill(
-          child: Align(
-            alignment: Alignment.topLeft,
             child: Padding(
               padding: EdgeInsets.symmetric(
                   vertical: getRelativeHeight(0.014),
-                  horizontal: getRelativeWidth(0.19)),
-              child: Container(
+                  horizontal: getRelativeWidth(0.40)),
+              child: SizedBox(
                   height: getRelativeWidth(0.06),
                   width: getRelativeWidth(0.06),
                   child: Image.asset("assets/images/send.png")),
             ),
           ),
         ),
-
         Positioned.fill(
           child: Align(
             alignment: Alignment.bottomLeft,
@@ -147,7 +136,22 @@ class MainScreenBanner extends StatelessWidget {
                   child: Image.asset("assets/images/pencil.png")),
             ),
           ),
-        )
+        ),
+        Positioned.fill(
+          child: Align(
+            alignment: Alignment.topLeft,
+            child: Padding(
+              padding: EdgeInsets.symmetric(
+                  vertical: getRelativeHeight(0.001),
+                  horizontal: getRelativeWidth(0.01)),
+              child: SizedBox(
+                height: getRelativeWidth(0.11),
+                width: getRelativeWidth(0.11),
+                child: Image.asset("assets/images/book_1.png"),
+              ),
+            ),
+          ),
+        ),
       ],
     );
   }

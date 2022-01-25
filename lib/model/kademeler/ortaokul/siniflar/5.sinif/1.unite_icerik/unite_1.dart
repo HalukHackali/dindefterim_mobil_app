@@ -46,7 +46,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: 'Allah(cc) Vardır ve Birdir',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_1_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -58,7 +58,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: "Allah(cc) Yaratandır",
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_2_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_2_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -70,7 +70,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: 'Allah(cc) Rahman ve Rahimdir',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_3_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_3_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -82,7 +82,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: 'Allah(cc) Görür ve İşitir',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_4_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_4_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -94,7 +94,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: "Allah'ın(cc) Her Şeye Gücü Yeter",
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_5_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_5_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -106,7 +106,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: 'Allah(cc) ile İrtibat: Duar',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_6_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_6_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -121,7 +121,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                                   'Bir Peygamber Tanıyorum: Hz.İbrahim',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_7_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_7_unite_icerik.md",
                               ),
                             ),
                             ),
@@ -133,7 +133,7 @@ class _Bes_A_Birinci_UniteState extends State<Bes_A_Birinci_Unite> {
                               unideninAdi: 'Bir Sure Öğreniyorum: İhlas Suresi',
                               mdLinkF: UniteIcerikMarkDown(
                                 mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_8_unite_icerik.md",
+                                    "assets/markdown/siniflar_md/5.siniflar_md/1.unite/5_1_8_unite_icerik.md",
                               ),
                             ),
                             ),

@@ -31,9 +31,9 @@ class _Yedi_A_Birinci_UniteState extends State<Yedi_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("7.Sınıf 1.Ünite"),
+                        const UniteAdi("Melek ve Ahiret İnancı"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Haşr", "Sur", "Kıyamet", "Mahşer", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context, '7.Sınıf 1.Ünite',
                             const NoReadyPage(), ),

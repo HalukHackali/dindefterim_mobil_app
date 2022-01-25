@@ -5,7 +5,6 @@ import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
-
 class Bes_C_Ucuncu_Unite extends StatefulWidget {
   const Bes_C_Ucuncu_Unite();
 
@@ -34,68 +33,92 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Adap ve Nezaket"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("Selam", "Komşuluk", "İletişim", "Adabı-ı Muaşeret", "Ahlak"),
+                        KavramlarOgrenmeAlani(
+                          "Selam",
+                          "Komşuluk",
+                          "İletişim",
+                          "Adabı-ı Muaşeret",
+                          "Ahlak",
+                        ),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
-                            context,
-                            "Nezaket Kuralları",
-                            const UniteIcerik(
-                              unideninAdi: 'Nezaket Kuralları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Nezaket Kuralları",
+                          const UniteIcerik(
+                            unideninAdi: 'Nezaket Kuralları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Selamlaşma Adabı",
-                            const UniteIcerik(
-                              unideninAdi: 'Selamlaşma Adabı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Selamlaşma Adabı",
+                          const UniteIcerik(
+                            unideninAdi: 'Selamlaşma Adabı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_2_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "İletişim ve Konuşma Adabı",
-                            const UniteIcerik(
-                              unideninAdi: 'İletişim ve Konuşma Adabı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "İletişim ve Konuşma Adabı",
+                          const UniteIcerik(
+                            unideninAdi: 'İletişim ve Konuşma Adabı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_3_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Sofra Adabı",
-                            const UniteIcerik(
-                              unideninAdi: 'Sofra Adabı"',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Sofra Adabı",
+                          const UniteIcerik(
+                            unideninAdi: 'Sofra Adabı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_4_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Hz.Lokman’dan (a.s.) Öğütler",
-                            const UniteIcerik(
-                              unideninAdi: 'Hz. Lokman’dan (a.s.) Öğütler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Hz.Lokman’dan (a.s.) Öğütler",
+                          const UniteIcerik(
+                            unideninAdi: 'Hz. Lokman’dan (a.s.) Öğütler',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_5_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Bir Dua Tanıyorum: Tahiyyat Duası ve Anlamı",
-                            const UniteIcerik(
-                              unideninAdi:
-                                  'Bir Dua Tanıyorum: Tahiyyat Duası ve Anlamı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Bir Dua Tanıyorum: Tahiyyat Duası ve Anlamı",
+                          const UniteIcerik(
+                            unideninAdi:
+                                'Bir Dua Tanıyorum: Tahiyyat Duası ve Anlamı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/3.unite/5_3_6_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),
