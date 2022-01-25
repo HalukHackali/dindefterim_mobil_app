@@ -17,7 +17,7 @@ Rahman; dünyada, bütün canlılara şefkat gösteren,hamet eden ve her türlü
 
 Allah’ın (c.c.) güzel isimlerine Esmâ-i Hüsnâ denir. Bu isimleri Kur’an-ı Kerim’den ve Hz.Muhammed’in (s.a.v.)* sözlerinden öğreniriz. Rahman, Rahîm, Semî, Alîm ve Samed bu isimlerden bazılarıdır.
 
-***Sallallâhu aleyhi ve sellem:** Allah (c.c.) ona salât ve selam eylesin.
+**Sallallâhu aleyhi ve sellem:** Allah (c.c.) ona salât ve selam eylesin.
 
 Rahman, Yüce Allah’ın güzel isimlerinden birisidir. Bu isim Kur’an-ı Kerim’de şöyle geçer: **“De ki: “(Rabbinizi) ister Allah diye çağırın, ister Rahman diye çağırın. Hangisiyle çağırırsanız çağırın, nihayet en güzel isimler O’nundur...”** Yüce Allah, Rahman ismi ile dünya hayatımızı devam ettirebilmemiz için çeşitli nimetler ve kolaylıklar sunar. Örneğin bebeklik ve çocukluk dönemimizde iken korunma, beslenme, güvenlik, sevgi ve şefkat gibi çeşitli ihtiyaçlarımızın karşılanması için bizi bir aile içinde var eder. Ailemize de ayrıca şefkat ve merhamet duygusu verir ki onlar da bıkmadan usanmadan bizimle ilgilenebilsinler. Beslenmemiz için bitkileri ve hayvanları var eder. Dünya hayatında neyin nasıl yapılacağı bilgisini bize öğretir. Biz de bu bilgilerle buluşlar yapar, eşyalar üretir ve yeni bilgilere ulaşırız.
 
