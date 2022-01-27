@@ -41,7 +41,7 @@ www.dindefterim.com
 > - anasayfa tasarım
 ----
 
-<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/Screenshot_1640489537.png" width="400">
+<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/Screenshot.png" width="400">
 
 ---
 ### My top 10 technologies
