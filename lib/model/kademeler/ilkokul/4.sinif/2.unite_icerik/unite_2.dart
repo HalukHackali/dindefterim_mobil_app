@@ -31,76 +31,64 @@ class _Dort_B_Ikinci_UniteState extends State<Dort_B_Ikinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("4.Sınıf 2.Ünite Adı"),
+                        const UniteAdi("İslamı Tanıyalım"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("İftar", "İmsak", "Teravih", "Oruç", "İbadet"),
+                        KavramlarOgrenmeAlani(
+                            "İman", "İslam", "Kur'an", "Din", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ramazan Orucu ve Önemi",
-                            const UniteIcerik(
-                              unideninAdi: 'Ramazan Orucu ve Önemi',
-                              mdLinkF: UniteIcerikMarkDown(
-                                mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
-                              ),
+                          context,
+                          "İslam’ın İnanç Esasları",
+                          const UniteIcerik(
+                            unideninAdi: 'Ramazan Orucu ve Önemi',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ramazan ve Orucla İlgili Kavramlar",
-                            const UniteIcerik(
-                              unideninAdi: 'Ramazan Orucu ve Önemi',
-                              mdLinkF: UniteIcerikMarkDown(
-                                mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
-                              ),
+                          context,
+                          "İslam’ın Şartları",
+                          const UniteIcerik(
+                            unideninAdi: 'Ramazan Orucu ve Önemi',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Kültürümüzde Ramzan ve Oruc",
-                            const UniteIcerik(
-                              unideninAdi: 'Kültürümüzde Ramzan ve Oruc',
-                              mdLinkF: UniteIcerikMarkDown(
-                                mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
-                              ),
+                          context,
+                          "Kur’an-ı Kerim",
+                          const UniteIcerik(
+                            unideninAdi: 'Kültürümüzde Ramzan ve Oruc',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Bir Peygamber Tanıyorum:Hz.Davut",
-                            const UniteIcerik(
-                              unideninAdi: 'Bir Peygamber Tanıyorum:Hz.Davut',
-                              mdLinkF: UniteIcerikMarkDown(
-                                mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
-                              ),
+                          context,
+                          "Bir Dua Tanıyorum: Âmentü Duası ve Anlamı",
+                          const UniteIcerik(
+                            unideninAdi: 'Bir Peygamber Tanıyorum:Hz.Davut',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Bir Dua Öğreniyorum: Rabbena Duaları",
-                            const UniteIcerik(
-                              unideninAdi:
-                                  'Bir Dua Öğreniyorum: Rabbena Duaları',
-                              mdLinkF: UniteIcerikMarkDown(
-                                mdLink:
-                                    "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
-                              ),
-                            ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

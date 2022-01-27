@@ -31,54 +31,34 @@ class _Dokuz_E_Besinci_UniteState extends State<Dokuz_E_Besinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("9.Sınıf 5.Ünite Adı"),
+                        const UniteAdi("Gönül Coğrafyamız"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
+                            'İslam Medeniyeti ve Özellikleri',
                             const UniteIcerik(
                               unideninAdi:
-                              '1.Alt konu başlığı',
+                              'İslam Medeniyeti ve Özellikleri',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
+                            'İslam Medeniyetinin Farklı Coğrafyalardaki İzleri',
                             const UniteIcerik(
                               unideninAdi:
-                              '2.Alt konu başlığı',
+                              'İslam Medeniyetinin Farklı Coğrafyalardaki İzleri',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '3.Alt konu başlığı',
+                            'Hucurât Suresi 13. Ayet',
                             const UniteIcerik(
                               unideninAdi:
-                              '3.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '4.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '4.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '5.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '5.Alt konu başlığı',
+                              'Hucurât Suresi 13. Ayet',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),

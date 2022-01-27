@@ -32,54 +32,64 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("10.Sınıf 1.Ünite Adı"),
+                        const UniteAdi("Allah-İnsan İlişkisi"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'Allah İnancı ve İnsan',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'Allah İnancı ve İnsan',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'Allah’ın Varlığı ve Birliği',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'Allah’ın Varlığı ve Birliği',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Allah’ın İsim ve Sıfatları',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
+                            'Allah’ın İsim ve Sıfatları',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Kur’an-ı Kerim’de İnsan ve Özellikleri',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
+                            'Kur’an-ı Kerim’de İnsan ve Özellikleri',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '5.Alt konu başlığı',
+                          'İnsanın Allah İle İrtibatı',
                           const UniteIcerik(
                             unideninAdi:
-                            '5.Alt konu başlığı',
+                            'İnsanın Allah İle İrtibatı',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Rûm Suresi 18-27. Ayetler',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Rûm Suresi 18-27. Ayetler',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

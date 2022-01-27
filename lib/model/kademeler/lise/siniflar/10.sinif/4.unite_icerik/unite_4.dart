@@ -31,54 +31,54 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("10.Sınıf 4.Ünite Adı"),
+                        const UniteAdi("Ahlaki Tutum ve Davranışlar"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
+                            'İslam Ahlakının Konusu ve Gayesi',
                             const UniteIcerik(
                               unideninAdi:
-                              '1.Alt konu başlığı',
+                              'İslam Ahlakının Konusu ve Gayesi',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
+                            'İslam Ahlakının Kaynakları',
                             const UniteIcerik(
                               unideninAdi:
-                              '2.Alt konu başlığı',
+                              'İslam Ahlakının Kaynakları',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '3.Alt konu başlığı',
+                            'Ahlak ve Terbiye İlişkisi',
                             const UniteIcerik(
                               unideninAdi:
-                              '3.Alt konu başlığı',
+                              'Ahlak ve Terbiye İlişkisi',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '4.Alt konu başlığı',
+                            'İslam Ahlakında Yerilen Bazı Davranışlar',
                             const UniteIcerik(
                               unideninAdi:
-                              '4.Alt konu başlığı',
+                              'İslam Ahlakında Yerilen Bazı Davranışlar',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '5.Alt konu başlığı',
+                            'Hucurât Suresi 11-12. Ayetler',
                             const UniteIcerik(
                               unideninAdi:
-                              '5.Alt konu başlığı',
+                              'Hucurât Suresi 11-12. Ayetler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),

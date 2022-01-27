@@ -31,55 +31,59 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("11.Sınıf 2.Ünite Adı"),
+                        const UniteAdi("Kurana Göre Hz. Muhammed"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani(
+                            "***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                        unitAltKonuAdiBant(
+                          context,
+                          'Hz.Muhammed’in Şahsiyeti',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '2.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            'Hz.Muhammed’in Şahsiyeti',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                            ),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Hz.Muhammed’in Peygamberlik Yönü',
                           const UniteIcerik(
-                            unideninAdi:
-                            '3.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            unideninAdi: '2.Alt konu başlığı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                            ),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Hz. Muhammed’e Bağlılık ve İtaat',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            'Hz. Muhammed’e Bağlılık ve İtaat',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                            ),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '5.Alt konu başlığı',
+                          'Ahzâb Suresi 45-46. Ayetler',
                           const UniteIcerik(
                             unideninAdi:
-                            '5.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            'Ahzâb Suresi 45-46. Ayetler',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                            ),
                           ),
                         ),
                         const SizedBox(height: 5),

@@ -32,54 +32,54 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("12.Sınıf 1.Ünite Adı"),
+                        const UniteAdi("İslam ve Bilim"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'Din-Bilim İlişkisi',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'Din-Bilim İlişkisi',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'İslam Medeniyetinde Bilim ve Düşüncenin Gelişimi',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'İslam Medeniyetinde Bilim ve Düşüncenin Gelişimi',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'İslam Medeniyetinde Öne Çıkan Eğitim Kurumları',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
+                            'İslam Medeniyetinde Öne Çıkan Eğitim Kurumları',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Müslümanların Bilim Alanında Yaptığı Öncü ve Özgün Çalışmalar',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
+                            'Müslümanların Bilim Alanında Yaptığı Öncü ve Özgün Çalışmalar',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '5.Alt konu başlığı',
+                          'Fâtır Suresi 27-28. Ayetler',
                           const UniteIcerik(
                             unideninAdi:
-                            '5.Alt konu başlığı',
+                            'Fâtır Suresi 27-28. Ayetler',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

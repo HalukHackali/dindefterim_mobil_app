@@ -31,54 +31,44 @@ class _Oniki_C_Ucuncu_UniteState extends State<Oniki_C_Ucuncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("12.Sınıf 3.Ünite Adı"),
+                        const UniteAdi("İslam Düşüncesinde Tasavvufi Yorum"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'Tasavvufi Düşüncenin Oluşumu',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'Tasavvufi Düşüncenin Oluşumu',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'Tasavvufi Düşüncenin Ahlaki Boyutu',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'Tasavvufi Düşüncenin Ahlaki Boyutu',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Kültürümüzde Etkin Olan Tasavvufi Yorumlar',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
+                            'Kültürümüzde Etkin Olan Tasavvufi Yorumlar',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Hucurât Suresi 10. Ayet',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '5.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '5.Alt konu başlığı',
+                            'Hucurât Suresi 10. Ayet',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

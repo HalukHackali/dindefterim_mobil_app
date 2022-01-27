@@ -33,54 +33,34 @@ class _Oniki_B_Ikinci_UniteState extends State<Oniki_B_Ikinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("12.Sınıf 2.Ünite Adı"),
+                        const UniteAdi("Anadoluda İslam"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'Türklerin Müslüman Olmaları',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'Türklerin Müslüman Olmaları',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'Milletimizin İslam Anlayışının Oluşmasında Etkili Olan Bazı Şahsiyetler',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'Milletimizin İslam Anlayışının Oluşmasında Etkili Olan Bazı Şahsiyetler',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Nisâ Suresi 69. Ayetı',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '4.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '4.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '5.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '5.Alt konu başlığı',
+                            'Nisâ Suresi 69. Ayet',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

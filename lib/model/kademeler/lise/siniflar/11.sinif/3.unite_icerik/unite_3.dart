@@ -31,54 +31,84 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("11.Sınıf 3.Ünite Adı"),
+                        const UniteAdi("Kuranda Bazı Kavramlar"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'İslam’ın Aydınlık Yolu: Hidayet',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'İslam’ın Aydınlık Yolu: Hidayet',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'Allah’ı Görüyormuşçasına Yaşamak: İhsan',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'Allah’ı Görüyormuşçasına Yaşamak: İhsan',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Allah İçin Samimiyet: İhlas',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
+                            'Allah İçin Samimiyet: İhlas',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Allah’ın Emir ve Yasaklarına Riayet: Takva',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
+                            'Allah’ın Emir ve Yasaklarına Riayet: Takva',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '5.Alt konu başlığı',
+                          'Dosdoğru Yol: Sırat-ı Müstakim',
                           const UniteIcerik(
                             unideninAdi:
-                            '5.Alt konu başlığı',
+                            'Dosdoğru Yol: Sırat-ı Müstakim',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Allah Yolunda Mücahede: Cihat',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Allah Yolunda Mücahede: Cihat',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'İyi, Doğru ve Güzel Davranış: Salih Amel',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'İyi, Doğru ve Güzel Davranış: Salih Amel',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Kehf Suresi 107-110. Ayetler',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Kehf Suresi 107-110. Ayetler',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

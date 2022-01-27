@@ -5,7 +5,6 @@ import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
-
 class On_E_Besinci_Unite extends StatefulWidget {
   const On_E_Besinci_Unite();
 
@@ -31,63 +30,81 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("10.Sınıf 5.Ünite Adı"),
+                        const UniteAdi(
+                            "İslam Düşüncesinde Siyasi, İtikadi ve Fıkhi Yorumlar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani(
+                            "***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '1.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Dinî Yorum Farklılıklarının Sebepleri',
+                          const UniteIcerik(
+                            unideninAdi:
+                                'Dinî Yorum Farklılıklarının Sebepleri',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '2.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '3.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '3.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Dinî Yorumlarla İlgili Bazı Kavramlar',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Dinî Yorumlarla İlgili Bazı Kavramlar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '4.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '4.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'İslam Düşüncesinde İtikadi ve Siyasi Yorumlar',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'İslam Düşüncesinde İtikadi ve Siyasi Yorumlar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '5.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '5.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'İslam Düşüncesinde Fıkhi Yorumlar',
+                          const UniteIcerik(
+                            unideninAdi:
+                            'İslam Düşüncesinde Fıkhi Yorumlar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          context,
+                          'Nisâ Suresi 59. Ayet',
+                          const UniteIcerik(
+                            unideninAdi: 'Nisâ Suresi 59. Ayet',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

@@ -5,7 +5,6 @@ import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
-
 class Dort_D_Dorduncu_Unite extends StatefulWidget {
   const Dort_D_Dorduncu_Unite();
 
@@ -31,81 +30,90 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("4.Sınıf 4.Ünite Adı"),
+                        const UniteAdi("Hz. Muhammedi Tanıyalım "),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("Aile", "Kevser", "Yardımlaşma", "Kavram", "Hz.Muhammed"),
+                        KavramlarOgrenmeAlani("Aile", "Mekke", "Medine",
+                            "El-Emin", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
-                            context,
-                            "Hz. Muhammed’in Evliliği ve Çocukları",
-                            const UniteIcerik(
-                              unideninAdi:
-                                  'Hz. Muhammed’in Evliliği ve Çocukları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Hz. Muhammed’in (as) Doğduğu Çevre",
+                          const UniteIcerik(
+                            unideninAdi:
+                                'Hz. Muhammed’in (as) Doğduğu Çevre',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Bir Eş Olarak Hz.Muhammed",
-                            const UniteIcerik(
-                              unideninAdi: "Bir Eş Olarak Hz.Muhammed",
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          "Hz. Muhammed’in (as) Ailesi",
+                          const UniteIcerik(
+                            unideninAdi: "Hz. Muhammed’in (as) Ailesi",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Bir Baba Olarak Hz.Muhammed',
-                            const UniteIcerik(
-                              unideninAdi: 'Bir Baba Olarak Hz.Muhammed',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          ' Hz. Muhammed’in (as) Doğumu',
+                          const UniteIcerik(
+                            unideninAdi: ' Hz. Muhammed’in (as) Doğumu',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Bir Dede Olarak Hz.Muhammed',
-                            const UniteIcerik(
-                              unideninAdi: 'Bir Dede Olarak Hz.Muhammed',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Çocukluk ve Gençlik Yılları',
+                          const UniteIcerik(
+                            unideninAdi: 'Çocukluk ve Gençlik Yılları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Hz.Muhammed ve Ailesinin Örnek Davranışları',
-                            const UniteIcerik(
-                              unideninAdi:
-                                  'Hz.Muhammed ve Ailesinin Örnek Davranışları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Hz. Muhammed’in (as) Mekke ve Medine Yılları',
+                          const UniteIcerik(
+                            unideninAdi:
+                                'Hz. Muhammed’in (as) Mekke ve Medine Yılları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Hz.Hasan ve Hz.Hüseyin',
-                            const UniteIcerik(
-                              unideninAdi: 'Hz.Hasan ve Hz.Hüseyin',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Salli ve Barik Duaları ve Anlamları',
+                          const UniteIcerik(
+                            unideninAdi: 'Salli ve Barik Duaları ve Anlamları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Bir Sure Tanıyorum: Kevser Suresi ve Anlamı',
-                            const UniteIcerik(
-                              unideninAdi:
-                                  'Bir Sure Tanıyorum: Kevser Suresi ve Anlamı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

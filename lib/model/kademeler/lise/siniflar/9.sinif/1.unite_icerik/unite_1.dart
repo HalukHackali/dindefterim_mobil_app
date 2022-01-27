@@ -32,12 +32,12 @@ class Dokuz_A_Birinci_UniteState extends State<Dokuz_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("9.Sınıf 1.Ünite Adı"),
+                        const UniteAdi("Bilgi ve İnanç"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("***", "***", "***", "***", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'İslam’da Bilgi Kaynakları',
                           const UniteIcerik(
                             unideninAdi:
                             '1.Alt konu başlığı',
@@ -46,40 +46,20 @@ class Dokuz_A_Birinci_UniteState extends State<Dokuz_A_Birinci_Unite> {
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'İslam İnancında İmanın Mahiyeti',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'İslam İnancında İmanın Mahiyeti',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'İsrâ 36. Ayet ve Mülk  23. Ayet',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '4.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '4.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '5.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '5.Alt konu başlığı',
+                            'İsrâ 36. Ayet ve Mülk  23. Ayet',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

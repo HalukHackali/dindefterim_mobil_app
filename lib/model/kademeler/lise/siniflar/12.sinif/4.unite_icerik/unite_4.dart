@@ -31,54 +31,54 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("12.Sınıf 4.Ünite Adı"),
+                        const UniteAdi("Güncel Dini Meseleler"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
+                            'Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler',
                             const UniteIcerik(
                               unideninAdi:
-                              '1.Alt konu başlığı',
+                              'Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
+                            'İktisadi Hayatla İlgili Meseleler',
                             const UniteIcerik(
                               unideninAdi:
-                              '2.Alt konu başlığı',
+                              'İktisadi Hayatla İlgili Meseleler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '3.Alt konu başlığı',
+                            'Gıda Maddeleri ve Bağımlılıkla İlgili Meselelerı',
                             const UniteIcerik(
                               unideninAdi:
-                              '3.Alt konu başlığı',
+                              'Gıda Maddeleri ve Bağımlılıkla İlgili Meseleler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '4.Alt konu başlığı',
+                            'Sağlık ve Tıpla İlgili Meseleler',
                             const UniteIcerik(
                               unideninAdi:
-                              '4.Alt konu başlığı',
+                              'Sağlık ve Tıpla İlgili Meseleler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '5.Alt konu başlığı',
+                            'En’âm suresi 151-152. Ayetler',
                             const UniteIcerik(
                               unideninAdi:
-                              '5.Alt konu başlığı',
+                              'En’âm suresi 151-152. Ayetler',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),

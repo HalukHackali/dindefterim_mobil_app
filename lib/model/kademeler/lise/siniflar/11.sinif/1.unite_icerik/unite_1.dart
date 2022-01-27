@@ -32,54 +32,44 @@ class Onbir_A_Birinci_UniteState extends State<Onbir_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("11.Sınıf 1.Ünite Adı"),
+                        const UniteAdi("Dünya ve Ahiret"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                          '1.Alt konu başlığı',
+                          'Varoluşun ve Hayatın Anlamı',
                           const UniteIcerik(
                             unideninAdi:
-                            '1.Alt konu başlığı',
+                            'Varoluşun ve Hayatın Anlamı',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                          '2.Alt konu başlığı',
+                          'Ahiret Âlemi',
                           const UniteIcerik(
                             unideninAdi:
-                            '2.Alt konu başlığı',
+                            'Ahiret Âlemi',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '3.Alt konu başlığı',
+                          'Ahirete Uğurlama',
                           const UniteIcerik(
                             unideninAdi:
-                            '3.Alt konu başlığı',
+                            'Ahirete Uğurlama',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
-                          '4.Alt konu başlığı',
+                          'Bakara Suresi 153-157. Ayetler',
                           const UniteIcerik(
                             unideninAdi:
-                            '4.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                          ),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          '5.Alt konu başlığı',
-                          const UniteIcerik(
-                            unideninAdi:
-                            '5.Alt konu başlığı',
+                            'Bakara Suresi 153-157. Ayetler',
                             mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),

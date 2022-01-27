@@ -31,54 +31,44 @@ class _Oniki_E_Besinci_UniteState extends State<Oniki_E_Besinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("12.Sınıf 5.Ünite Adı"),
+                        const UniteAdi("Hint Ve Çin Dinleri"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
+                            'Hinduizm',
                             const UniteIcerik(
                               unideninAdi:
-                              '1.Alt konu başlığı',
+                              'Hinduizm',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
+                            'Budizm',
                             const UniteIcerik(
                               unideninAdi:
-                              '2.Alt konu başlığı',
+                              'Budizm',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '3.Alt konu başlığı',
+                            'Konfüçyanizm',
                             const UniteIcerik(
                               unideninAdi:
-                              '3.Alt konu başlığı',
+                              'Konfüçyanizm',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '4.Alt konu başlığı',
+                            'Taoizm',
                             const UniteIcerik(
                               unideninAdi:
-                              '4.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '5.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '5.Alt konu başlığı',
+                              'Taoizm',
                               mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),

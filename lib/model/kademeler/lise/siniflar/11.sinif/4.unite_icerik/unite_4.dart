@@ -5,7 +5,6 @@ import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
-
 class Onbir_D_Dorduncu_Unite extends StatefulWidget {
   const Onbir_D_Dorduncu_Unite();
 
@@ -31,63 +30,64 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("11.Sınıf 4.Ünite Adı"),
+                        const UniteAdi("İnançla İlgili Meseleler"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani(
+                            "***", "***", "***", "***", "**** ****"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                            '1.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '1.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                        unitAltKonuAdiBant(
+                          context,
+                          'İnançla İlgili Felsefi Yaklaşımlar',
+                          const UniteIcerik(
+                            unideninAdi: 'İnançla İlgili Felsefi Yaklaşımlar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                            '2.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '2.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '3.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '3.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Yeni Dinî Hareketler',
+                          const UniteIcerik(
+                            unideninAdi: 'Yeni Dinî Hareketler',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '4.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '4.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'En’âm Suresi 59. Ayet',
+                          const UniteIcerik(
+                            unideninAdi: 'En’âm Suresi 59. Ayet',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            '5.Alt konu başlığı',
-                            const UniteIcerik(
-                              unideninAdi:
-                              '5.Alt konu başlığı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Lokmân Suresi 27. Ayet',
+                          const UniteIcerik(
+                            unideninAdi: 'Lokmân Suresi 27. Ayet',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

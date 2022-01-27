@@ -5,7 +5,6 @@ import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
-
 class Dort_E_Besinci_Unite extends StatefulWidget {
   const Dort_E_Besinci_Unite();
 
@@ -31,63 +30,65 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("4.Sınıf 5.Ünite Adı"),
+                        const UniteAdi("Din ve Temizlik"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("Cami", "Şadırvan", "İlahi", "Minare", "Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani(
+                            "***", "***", "***", "***", "İbadet"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                            'Mimarimizde Dinin İzleri',
-                            const UniteIcerik(
-                              unideninAdi:
-                              'Mimarimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                        unitAltKonuAdiBant(
+                          context,
+                          'İslam Dini ve Temizlik',
+                          const UniteIcerik(
+                            unideninAdi: 'İslam Dini ve Temizlik',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                            'Musikimizde Dinin İzleri',
-                            const UniteIcerik(
-                              unideninAdi:
-                              'Musikimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
-                            ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Edebiyatımızda Dinin İzleri',
-                            const UniteIcerik(
-                              unideninAdi:
-                              'Edebiyatımızda Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Bedenimi ve Giysilerimi Temiz Tutarım',
+                          const UniteIcerik(
+                            unideninAdi:
+                                'Bedenimi ve Giysilerimi Temiz Tutarım',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Örf ve Âdetlerimizde Dinin İzleri',
-                            const UniteIcerik(
-                              unideninAdi:
-                              'Örf ve Âdetlerimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Evimi ve Okulumu Temiz Tutarım',
+                          const UniteIcerik(
+                            unideninAdi: 'Evimi ve Okulumu Temiz Tutarım',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Bir Peygamber Tanıyorum: Hz.Süleyman',
-                            const UniteIcerik(
-                              unideninAdi:
-                              'Bir Peygamber Tanıyorum: Hz.Süleyman',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                          context,
+                          'Çevremi Temiz Tutarım',
+                          const UniteIcerik(
+                            unideninAdi: 'Çevremi Temiz Tutarım',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
-                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),
