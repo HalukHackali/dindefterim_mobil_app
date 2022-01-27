@@ -20,7 +20,7 @@ class UniteAdi extends StatelessWidget {
         child: Center(
           child: Text(
             unideninAdi,
-            style: Theme.of(context).textTheme.headline4!.copyWith(
+            style: Theme.of(context).textTheme.headline6!.copyWith(
                   color: const Color(0xff586191),
                 ),
           ),
