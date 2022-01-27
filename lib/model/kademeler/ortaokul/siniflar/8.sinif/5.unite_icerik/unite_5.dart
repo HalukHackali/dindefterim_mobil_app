@@ -33,33 +33,27 @@ class _Sekizinci_E_Besinci_UniteState extends State<Sekizinci_E_Besinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("8.Sınıf 5.Ünite"),
+                        const UniteAdi("Kuran-ı Kerim ve Özellikleri"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '7.Sınıf 1.Ünite',
+                            'İslam Dininin Temel Kaynakları',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '8.Sınıf 2.Ünite',
+                            'Kur’an-ı Kerim’in Ana Konuları',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
+                            'Kur’an-ı Kerim’in Temel Özellikleri',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '8.Sınıf 4.Ünite',
+                            'Bir Peygamber Tanıyorum: Hz. Nuh (a.s.)',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),

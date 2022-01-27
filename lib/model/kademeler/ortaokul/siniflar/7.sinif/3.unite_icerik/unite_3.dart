@@ -35,33 +35,21 @@ class _Yedi_C_Ucuncu_UniteState extends State<Yedi_C_Ucuncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("7.Sınıf 3.Ünite"),
+                        const UniteAdi("Ahlaki Davranışlar"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '7.Sınıf 1.Ünite',
+                            'Güzel Ahlaki Tutum ve Davranışlar',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '7.Sınıf 2.Ünite',
+                            'Bir Peygamber Tanıyorum: Hz. Salih (a.s.)',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '7.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '7.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '7.Sınıf 4.Ünite',
+                            'Bir Sure Tanıyorum: Felak Suresi ve Anlamı',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),

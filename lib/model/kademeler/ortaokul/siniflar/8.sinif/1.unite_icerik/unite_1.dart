@@ -5,12 +5,12 @@ import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 
-
 class Sekizinci_A_Birinci_Unite extends StatefulWidget {
   const Sekizinci_A_Birinci_Unite();
 
   @override
-  _Sekizinci_A_Birinci_UniteState createState() => _Sekizinci_A_Birinci_UniteState();
+  _Sekizinci_A_Birinci_UniteState createState() =>
+      _Sekizinci_A_Birinci_UniteState();
 }
 
 class _Sekizinci_A_Birinci_UniteState extends State<Sekizinci_A_Birinci_Unite> {
@@ -32,30 +32,46 @@ class _Sekizinci_A_Birinci_UniteState extends State<Sekizinci_A_Birinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("8.Sınıf 1.Ünite"),
+                        const UniteAdi("Kader İnancı"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Kader", "Kaza",
+                            "İrade", "Tevekkül", "İnanç"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context, '8.Sınıf 1.Ünite',
-                            const NoReadyPage(), ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context, '8.Sınıf 2.Ünite',
-                            const NoReadyPage(), ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context, '8.Sınıf 3.Ünite',
-                            const NoReadyPage(), ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context, '8.Sınıf 3.Ünite',
-                            const NoReadyPage(), ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context, '8.Sınıf 4.Ünite',
-                            const NoReadyPage(), ),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Kader ve Kaza İnancı',
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
-                            ),
+                          context,
+                          'İnsanın İradesi ve Kader',
+                          const NoReadyPage(),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Kaderle İlgili Kavramlar',
+                          const NoReadyPage(),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Bir Peygamber Tanıyorum:Hz.Musa(as)',
+                          const NoReadyPage(),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Ayet el-Kürsi ve Anlamı',
+                          const NoReadyPage(),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const NoReadyPage(),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

@@ -30,7 +30,7 @@ class _Yedi_D_Dorduncu_UniteState extends State<Yedi_D_Dorduncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("7.Sınıf 4.Ünite"),
+                        const UniteAdi("Allahın Kulu ve Elçisi Hz.Muhammed"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),

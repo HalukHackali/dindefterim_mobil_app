@@ -35,33 +35,27 @@ class _Sekizinci_C_Ucuncu_UniteState extends State<Sekizinci_C_Ucuncu_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("8.Sınıf 3.Ünite"),
+                        const UniteAdi("Din ve Hayat"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '8.Sınıf 1.Ünite',
+                            'Din, Birey ve Toplum',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '8.Sınıf 2.Ünite',
+                            'Dinin Temel Gayesi',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
+                            'Bir Peygamber Tanıyorum:Hz.Yusuf(as)',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '8.Sınıf 4.Ünite',
+                            'Bir Sure Tanıyorum: Asr Suresi ve Anlamı',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),

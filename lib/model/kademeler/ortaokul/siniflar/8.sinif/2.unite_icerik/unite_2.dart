@@ -33,33 +33,27 @@ class _Sekizinci_B_Ikinci_UniteState extends State<Sekizinci_B_Ikinci_Unite> {
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        const UniteAdi("6.Sınıf 2.Ünite"),
+                        const UniteAdi("Zekat ve Sadaka"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
-                            '8.Sınıf 1.Ünite',
+                            'İslam’ın Paylaşma ve Yardımlaşmaya Verdiği Önem',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
-                            '8.Sınıf 2.Ünite',
+                            'Zekât ve Sadaka İbadeti',
                             const NoReadyPage(), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
+                            'Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            '8.Sınıf 3.Ünite',
-                            const NoReadyPage(),
-                            ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                            context,
-                            '8.Sınıf 4.Ünite',
+                            'Bir Sure Tanıyorum: Maûn Suresi ve Anlamı',
                             const NoReadyPage(),
                             ),
                         const SizedBox(height: 5),
