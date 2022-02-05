@@ -43,9 +43,11 @@ flutter:
     - assets/images/
     - assets/app_logo/
     - assets/widgets_images/
-    - assets/markdown/siniflar_md/5.siniflar_md/1.unite/
-    - assets/markdown/siniflar_md/5.siniflar_md/2.unite/
-    - assets/markdown/siniflar_md/5.siniflar_md/3.unite/
+    - assets/markdown/siniflar_md/5.siniflar_md/
+    - assets/markdown/siniflar_md/6.siniflar_md/
+    - assets/markdown/siniflar_md/7.siniflar_md/
+    - assets/markdown/siniflar_md/8.siniflar_md/1.unite/
+    - assets/markdown/siniflar_md/8.siniflar_md/2.unite/
 
   fonts:
     - family: Nunito
