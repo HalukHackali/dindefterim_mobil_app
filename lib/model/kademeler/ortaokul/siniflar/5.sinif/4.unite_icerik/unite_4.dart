@@ -41,7 +41,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                                   'Hz. Muhammed’in Evliliği ve Çocukları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -50,7 +50,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             "Bir Eş Olarak Hz.Muhammed",
                             const UniteIcerik(
                               unideninAdi: "Bir Eş Olarak Hz.Muhammed",
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_2_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -59,7 +59,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             'Bir Baba Olarak Hz.Muhammed',
                             const UniteIcerik(
                               unideninAdi: 'Bir Baba Olarak Hz.Muhammed',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_3_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -68,7 +68,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             'Bir Dede Olarak Hz.Muhammed',
                             const UniteIcerik(
                               unideninAdi: 'Bir Dede Olarak Hz.Muhammed',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_4_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -78,7 +78,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                                   'Hz.Muhammed ve Ailesinin Örnek Davranışları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_4_5_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -87,7 +87,7 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             'Hz.Hasan ve Hz.Hüseyin',
                             const UniteIcerik(
                               unideninAdi: 'Hz.Hasan ve Hz.Hüseyin',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_1_6_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -97,14 +97,18 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                                   'Bir Sure Tanıyorum: Kevser Suresi ve Anlamı',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_7_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Ünite Soruları - hazırlanıyor',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/4.unite/5_4_8_unite_icerik.md",),
+                          ),
                             ),
                         const SizedBox(height: 5),
                       ],

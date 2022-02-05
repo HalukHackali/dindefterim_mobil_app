@@ -1,0 +1,23 @@
+# Hz. Yusuf’un (a.s.) Hayatı
+
+Kur’an’da yer alan surelerden biri olan Yusuf suresi, 111 ayetten oluşmaktadır. Bu surede Hz. Yusuf’un hayatı anlatılır. Yusuf aleyhisselamın hayat hikayesi Kur’an-ı Kerim’de “kıssaların en güzeli” olarak nitelendirilmiştir.
+
+**Hz. Yusuf’un Hayatı:**
+
+Hz. Yusuf aleyhisselam Kur’an-ı Kerim’de adı geçen peygamberlerden olup Yakup peygamberin oğludur.
+Hz. Yakup’un on iki oğlu vardı. Bunların içinde dünyalar güzeli bir çocuk olan Yusuf’u çok seviyordu. Hz. Yusuf on iki yaşlarındayken rüyasında on bir yıldız, ay ve güneşin kendisine secde ettiklerini gördü. Bu rüyayı hemen babasına anlattı. Babası, Yusuf’a (a.s.) ileride önemli bir insan olacağını, büyük nimetlere kavuşacağını ve bu rüyayı kesinlikle kardeşlerine anlatmamasını tembih etti. Çünkü Yakup (a.s.) büyük oğullarının Yusuf’u kıskanıp ona bir kötülük etmelerinden endişe ediyordu.
+
+Babalarının Yusuf’u daha çok sevmelerinden dolayı rahatsız olan ve Yusuf’u kıskanan diğer kardeşler bir araya toplandılar. Aralarında anlaşarak Yusuf’tan kurtulmaya karar verdiler. Gezip dolaşmak bahanesiyle babalarından izin alarak Hz. Yusuf’u kırlara götürdüler. Daha sonra onu bir kuyuya attılar. Avladıkları bir hayvanın kanını Yusuf’un gömleğine sürerek bu şekilde babalarının yanına döndüler. Babalarına “Yusuf’u kurt kaptı.” diyerek yalan söylediler.
+
+Kuyunun yanından geçmekte olan bir kervanın yolcuları, Hz. Yusuf’un sesini duyup onu kuyudan çıkardılar. Hz. Yusuf’u Mısır’a götürerek onu Mısır vezirine köle olarak sattılar.
+Yusuf aleyhisselam Mısır vezirinin evinde rahat bir şekilde yaşamını sürdürüyordu. Gençlik dönemlerine eriştiğinde kendisine atılan bir iftiradan dolayı hapse atıldı ve uzun yıllar hapiste kaldı. Hz. Yusuf hapisteyken Allah ona rüyaları yorumlamayı ( rüya tabirini) öğretti. Yusuf (a.s.) hapisteyken arkadaşlarının rüyalarını yorumluyor, yorumladığı bu rüyalar doğru çıkıyordu. Allahü Teala Hz. Yusuf’a zindandayken peygamberlik vazifesini bildirdi.
+
+Mısır hükümdarı, bir gece rüyasında yedi zayıf ineğin yedi besili ineği yediğini ve yedi yeşil başağın yanında yedi kurumuş başak olduğunu gördü. Bu rüyasının yorumlanmasını istedi. Fakat yanındaki danışmanların yaptıkları yorumlamaları mantıklı bulmadı. O sırada Hz. Yusuf’un hapis arkadaşı olan ve ona rüyasını yorumlatan bir kişi kralın yanında bulunuyordu. O kişi krala, bu rüyayı yorumlayabilecek birini tanıdığını ve rüyanın yorumunu öğrenebileceğini söyledi. Kral da bunu kabul etti. O adam hemen Yusuf aleyhisselamın yanına gitti ve hükümdarın (kralın) rüyasını anlattı. Hz. Yusuf, yedi yıl bolluk olacağını, peşinden gelen yedi yılın ise kıtlık ile geçeceğini söyleyerek kralın rüyasını yorumladı. Mısır hükümdarı Hz. Yusuf’un yorumunu mantıklı buldu ve bu konuda ne tür çözüm önerilerinin olduğunu sordu. Hz. Yusuf hükümdara önerilerini söyledi. Bunun üzerine hükümdar, Hz. Yusuf’u hapisten çıkardı ve ona devletin hazinesinin sorumluluğunu verdi. Hz. Yusuf yedi yıl bolluğun olduğu zamanlarda üretilen ürünlerin bir kısmını depoladı ve böylece devletin hazinesini doldurdu. Bolluk yıllarının ardından gelen kıtlık yıllarında depolardaki bu ürünleri halka dağıtmaya başladı.
+
+Bu sırada Hz. Yusuf’un vatanı ve ailesinin yaşadığı yer olan Kenan (Filistin) diyarında da kıtlık yaşanıyordu. Hz. Yakup, oğullarını erzak almak üzere birkaç defa Mısır’a gönderdi. Hz. Yusuf kardeşlerini tanıdı ancak onlara ilk başta kendini tanıtmadı. Ancak daha sonra onlara kendini tanıttı. Kardeşleri Hz. Yusuf’u tanıyınca çocukken ona yaptıklarından dolayı çok mahcup oldular. Ancak Hz. Yusuf, eskiden kendini kuyuya atmalarına ve çok sevdiği babasından ayırmalarına rağmen ağabeylerini affetti. Hz. Yusuf onlara “Bugün kınanacak değilsiniz. Allah sizi affetsin. O, merhametlilerin en merhametlisidir. ” (Yusuf suresi, 92. ayet) dedi.
+
+Yusuf peygamber; babasını, annesini ve kardeşlerinin hepsini Mısır’a davet etti. Onlar da bu daveti kabul ettiler. Mısır’a vardıklarında Hz. Yusuf annesiyle babasını tahta oturttu. Diğer on bir kardeşi ise Hz. Yusuf’a saygılarını göstermek için onun önünde eğildiler. O zaman Hz. Yusuf “…Babacığım, işte bu daha önce gördüğüm rüyanın gerçekleşmesidir. Rabb’im onu gerçekleştirdi. Şeytan benimle kardeşlerimin arasını bozdu. Sonra, beni hapisten çıkaran, sizi çölden getiren Rabb’im bana pek çok iyiliklerde bulundu…” (Yusuf suresi, 100. ayet) dedi.
+
+Hz. Yusuf (a.s.) Mısır’da uzun yıllar Maliye Bakanlığı yaptı ve insanları adaletle yönetti. Onlara peygamberlik yaptı. İnsanları her zaman iyiliğe ve güzelliğe çağırdı.
+
+**“Andolsun, Yusuf ve kardeşlerin(in kıssaların)da, (hakikatı arayıp) soranlar için ibretler vardır.”**

@@ -40,7 +40,7 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                               'Mimarimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -49,7 +49,7 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                               'Musikimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_2_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -59,7 +59,7 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                               'Edebiyatımızda Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_3_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -69,7 +69,7 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                               'Örf ve Âdetlerimizde Dinin İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_4_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -79,14 +79,18 @@ class _Bes_E_Besinci_UniteState extends State<Bes_E_Besinci_Unite> {
                             const UniteIcerik(
                               unideninAdi:
                               'Bir Peygamber Tanıyorum: Hz.Süleyman',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_5_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Ünite Soruları - hazırlanıyor"',
+                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5.unite/5_5_6_unite_icerik.md",),
+                          ),
                             ),
                         const SizedBox(height: 5),
                       ],

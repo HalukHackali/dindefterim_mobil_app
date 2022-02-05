@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 
@@ -35,33 +35,69 @@ class _Sekizinci_E_Besinci_UniteState extends State<Sekizinci_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("Kuran-ı Kerim ve Özellikleri"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Kadir", "Ayet", "Sure", "Sünnet", "Kur'an-ı Kerim"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'İslam Dininin Temel Kaynakları',
-                            const NoReadyPage(), ),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'İslam Dininin Temel Kaynakları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/5.unite/8_5_1_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'Kur’an-ı Kerim’in Ana Konuları',
-                            const NoReadyPage(), ),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Kur’an-ı Kerim’in Ana Konuları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/5.unite/8_5_2_unite_icerik.md",
+                            ),
+                          ), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             'Kur’an-ı Kerim’in Temel Özellikleri',
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Kur’an-ı Kerim’in Temel Özellikleri',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/5.unite/8_5_3_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             'Bir Peygamber Tanıyorum: Hz. Nuh (a.s.)',
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Bir Peygamber Tanıyorum: Hz. Nuh (a.s.)',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/5.unite/8_5_4_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Ünite Soruları - hazırlanıyor',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/5.unite/8_5_5_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),
