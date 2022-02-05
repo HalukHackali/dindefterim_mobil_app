@@ -1,3 +1,4 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
@@ -5,13 +6,12 @@ import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 
-
-
 class Sekizinci_B_Ikinci_Unite extends StatefulWidget {
   const Sekizinci_B_Ikinci_Unite();
 
   @override
-  _Sekizinci_B_Ikinci_UniteState createState() => _Sekizinci_B_Ikinci_UniteState();
+  _Sekizinci_B_Ikinci_UniteState createState() =>
+      _Sekizinci_B_Ikinci_UniteState();
 }
 
 class _Sekizinci_B_Ikinci_UniteState extends State<Sekizinci_B_Ikinci_Unite> {
@@ -35,33 +35,80 @@ class _Sekizinci_B_Ikinci_UniteState extends State<Sekizinci_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Zekat ve Sadaka"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
+                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
-                            'İslam’ın Paylaşma ve Yardımlaşmaya Verdiği Önem',
-                            const NoReadyPage(), ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
-                            'Zekât ve Sadaka İbadeti',
-                            const NoReadyPage(), ),
+                        unitAltKonuAdiBant(
+                          context,
+                          'İslam’ın Paylaşma ve Yardımlaşmaya Verdiği Önem',
+                          const UniteIcerik(
+                            unideninAdi: 'İslam’ın Paylaşma ve Yardımlaşmaya Verdiği Önem',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_1_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları',
-                            const NoReadyPage(),
+                          context,
+                          'Zekât ve Sadaka İbadeti',
+                          const UniteIcerik(
+                            unideninAdi: 'Zekât ve Sadaka İbadeti',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_2_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            'Bir Sure Tanıyorum: Maûn Suresi ve Anlamı',
-                            const NoReadyPage(),
+                          context,
+                          'Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları',
+                          const UniteIcerik(
+                            unideninAdi: 'Zekât ve Sadakanın Bireysel ve Toplumsal Faydaları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_3_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
-                            "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          context,
+                          "Hz.Şuayb(as)'ın Hayatı",
+                          const UniteIcerik(
+                            unideninAdi: "Hz.Şuayb(as)'ın Hayatı",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_4_unite_icerik.md",
                             ),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          'Bir Sure Tanıyorum: Maûn Suresi ve Anlamı',
+                          const UniteIcerik(
+                            unideninAdi: 'Bir Sure Tanıyorum: Maûn Suresi ve Anlamı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_5_unite_icerik.md",
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const UniteIcerik(
+                            unideninAdi: 'Ünite Soruları - hazırlanıyor',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/8.siniflar_md/2.unite/8_2_6_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

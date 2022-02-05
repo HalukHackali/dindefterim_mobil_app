@@ -3,7 +3,7 @@
 
 • Edebiyat; insanların duygu ve düşüncelerini dil aracılığıyla işlemesi ve eserler ortaya koymasıdır.
 
-• Türk toplumunda din, başta içerik olmak üzere birçok yönden edebiyatı etkilemiştir. Türkler, Müslüman olduktan sonra İslam’ın hayata bakışını yansıtan pek çok edebi eser vermişlerdir.
+• Türk toplumunda din, başta içerik olmak üzere birçok yönden edebiyatı etkilemiştir. Türkler, Müslüman olduktan sonra İslam’ın hayata bakışını yansıta pek çok edebi eser vermişlerdir.
 
 • Zamanla tamamen dinî içerikli bir edebiyat oluşmuştur. Tasavvuf edebiyatı olarak adlandırılan bu türde Ahmet Yesevi, Yunus Emre, Mevlana ve Hacı Bektaş Veli önemli eserler vermişlerdir.
 
