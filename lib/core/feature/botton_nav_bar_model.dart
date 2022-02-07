@@ -23,7 +23,7 @@ BottomNavigation buildBottomNavigation() {
   return BottomNavigation(
     selectedIndex: _selectedIndex,
     onItemPressed: (index) {
-       var setState;
+       dynamic setState;
        setState = setState(() {
         _selectedIndex = index;
       });

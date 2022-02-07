@@ -11,14 +11,18 @@ class MainScreenBanner extends StatelessWidget {
     return Stack(
       children: [
         SizedBox(
-          width: getRelativeWidth(0.94),
-          height: getRelativeHeight(0.22),
+          //width: getRelativeWidth(0.94),
+          width: UIHelper.getAppBannerWidgetWidth(),
+          height: UIHelper.getAppBannerWidgetHeight(),
+          //height: getRelativeHeight(0.22),
           child: Stack(
             alignment: Alignment.center,
             children: [
               Container(
-                width: getRelativeWidth(0.88),
-                height: getRelativeHeight(0.17),
+                width: UIHelper.getAppBannerContainerWidgetHeight(),
+                height: UIHelper.getAppBannerContainerWidgetWidth(),
+                //width: getRelativeWidth(0.88),
+                //height: getRelativeHeight(0.17),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
                   boxShadow: const [
@@ -40,7 +44,7 @@ class MainScreenBanner extends StatelessWidget {
                 child: Padding(
                   padding:
                       //EdgeInsets.symmetric(horizontal: getRelativeWidth(0.04)),
-                      EdgeInsets.all(1),
+                      const EdgeInsets.all(1),
                   child: Row(
                     //crossAxisAlignment: CrossAxisAlignment.center,
                     //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -49,8 +53,10 @@ class MainScreenBanner extends StatelessWidget {
                         // alignment: Alignment.center,
                         children: [
                           SizedBox(
+                            height: UIHelper.getAppLogoWidgetHeight(),
+                            width: UIHelper.getAppLogoWidgetWidth(),
                             //height: getRelativeHeight(0.12),
-                            width: getRelativeWidth(0.87),
+                            //width: UIHelper.getAppLogoWidgetHeight(),
                             child: Image.asset(
                               "assets/app_logo/logo.png",
                               scale: 0.8,
@@ -111,14 +117,15 @@ class MainScreenBanner extends StatelessWidget {
         ),
         Positioned.fill(
           child: Align(
-            alignment: Alignment.topLeft,
+            alignment: Alignment.topRight,
             child: Padding(
               padding: EdgeInsets.symmetric(
-                  vertical: getRelativeHeight(0.014),
-                  horizontal: getRelativeWidth(0.40)),
+                  vertical: getRelativeHeight(0.028),
+                  horizontal: getRelativeWidth(0.070)),
               child: SizedBox(
-                  height: getRelativeWidth(0.06),
-                  width: getRelativeWidth(0.06),
+                height: UIHelper.getAppIconWidgetHeight(),
+                  //height: getRelativeWidth(0.06),
+                  //width: getRelativeWidth(0.06),
                   child: Image.asset("assets/images/send.png")),
             ),
           ),
@@ -129,10 +136,11 @@ class MainScreenBanner extends StatelessWidget {
             child: Padding(
               padding: EdgeInsets.symmetric(
                   vertical: getRelativeHeight(0.01),
-                  horizontal: getRelativeWidth(0.07)),
+                  horizontal: getRelativeWidth(0.04)),
               child: SizedBox(
-                  height: getRelativeWidth(0.08),
-                  width: getRelativeWidth(0.08),
+                  height: UIHelper.getAppIconWidgetHeight(),
+                //height: getRelativeWidth(0.08),
+                  //width: getRelativeWidth(0.08),
                   child: Image.asset("assets/images/pencil.png")),
             ),
           ),
@@ -145,8 +153,9 @@ class MainScreenBanner extends StatelessWidget {
                   vertical: getRelativeHeight(0.001),
                   horizontal: getRelativeWidth(0.01)),
               child: SizedBox(
-                height: getRelativeWidth(0.11),
-                width: getRelativeWidth(0.11),
+                height: UIHelper.getAppIconWidgetHeight(),
+                //height: getRelativeWidth(0.11),
+                //width: getRelativeWidth(0.11),
                 child: Image.asset("assets/images/book_1.png"),
               ),
             ),

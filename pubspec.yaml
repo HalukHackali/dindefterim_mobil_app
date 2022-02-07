@@ -22,6 +22,7 @@ dependencies:
   # State Managements
 
   # Utility
+  flutter_screenutil: ^5.1.1
   flutter_rating_bar: ^4.0.0
   font_awesome_flutter: ^9.2.0
   line_icons: ^2.0.1

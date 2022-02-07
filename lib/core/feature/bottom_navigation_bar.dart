@@ -1,5 +1,5 @@
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../constants.dart';
 import '../size_confige.dart';
@@ -24,13 +24,15 @@ class BottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: getRelativeHeight(0.1),
+      //height: getRelativeHeight(0.19),
+      height: ScreenUtil().orientation == Orientation.portrait ? getRelativeHeight(0.07) : getRelativeHeight(0.19),
+      //width: getRelativeHeight(0.010),
       child: Stack(
         children: [
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              height: getRelativeHeight(0.07),
+              height: getRelativeHeight(0.10),
               color: Colors.white,
               child: Padding(
                 padding:
@@ -115,7 +117,7 @@ class BottomNavigation extends StatelessWidget {
           ),
           Positioned.fill(
             child: Align(
-              alignment: Alignment.topCenter,
+              alignment: Alignment.bottomCenter,
               child: Transform.rotate(
                 angle: -math.pi / 4,
                 child: GestureDetector(
@@ -123,19 +125,20 @@ class BottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const ApprScreen()),
+                          builder: (context) =>  ApprScreen()),
                     );
                   },
                   child: Container(
+
                     decoration: BoxDecoration(
                       boxShadow: [
                         BoxShadow(
                           blurRadius: 25,
-                          offset: const Offset(0, 5),
+                          offset: const Offset(0, 8),
                           color: const Color(0xff46BDFA).withOpacity(0.75),
                         )
                       ],
-                      borderRadius: const BorderRadius.all(Radius.circular(18)),
+                      borderRadius: const BorderRadius.all(Radius.circular(12)),
                       gradient: const LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
@@ -145,15 +148,19 @@ class BottomNavigation extends StatelessWidget {
                         ],
                       ),
                     ),
-                    height: getRelativeWidth(0.135),
-                    width: getRelativeWidth(0.135),
+                   height: UIHelper.getMainButtontHeight(),
+                    width: UIHelper.getMainButtonWidth(),
+                    //height: getRelativeWidth(0.135),
+
+                    //width: getRelativeWidth(0.135),
                     child: Center(
                       child: Transform.rotate(
                         angle: math.pi / 4,
                         child: Icon(
                           centerIcon,
                           color: Colors.white,
-                          size: getRelativeWidth(0.07),
+                          //size: getRelativeWidth(0.07),
+                          size: UIHelper.getAppIconWidgetHeight(),
                         ),
                       ),
                     ),

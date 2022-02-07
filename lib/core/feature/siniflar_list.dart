@@ -1,6 +1,6 @@
 import 'package:dindefterim_sari/core/data/data.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../constants.dart';
 import '../size_confige.dart';
@@ -11,7 +11,10 @@ class SiniflarList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: getRelativeHeight(0.35),
+      //height: getRelativeHeight(0.45),
+      height: ScreenUtil().orientation == Orientation.portrait
+          ? getRelativeHeight(0.45)
+          : getRelativeHeight(0.85),
       child: ListView.builder(
         itemCount: Data.siniflarList.length,
         scrollDirection: Axis.horizontal,
@@ -22,7 +25,14 @@ class SiniflarList extends StatelessWidget {
               (kCategoriesSecondryColor.length - index - 1)];
           final circleColor = kCategoriesPrimaryColor[
               (kCategoriesPrimaryColor.length - index - 1)];
-          final cardWidth = getRelativeWidth(0.48);
+          //final cardWidth = getRelativeWidth(0.48);
+          final cardWidth = ScreenUtil().orientation == Orientation.portrait
+              ? getRelativeWidth(0.48)
+              : 0.25.sw;
+          //final cardheight = getRelativeWidth(0.78);
+          final cardheight = ScreenUtil().orientation == Orientation.portrait
+              ? getRelativeWidth(0.78)
+              : 0.85.sw;
           final link = Data.siniflarList[index];
           return Row(
             children: [
@@ -33,6 +43,7 @@ class SiniflarList extends StatelessWidget {
                 },
                 child: SizedBox(
                   width: cardWidth,
+                  height: cardheight,
                   child: Stack(
                     children: [
                       Column(
@@ -57,7 +68,8 @@ class SiniflarList extends StatelessWidget {
                                           alignment: Alignment.topCenter,
                                           child: Container(
                                             width: getRelativeHeight(0.13),
-                                            height: getRelativeHeight(0.13),
+                                            height: cardheight,
+                                            //height: getRelativeHeight(0.13),
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                   width: 15,
@@ -71,7 +83,8 @@ class SiniflarList extends StatelessWidget {
                                           alignment: Alignment.topLeft,
                                           child: Container(
                                             width: getRelativeHeight(0.11),
-                                            height: getRelativeHeight(0.11),
+                                            height: cardheight,
+                                            //height: getRelativeHeight(0.11),
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                   width: 15,
@@ -85,7 +98,8 @@ class SiniflarList extends StatelessWidget {
                                           alignment: Alignment.topRight,
                                           child: Container(
                                             width: getRelativeHeight(0.11),
-                                            height: getRelativeHeight(0.11),
+                                            height: cardheight,
+                                            //height: getRelativeHeight(0.11),
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                   width: 15,
@@ -102,14 +116,18 @@ class SiniflarList extends StatelessWidget {
                               ),
                               SizedBox(
                                 width: cardWidth,
+                                //height: cardheight,
                                 height: getRelativeHeight(0.19),
                                 child: Image.asset(sinif.image),
                               ),
                             ],
                           ),
                           Container(
-                            //height: getRelativeHeight(0.15),
-                            height: getRelativeHeight(0.15),
+                            //height: getRelativeHeight(0.16),
+                            height:
+                                ScreenUtil().orientation == Orientation.portrait
+                                    ? getRelativeHeight(0.15)
+                                    : getRelativeHeight(0.25),
                             width: double.infinity,
                             decoration: const BoxDecoration(
                               color: Colors.white,
@@ -120,7 +138,7 @@ class SiniflarList extends StatelessWidget {
                             ),
                             child: Padding(
                               padding: EdgeInsets.symmetric(
-                                  vertical: getRelativeHeight(0.02),
+                                  vertical: getRelativeHeight(0.008),
                                   horizontal: getRelativeWidth((0.05))),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -129,9 +147,14 @@ class SiniflarList extends StatelessWidget {
                                     child: Text(
                                       sinif.name,
                                       style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          color: kHardTextColor,
-                                          fontSize: getRelativeWidth(0.041)),
+                                        fontWeight: FontWeight.bold,
+                                        color: kHardTextColor,
+                                        //fontSize: getRelativeWidth(0.065)),
+                                        fontSize: ScreenUtil().orientation ==
+                                                Orientation.portrait
+                                            ? getRelativeHeight(0.045)
+                                            : getRelativeHeight(0.065),
+                                      ),
                                     ),
                                   ),
                                   SizedBox(height: getRelativeHeight(0.005)),
@@ -139,8 +162,13 @@ class SiniflarList extends StatelessWidget {
                                     child: Text(
                                       sinif.speciality,
                                       style: TextStyle(
-                                          color: Colors.black.withOpacity(0.8),
-                                          fontSize: getRelativeWidth(0.032)),
+                                        color: Colors.black.withOpacity(0.8),
+                                        //fontSize: getRelativeWidth(0.052)),
+                                        fontSize: ScreenUtil().orientation ==
+                                                Orientation.portrait
+                                            ? getRelativeHeight(0.032)
+                                            : getRelativeHeight(0.055),
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -149,21 +177,23 @@ class SiniflarList extends StatelessWidget {
                           )
                         ],
                       ),
+
+                      /*
                       Positioned.fill(
                         child: Align(
-                          alignment: Alignment.centerLeft,
+                          alignment: Alignment.centerRight,
                           child: Padding(
                             padding:
                                 EdgeInsets.only(top: getRelativeHeight(0.04))
-                                    .copyWith(left: cardWidth * 0.7),
+                                    .copyWith(left: cardWidth * 0.8),
                             child: Container(
                               decoration: const BoxDecoration(boxShadow: [
                                 BoxShadow(
                                   blurRadius: 10,
                                   offset: Offset(0, 3),
                                   color: Colors.black26,
-                                )
-                              ], color: Colors.white, shape: BoxShape.circle),
+                                ),
+                              ], color: Colors.red, shape: BoxShape.circle),
                               padding: EdgeInsets.all(getRelativeWidth(0.015)),
                               child: Icon(
                                 FontAwesomeIcons.bookOpen,
@@ -174,6 +204,8 @@ class SiniflarList extends StatelessWidget {
                           ),
                         ),
                       ),
+
+                      */
                     ],
                   ),
                 ),
