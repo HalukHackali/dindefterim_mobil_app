@@ -1,1 +1,9 @@
-#
+# **Hz.Adem (a.s.)**
+
+Hz. Adem yeryüzünde yaratılan ilk insan ve ilk peygamberdir, bütün insanların babasıdır. Her şeyin ismi ve faydası kendisine bildirildi. Boyu ve yaşı kesin olarak bildirilmedi. Allahü teâlânın emri ile bütün melekler Âdem aleyhisselama karşı secde ettiler. Uzun zaman meleklerin hocalığını yapmış olan İblis, kibirlenip bu emre karşı geldi ve Âdem aleyhisselama karşı secde etmedi. “O çamurdan yaratıldı, ben ise ateşten yaratıldım. Ondan üstünüm.” iddiasında bulundu. İblis (şeytan) kendini üstün görüp kibirlenerek Allahü teâlânın emrine uymayınca gadab-ı ilahiyyeye (Allah’ın gazabına) uğradı ve Cennet’ten kovuldu.
+
+Âdem aleyhisselam kırk yaşındayken Firdevs adındaki Cennet’e götürüldü. Cennet’te bulunduğu sırada veya daha önce hazret-i Havva yaratıldı. Allahü teâlâ onları birbirine nikâh etti. Cennet’te yerleşmelerini ve Cennet’in meyvelerinden dilediklerini yemelerini bildirdi. Fakat Cennet’te bulunan bir ağaç için, “Bu ağaca yaklaşmayın, bu ağaçtan yemeyin.” buyurdu. Âdem aleyhisselam ve Havva validemiz, Cennet’te bin yıl kadar yaşayıp, İblisin yalan yeminine inanarak yasak edilen ağacın meyvesinden unutarak önce hazret-i Havva, sonra Âdem aleyhisselam yedikleri için Cennet’ten çıkarıldılar. Âdem aleyhisselam Hindistan’da Seylan (Serendib) Adasına, Havva ise Cidde’ye indirildi. Birbirlerinden iki yüz sene müddetle ayrı kalan Âdem aleyhisselam ve hazret-i Havva bu müddet içinde ağlayıp yalvardıktan sonra tövbe ve duaları kabul oldu. Hacca gelmeleri emrolundu. Arafat Ovasında hazret-i Havva ile buluştu. Kâbe’yi inşa etti. Her sene hac yaptı.
+
+Kendisine on suhuf (forma) kitap verildi. İlk insanlar, bazı tarihçilerin zannettiği gibi ilimsiz, fensiz, görgüsüz, çıplak ve vahşi kimseler değildi. Bugün Asya, Afrika çöllerinde ve Amerika ormanlarında tunç devri dedikleri zamandakilere benzeyen vahşiler yaşadığı gibi, ilk insanlarda da bilgisiz, basit yaşayanlar vardı. Bundan dolayı ne bugünkü, ne de ilk insanların hepsi için vahşidir denilemez.
+
+Âdem aleyhisselamın yaratılması, Cennet’te kalması, Cennet’ten çıkarılarak yeryüzüne indirilmesi, Kur’an-ı kerimde çeşitli âyet-i kerimelerde bildirilmiştir.
