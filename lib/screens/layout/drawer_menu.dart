@@ -9,7 +9,7 @@ class DrawerWidget extends StatelessWidget {
   final String derslerim = 'Derslerim';
   final String sinavlarim = 'Sınavlarım';
   final String settings = 'Ayarlar';
-  final String exit = 'Çıkış yap';
+  final String exit = 'Kapat';
 
   final String userAvatar =
       'https://cdn.pixabay.com/photo/2015/03/04/22/35/head-659651_960_720.png';
@@ -23,11 +23,11 @@ class DrawerWidget extends StatelessWidget {
           UserAccountsDrawerHeader(
             accountName: Text(
               userNAme,
-              style: Theme.of(context).textTheme.subtitle1,
+              style: Theme.of(context).textTheme.subtitle1!.copyWith(color: Theme.of(context).colorScheme.onPrimary),
             ),
             accountEmail: Text(
               userEmail,
-              style: Theme.of(context).textTheme.subtitle1,
+              style: Theme.of(context).textTheme.subtitle1!.copyWith(color: Theme.of(context).colorScheme.onPrimary),
             ),
             currentAccountPicture: Container(
               decoration: BoxDecoration(
@@ -43,7 +43,7 @@ class DrawerWidget extends StatelessWidget {
             title: Text(
               derslerim,
               style: Theme.of(context).textTheme.headline6!.copyWith(
-                    color: Theme.of(context).colorScheme.onSecondary,
+                    color: Theme.of(context).colorScheme.inverseSurface,
                   ),
             ),
             onTap: () {},
@@ -53,7 +53,7 @@ class DrawerWidget extends StatelessWidget {
             title: Text(
               sinavlarim,
               style: Theme.of(context).textTheme.headline6!.copyWith(
-                    color: Theme.of(context).colorScheme.onSecondary,
+                    color: Theme.of(context).colorScheme.inverseSurface,
                   ),
             ),
             onTap: () {},
@@ -63,7 +63,7 @@ class DrawerWidget extends StatelessWidget {
             title: Text(
               settings,
               style: Theme.of(context).textTheme.headline6!.copyWith(
-                    color: Theme.of(context).colorScheme.onSecondary,
+                    color: Theme.of(context).colorScheme.inverseSurface,
                   ),
             ),
             onTap: () {},

@@ -7,7 +7,7 @@ AppBar customBuildAppBar(BuildContext context) {
     leading: Builder(
       builder: (context) => IconButton(
         icon: const Icon(Icons.menu_open),
-        color: Theme.of(context).colorScheme.secondaryVariant,
+        color: Theme.of(context).colorScheme.secondary,
         iconSize: 32.0,
         tooltip: 'Menüyü Aç',
         onPressed: () => Scaffold.of(context).openDrawer(),
@@ -15,12 +15,12 @@ AppBar customBuildAppBar(BuildContext context) {
     ),
     title: Text(
       "Dindefterim",
-      style: Theme.of(context).textTheme.headline4!.copyWith(color: Theme.of(context).colorScheme.secondaryVariant),
+      style: Theme.of(context).textTheme.headline4!.copyWith(color: Theme.of(context).colorScheme.secondary),
     ),
     actions: <Widget>[
       IconButton(
         icon: const Icon(Icons.account_circle),
-        color: Theme.of(context).colorScheme.secondaryVariant,
+        color: Theme.of(context).colorScheme.secondary,
         tooltip: 'Kullanıcı Girişi',
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -29,7 +29,7 @@ AppBar customBuildAppBar(BuildContext context) {
       ),
       IconButton(
         icon: const Icon(Icons.navigate_next),
-        color: Theme.of(context).colorScheme.secondaryVariant,
+        color: Theme.of(context).colorScheme.secondary,
         iconSize: 32.0,
         tooltip: 'Uygulama Hakknda',
         onPressed: () {

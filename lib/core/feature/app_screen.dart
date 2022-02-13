@@ -1,6 +1,7 @@
 import 'package:dindefterim_sari/core/feature/search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../screens/layout/drawer_menu.dart';
 import '../constants.dart';
 import '../size_confige.dart';
 import 'banner.dart';
@@ -21,6 +22,7 @@ class _AppScreenState extends State<AppScreen> {
     return OrientationBuilder(
       builder: (BuildContext context, Orientation orientation) => Scaffold(
         backgroundColor: kBackgroundColor,
+        drawer:  const DrawerWidget(),
         body: SafeArea(
           child: SingleChildScrollView(
             child: Column(
