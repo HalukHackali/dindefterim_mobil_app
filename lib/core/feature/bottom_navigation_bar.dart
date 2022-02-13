@@ -40,7 +40,7 @@ class BottomNavigation extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Expanded(
+                   Expanded(
                       flex: 2,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -64,7 +64,9 @@ class BottomNavigation extends StatelessWidget {
                                           Text('Bu Sayfa Henüz Aktif Değil!')));
                             },
                             child: Icon(
-                              itemIcons[1],
+                              Icons.settings
+                              ,
+                              //itemIcons[1],
                               color: selectedIndex == 1
                                   ? const Color(0xff46BDFA)
                                   : kLightTextColor,
@@ -73,8 +75,8 @@ class BottomNavigation extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const Spacer(flex: 3),
-                    Expanded(
+                   // const Spacer(flex: 3),
+                 /*  Expanded(
                       flex: 2,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -109,7 +111,7 @@ class BottomNavigation extends StatelessWidget {
                           ),
                         ],
                       ),
-                    ),
+                    ),*/
                   ],
                 ),
               ),
@@ -125,7 +127,7 @@ class BottomNavigation extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) =>  AppScreen()),
+                          builder: (context) =>  const AppScreen()),
                     );
                   },
                   child: Container(
