@@ -36,7 +36,7 @@ class Data {
       title: "LGS",
       kademelerNumber: '8',
       icon: LineIcons.heart,
-      kademeLink: sekizinciSinif(),
+      kademeLink: const sekizinciSinif(),
     ),
   ];
 
@@ -79,7 +79,7 @@ class Data {
       image: "assets/images/8_sinif.png",
       reviews: 9,
       reviewScore: 2,
-      sinifLink: sekizinciSinif(),
+      sinifLink: const sekizinciSinif(),
     ),
     Sinif(
       name: "9.Sınıf",
@@ -87,7 +87,7 @@ class Data {
       image: "assets/images/9_sinif.png",
       reviews: 12,
       reviewScore: 9,
-      sinifLink: DokuzuncuSinif(),
+      sinifLink: const DokuzuncuSinif(),
     ),
   ];
 }

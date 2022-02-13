@@ -26,7 +26,7 @@ class BottomNavBarWidget extends StatelessWidget {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) =>  ApprScreen()),
+                  MaterialPageRoute(builder: (context) =>  AppScreen()),
                 );
               },
               child: const Icon(Icons.home)),
@@ -46,7 +46,7 @@ class BottomNavBarWidget extends StatelessWidget {
           icon: InkWell(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) =>  ApprScreen()));
+                  MaterialPageRoute(builder: (context) =>  AppScreen()));
             },
             child: const Icon(Icons.account_circle),
           ),

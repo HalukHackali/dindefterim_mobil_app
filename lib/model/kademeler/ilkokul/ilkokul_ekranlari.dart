@@ -12,7 +12,7 @@ import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
 import '4.sinif/dorduncu_sinif.dart';
 
 class IlkokulEkranlari extends StatefulWidget {
-  IlkokulEkranlari({
+  const IlkokulEkranlari({
     Key? key,
   }) : super(key: key);
 

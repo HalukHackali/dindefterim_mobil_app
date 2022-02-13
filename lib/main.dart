@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
         home: Builder(
           builder: (context) {
             SizeConfig.initSize(context);
-            return  ApprScreen();
+            return  AppScreen();
           },
         ),
       ),

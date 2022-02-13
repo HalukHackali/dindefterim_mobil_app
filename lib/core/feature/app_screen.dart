@@ -8,14 +8,14 @@ import 'botton_nav_bar_model.dart';
 import 'kademeler_list.dart';
 import 'siniflar_list.dart';
 
-class ApprScreen extends StatefulWidget {
-   ApprScreen({Key? key}) : super(key: key);
+class AppScreen extends StatefulWidget {
+   const AppScreen({Key? key}) : super(key: key);
 
   @override
-  _ApprScreenState createState() => _ApprScreenState();
+  _AppScreenState createState() => _AppScreenState();
 }
 
-class _ApprScreenState extends State<ApprScreen> {
+class _AppScreenState extends State<AppScreen> {
   @override
   Widget build(BuildContext context) {
     return OrientationBuilder(
@@ -26,25 +26,25 @@ class _ApprScreenState extends State<ApprScreen> {
             child: Column(
               children: [
                 SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
-                 MainScreenBanner(),
+                 const MainScreenBanner(),
                 SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
                 if (ScreenUtil().orientation == Orientation.portrait)
                   SearchField(),
                 if (ScreenUtil().orientation == Orientation.portrait)
                   SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
                 if (ScreenUtil().orientation == Orientation.portrait)
-                   KademelerList(),
+                   const KademelerList(),
                 if (ScreenUtil().orientation == Orientation.portrait)
                   SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
                 if (ScreenUtil().orientation == Orientation.portrait)
-                   SiniflarList(),
+                   const SiniflarList(),
                 if (ScreenUtil().orientation != Orientation.portrait)
-                   SiniflarList(),
+                   const SiniflarList(),
               ],
             ),
           ),
         ),
-        bottomNavigationBar:  ButtomNavBarModel(),
+        bottomNavigationBar:  const ButtomNavBarModel(),
       ),
     );
   }
