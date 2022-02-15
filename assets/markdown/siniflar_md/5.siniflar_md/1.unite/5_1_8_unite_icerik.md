@@ -23,8 +23,10 @@ Peygamber Efendimiz Felak ve Nas sureleriyle birlikte İhlas suresinin de kötü
 
 # Bismillahirrahmanirrahim
 
-> Kul hüvellâhü ehad. Allahüssamed.
+ Kul hüvellâhü ehad. Allahüssamed.
+
 Lem yelid ve lem yûled. 
+
 Ve lem yekün lehû küfüven ehad.
 
 # Rahman ve Rahim Olan Allah'ın(cc) Adıyla Başlarım
