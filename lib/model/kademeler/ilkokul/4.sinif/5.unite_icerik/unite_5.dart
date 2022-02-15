@@ -1,5 +1,4 @@
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
@@ -39,10 +38,11 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                           context,
                           'İslam Dini ve Temizlik',
                           const UniteIcerik(
-                            unideninAdi: 'İslam Dini ve Temizlik',
+                            unideninAdi:
+                            'İslam Dini ve Temizlik',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/5.unite/4_5_1_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -55,7 +55,7 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                                 'Bedenimi ve Giysilerimi Temiz Tutarım',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/5.unite/4_5_2_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -64,10 +64,11 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                           context,
                           'Evimi ve Okulumu Temiz Tutarım',
                           const UniteIcerik(
-                            unideninAdi: 'Evimi ve Okulumu Temiz Tutarım',
+                            unideninAdi:
+                            'Evimi ve Okulumu Temiz Tutarım',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/5.unite/4_5_3_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -76,10 +77,11 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                           context,
                           'Çevremi Temiz Tutarım',
                           const UniteIcerik(
-                            unideninAdi: 'Çevremi Temiz Tutarım',
+                            unideninAdi:
+                            'Çevremi Temiz Tutarım',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/5.unite/4_5_4_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -87,7 +89,14 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                         unitAltKonuAdiBant(
                           context,
                           "Ünite Soruları - hazırlanıyor",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Ünite Soruları - hazırlanıyor",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/4.siniflar_md/5.unite/4_5_5_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                       ],
@@ -96,7 +105,8 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                 ),
               ],
             ),
-          )),
+          ),
+      ),
     );
   }
 }

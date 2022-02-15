@@ -43,7 +43,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                                 'Hz. Muhammed’in (as) Doğduğu Çevre',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_1_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -55,7 +55,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                             unideninAdi: "Hz. Muhammed’in (as) Ailesi",
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_2_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -67,7 +67,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                             unideninAdi: ' Hz. Muhammed’in (as) Doğumu',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_3_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -79,7 +79,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                             unideninAdi: 'Çocukluk ve Gençlik Yılları',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_4_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -92,7 +92,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                                 'Hz. Muhammed’in (as) Mekke ve Medine Yılları',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_5_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -104,7 +104,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                             unideninAdi: 'Salli ve Barik Duaları ve Anlamları',
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_6_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -112,7 +112,14 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                         unitAltKonuAdiBant(
                           context,
                           "Ünite Soruları - hazırlanıyor",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Ünite Soruları - hazırlanıyor",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/4.siniflar_md/4.unite/4_4_7_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                       ],

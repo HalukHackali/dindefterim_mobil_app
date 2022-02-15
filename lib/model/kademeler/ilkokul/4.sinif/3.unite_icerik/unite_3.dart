@@ -40,10 +40,11 @@ class _Dort_C_Ucuncu_UniteState extends State<Dort_C_Ucuncu_Unite> {
                           context,
                           "Din Güzel Ahlaktır",
                           const UniteIcerik(
-                            unideninAdi: 'Nezaket Kuralları',
+                            unideninAdi:
+                            "Din Güzel Ahlaktır",
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/3.unite/4_3_1_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -52,10 +53,11 @@ class _Dort_C_Ucuncu_UniteState extends State<Dort_C_Ucuncu_Unite> {
                           context,
                           "İnsani İlişkilerin Temeli: Sevgi ve Saygı",
                           const UniteIcerik(
-                            unideninAdi: 'Selamlaşma Adabı',
+                            unideninAdi:
+                            "İnsani İlişkilerin Temeli: Sevgi ve Saygı",
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/3.unite/4_3_2_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -64,10 +66,11 @@ class _Dort_C_Ucuncu_UniteState extends State<Dort_C_Ucuncu_Unite> {
                           context,
                           "Bir Sure Tanıyorum: Fâtiha Suresi ve Anlamı",
                           const UniteIcerik(
-                            unideninAdi: 'İletişim ve Konuşma Adabı',
+                            unideninAdi:
+                            "Bir Sure Tanıyorum: Fâtiha Suresi ve Anlamı",
                             mdLinkF: UniteIcerikMarkDown(
                               mdLink:
-                                  "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
+                              "assets/markdown/siniflar_md/4.siniflar_md/3.unite/4_3_3_unite_icerik.md",
                             ),
                           ),
                         ),
@@ -75,7 +78,14 @@ class _Dort_C_Ucuncu_UniteState extends State<Dort_C_Ucuncu_Unite> {
                         unitAltKonuAdiBant(
                           context,
                           "Ünite Soruları - hazırlanıyor",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Ünite Soruları - hazırlanıyor",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/4.siniflar_md/3.unite/4_3_4_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                       ],
