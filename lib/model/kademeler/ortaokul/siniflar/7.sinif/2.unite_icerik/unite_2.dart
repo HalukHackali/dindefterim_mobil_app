@@ -1,12 +1,10 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
 import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
-
-
-
 
 class Yedi_B_Ikinci_Unite extends StatefulWidget {
   const Yedi_B_Ikinci_Unite();
@@ -36,44 +34,98 @@ class _Yedi_B_Ikinci_UniteState extends State<Yedi_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Hac ve Kurban"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
+                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'İslam’da Hac İbadeti ve Önemi',
+                          const UniteIcerik(
+                            unideninAdi:
                             'İslam’da Hac İbadeti ve Önemi',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_1_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'Haccın Yapılışı',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Haccın Yapılışı',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_2_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          'Umre ve Önemi',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Umre ve Önemi',
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_3_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          'Kurban İbadeti ve Önemi',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Kurban İbadeti ve Önemi',
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_4_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          'Bir Peygamber Tanıyorum: Hz. İsmail (a.s.)',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Bir Peygamber Tanıyorum: Hz. İsmail (a.s.)',
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_5_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          "Bir Ayet Tanıyorum: En’âm Suresi 162. Ayet",
+                          const UniteIcerik(
+                            unideninAdi:
                             "Bir Ayet Tanıyorum: En’âm Suresi 162. Ayet",
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_6_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           "Ünite Soruları - hazırlanıyor",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Ünite Soruları - hazırlanıyor",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/2.unite/7_2_7_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                       ],

@@ -1,12 +1,10 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
 import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
-
-
-
 
 class Yedi_C_Ucuncu_Unite extends StatefulWidget {
   const Yedi_C_Ucuncu_Unite();
@@ -17,7 +15,6 @@ class Yedi_C_Ucuncu_Unite extends StatefulWidget {
 
 class _Yedi_C_Ucuncu_UniteState extends State<Yedi_C_Ucuncu_Unite> {
   bool shouldPop = true;
-
 
   @override
   Widget build(BuildContext context) {
@@ -37,27 +34,60 @@ class _Yedi_C_Ucuncu_UniteState extends State<Yedi_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Ahlaki Davranışlar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
+                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'Güzel Ahlaki Tutum ve Davranışlar',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Güzel Ahlaki Tutum ve Davranışlar',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/3.unite/7_3_1_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'Bir Peygamber Tanıyorum: Hz. Salih (a.s.)',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Bir Peygamber Tanıyorum: Hz. Salih (a.s.)',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/3.unite/7_3_2_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          'Bir Sure Tanıyorum: Felak Suresi ve Anlamı',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Bir Sure Tanıyorum: Felak Suresi ve Anlamı',
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/3.unite/7_3_3_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const UniteIcerik(
+                            unideninAdi:
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/3.unite/7_3_4_unite_icerik.md",
                             ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

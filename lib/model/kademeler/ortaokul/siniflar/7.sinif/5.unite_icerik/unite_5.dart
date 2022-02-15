@@ -1,11 +1,10 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
 import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
-
-
 
 class Yedi_E_Besinci_Unite extends StatefulWidget {
   const Yedi_E_Besinci_Unite();
@@ -15,7 +14,6 @@ class Yedi_E_Besinci_Unite extends StatefulWidget {
 }
 
 class _Yedi_E_Besinci_UniteState extends State<Yedi_E_Besinci_Unite> {
-
   bool shouldPop = true;
   @override
   Widget build(BuildContext context) {
@@ -35,27 +33,58 @@ class _Yedi_E_Besinci_UniteState extends State<Yedi_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("İslam Düşüncesinde Yorumlar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Fıkıh", "İtikat",
+                            "Tasavvuf", "Mezhep", "İnanç"),
                         const SizedBox(height: 10),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'Din Anlayışındaki Yorum Farklılıklarının Sebepleri',
+                          const UniteIcerik(
+                            unideninAdi:
                             'Din Anlayışındaki Yorum Farklılıklarının Sebepleri',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/5.unite/7_5_1_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
-                        unitAltKonuAdiBant(context,
+                        unitAltKonuAdiBant(
+                          context,
+                          'İslam Düşüncesinde Yorum Biçimleri',
+                          const UniteIcerik(
+                            unideninAdi:
                             'İslam Düşüncesinde Yorum Biçimleri',
-                            const NoReadyPage(), ),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/5.unite/7_5_2_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          'İslam Düşüncesinde Tasavvufi Yorumlar',
+                          const UniteIcerik(
+                            unideninAdi:
                             'İslam Düşüncesinde Tasavvufi Yorumlar',
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/5.unite/7_5_3_unite_icerik.md",
                             ),
+                          ),                        ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
-                            context,
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const UniteIcerik(
+                            unideninAdi:
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/5.unite/7_5_4_unite_icerik.md",
                             ),
+                          ),                        ),
                         const SizedBox(height: 5),
                       ],
                     ),

@@ -1,3 +1,4 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
@@ -39,49 +40,92 @@ class _Yedi_A_Birinci_UniteState extends State<Yedi_A_Birinci_Unite> {
                         unitAltKonuAdiBant(
                           context,
                           'Görülen ve Görülemeyen Varlıklar',
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Görülen ve Görülemeyen Varlıklar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                                  "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_1_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           'Melekler ve Özellikleri',
-                          const NoReadyPage(),
-                        ),
-                        const SizedBox(height: 5),
-                        unitAltKonuAdiBant(
-                          context,
-                          'Melekler ve Özellikleri',
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Melekler ve Özellikleri',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_2_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           'Dünya ve Ahiret Hayatı',
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Dünya ve Ahiret Hayatı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_3_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           'Ahiret Hayatının Aşamaları',
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Ahiret Hayatının Aşamaları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_4_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           "Ahiret İnancının İnsan Davranışlarına Etkisi",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Ahiret İnancının İnsan Davranışlarına Etkisi",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_5_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           "Bir Peygamber Tanıyorum: Hz. İsa (a.s.)",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Bir Peygamber Tanıyorum: Hz. İsa (a.s.)",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_6_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                           context,
                           "Bir Sure Tanıyorum: Nâs Suresi ve Anlamı",
-                          const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            "Bir Sure Tanıyorum: Nâs Suresi ve Anlamı",
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/7.siniflar_md/1.unite/7_1_7_unite_icerik.md",
+                            ),
+                          ),
                         ),
                         const SizedBox(height: 5),
                       ],

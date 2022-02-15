@@ -1,3 +1,4 @@
+import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
@@ -37,33 +38,75 @@ class _Bes_C_Ucuncu_UniteState extends State<Bes_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Zararlı Alışkanlıklar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram", "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Bağımlılık", "Kumar", "İçki", "Sigara", "Ahlak"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'Bazı Zararlı Alışkanlıklar',
-                            const NoReadyPage(), ),
+                          const UniteIcerik(
+                            unideninAdi: 'Bazı Zararlı Alışkanlıklar',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_1_unite_icerik.md",
+                            ),
+                          ), ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'Zararlı Alışkanlıklara Başlama Sebepleri',
-                            const NoReadyPage(), ),
+                          const UniteIcerik(
+                            unideninAdi: 'Zararlı Alışkanlıklara Başlama Sebepleri',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_2_unite_icerik.md",
+                            ),
+                          ),  ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             'Zararlı Alışkanlıklardan Korunma Yolları',
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi: 'Zararlı Alışkanlıklardan Korunma Yolları',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_3_unite_icerik.md",
+                            ),
+                          ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
-                            'Bir Peygamber Tanıyorum: Hz. Yahya (a.s.)',
-                            const NoReadyPage(),
+                            'Bir Peygamber Tanıyorum: Hz.Yahya(as)',
+                          const UniteIcerik(
+                            unideninAdi: 'Bir Peygamber Tanıyorum: Hz.Yahya(as)',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_4_unite_icerik.md",
+                            ),
+                          ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(
                             context,
                             "Bir Sure Tanıyorum: Tebbet Suresi ve Anlamı",
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi: 'Bir Sure Tanıyorum: Tebbet Suresi ve Anlamı',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_5_unite_icerik.md",
                             ),
+                          ),
+                            ),
+                        const SizedBox(height: 5),
+                        unitAltKonuAdiBant(
+                          context,
+                          "Ünite Soruları - hazırlanıyor",
+                          const UniteIcerik(
+                            unideninAdi: 'Ünite Soruları - hazırlanıyor',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/6.siniflar_md/3.unite/6_3_6_unite_icerik.md",
+                            ),
+                          ),
+                        ),
                         const SizedBox(height: 5),
                       ],
                     ),
