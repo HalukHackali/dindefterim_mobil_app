@@ -32,7 +32,8 @@ class _besinciSinifState extends State<besinciSinif> {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: const Color(0xffEFF2F7),
-              fontSize: getRelativeWidth(0.061),
+              //fontSize: getRelativeWidth(0.061),
+              fontSize: UIHelper.getSiniflarTitleHeight() * 0.8,
             ),
           ),
           bottom: const TabBar(

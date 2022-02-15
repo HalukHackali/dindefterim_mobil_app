@@ -99,7 +99,14 @@ class _Bes_B_Ikinci_UniteState extends State<Bes_B_Ikinci_Unite> {
                         unitAltKonuAdiBant(
                             context,
                             "Ünite Soruları - hazırlanıyor",
-                            const NoReadyPage(),
+                          const UniteIcerik(
+                            unideninAdi:
+                            'Ünite Soruları - hazırlanıyor',
+                            mdLinkF: UniteIcerikMarkDown(
+                              mdLink:
+                              "assets/markdown/siniflar_md/5.siniflar_md/2.unite/5_2_6_unite_icerik.md",
+                            ),
+                          ),
                             ),
                         const SizedBox(height: 5),
                       ],
