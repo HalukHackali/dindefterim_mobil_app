@@ -76,4 +76,12 @@ class UIHelper {
     return ScreenUtil().orientation == Orientation.portrait ? 0.07.sh : 0.10.sw;
   }
 
+////////////////////////////////////////////////// SINIFLAR BAŞLIK
+  static double getSiniflarTitleHeight(){
+    return ScreenUtil().orientation == Orientation.portrait ? 0.04.sh : 0.03.sw;
+  }
+  static double getSiniflarTitleWidth(){
+    return ScreenUtil().orientation == Orientation.portrait ? 0.07.sh : 0.10.sw;
+  }
+
 }

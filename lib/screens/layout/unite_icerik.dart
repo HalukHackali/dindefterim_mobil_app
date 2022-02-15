@@ -29,7 +29,8 @@ class UniteIcerik extends StatelessWidget {
             style: TextStyle(
               color: kHardTextColor,
               fontWeight: FontWeight.bold,
-              fontSize: getRelativeWidth(0.061),
+              //fontSize: getRelativeWidth(0.061),
+              fontSize: UIHelper.getSiniflarTitleHeight() * 0.8,
             ),
           ),
         ),
@@ -54,6 +55,7 @@ class UniteIcerikMarkDown extends StatelessWidget {
               styleSheet: MarkdownStyleSheet(
                 h1: const TextStyle(
                   color: Color(0xff586191),
+                  //color: Colors.red,
                   fontWeight: FontWeight.bold,
                 ),
                 p: const TextStyle(

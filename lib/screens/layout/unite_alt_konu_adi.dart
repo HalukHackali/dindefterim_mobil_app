@@ -26,7 +26,8 @@ Widget unitAltKonuAdiBant(
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: kHardTextColor,
-              fontSize: getRelativeWidth(0.043),
+              //fontSize: getRelativeWidth(0.032),
+              fontSize: UIHelper.getSiniflarTitleHeight() * 0.5,
             ),
           ),
         ),

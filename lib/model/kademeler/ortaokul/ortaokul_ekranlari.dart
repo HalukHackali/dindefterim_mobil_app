@@ -38,7 +38,8 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: kHardTextColor,
-              fontSize: getRelativeWidth(0.061),
+              //fontSize: getRelativeWidth(0.061),
+              fontSize: UIHelper.getSiniflarTitleHeight(),
             ),
           ),
         ),
@@ -114,12 +115,12 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
               const SizedBox(
                 height: 10.0,
               ),
-              KademeCardWidget(
-                kategoriIcon: Icon(Icons.favorite),
+              const KademeCardWidget(
+                kategoriIcon: const Icon(Icons.favorite),
                 sinifAdi: "4",
                 kademeAdi: "İlkokul",
-                kademeLink: IlkokulEkranlari(),
-                kademefRenk: Color(0xffFFCA8C),
+                kademeLink: const IlkokulEkranlari(),
+                kademefRenk: const Color(0xffFFCA8C),
                 kademefRenk_2: Color(0xffFEA741),
               ),
               const SizedBox(

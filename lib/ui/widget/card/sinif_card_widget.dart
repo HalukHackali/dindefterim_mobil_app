@@ -1,7 +1,6 @@
 import 'package:dindefterim_sari/core/constants.dart';
 import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Sinif_Card_Widget extends StatelessWidget {
