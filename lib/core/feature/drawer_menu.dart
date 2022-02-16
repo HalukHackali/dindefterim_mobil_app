@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({Key? key}) : super(key: key);
 
-  final String userNAme = 'Kullarını Adı';
+  final String userNAme = 'Kullanıcı Adı';
   final String userEmail = 'kullanici@email.com';
 
   final String derslerim = 'Derslerim';
