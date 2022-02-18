@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:line_icons/line_icons.dart';
 
 import '../size_confige.dart';
 
@@ -9,6 +8,11 @@ class SearchField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
+      height: UIHelper.getAppIconWidgetHeight(),
+
+    );
+      /*
+      SizedBox(
       width: getRelativeWidth(0.88),
       child: Center(
         child: TextField(
@@ -73,6 +77,7 @@ class SearchField extends StatelessWidget {
         ),
       ),
     );
+    */
   }
 
   final outlineBorder = OutlineInputBorder(
