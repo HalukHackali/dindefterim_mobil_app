@@ -57,10 +57,23 @@ class UniteIcerikMarkDown extends StatelessWidget {
                   color: Color(0xff586191),
                   //color: Colors.red,
                   fontWeight: FontWeight.bold,
+                  fontSize: 28,
+                ),
+                h2: const TextStyle(
+                  color: Color(0xff8d288c),
+                  //color: Colors.red,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 24,
+                ),
+                h3: const TextStyle(
+                  color: Color(0xff11a2bf),
+                  //color: Colors.red,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 22,
                 ),
                 p: const TextStyle(
                   color: Colors.black,
-                  fontSize: 17,
+                  fontSize: 18,
                 ),
               ),
             );
