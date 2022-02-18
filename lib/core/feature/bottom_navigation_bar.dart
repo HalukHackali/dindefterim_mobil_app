@@ -47,13 +47,21 @@ class BottomNavigation extends StatelessWidget {
                         children: [
                           Builder(
                             builder: (context) => IconButton(
-                              icon: const Icon(Icons.menu),
+                              //icon: const Icon(Icons.menu),
+                              icon: const Icon(Icons.email_outlined),
                               color: selectedIndex == 1
                                   ? const Color(0xff46BDFA)
                                   : kLightTextColor,
                               tooltip: 'Menüyü Aç',
-                              onPressed: () =>
-                                  Scaffold.of(context).openDrawer(),
+                              onPressed: () {
+                                  //Scaffold.of(context).openDrawer();
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  const SnackBar(
+                                    content:
+                                    Text('İletişim : bilgi@dindefterim.com'),
+                                  ),
+                                );
+                              }
                             ),
                           ),
                           GestureDetector(
@@ -61,10 +69,12 @@ class BottomNavigation extends StatelessWidget {
                               ScaffoldMessenger.of(context).showSnackBar(
                                   const SnackBar(
                                       content:
-                                          Text('Bu Sayfa Henüz Aktif Değil!')));
+                                          Text('Web sitemiz için www.dindefterim.com adresini ziyaret edebilirsiniz.'),
+                                  ),
+                              );
                             },
                             child: Icon(
-                              Icons.settings
+                              Icons.info_outline
                               ,
                               //itemIcons[1],
                               color: selectedIndex == 1

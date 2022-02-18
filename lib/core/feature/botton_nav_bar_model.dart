@@ -31,7 +31,7 @@ BottomNavigation buildBottomNavigation() {
     centerIcon: Icons.home,
     itemIcons: const [
       Icons.menu,
-      Icons.settings,
+      Icons.info_outline,
       Icons.message,
       Icons.account_box,
     ],
