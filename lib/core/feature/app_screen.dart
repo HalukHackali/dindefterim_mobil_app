@@ -28,7 +28,10 @@ class _AppScreenState extends State<AppScreen> {
             child: Column(
               children: [
                 SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
-                 const MainScreenBanner(),
+                if (ScreenUtil().orientation == Orientation.portrait)
+                  const MainScreenBanner(),
+                if (ScreenUtil().orientation != Orientation.portrait)
+                  const MainScreenBanner(),
                 SizedBox(height: UIHelper.getAppSizeBoxWidgetHeight()),
                 if (ScreenUtil().orientation == Orientation.portrait)
                   SearchField(),
