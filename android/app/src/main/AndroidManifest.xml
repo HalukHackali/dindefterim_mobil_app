@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dindefterim.haluk.dindefterim_sari">
    <application
-        android:label="dindefterim_sari"
+        android:label="DinDefterim"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:exported="true"
