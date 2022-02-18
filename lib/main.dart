@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: () => MaterialApp(
-        debugShowCheckedModeBanner: true,
+        debugShowCheckedModeBanner: false,
         builder: (context, widget) {
           ScreenUtil.setContext(context);
           return MediaQuery(
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: "Nunito",
           primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
+         // visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
         home: Builder(
           builder: (context) {
