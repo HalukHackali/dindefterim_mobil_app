@@ -33,7 +33,7 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                         const UniteAdi("İnançla İlgili Meseleler"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "**** ****"),
+                            "İstismar", "İslamfobi", "", "", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

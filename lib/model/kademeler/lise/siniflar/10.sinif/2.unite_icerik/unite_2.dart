@@ -33,7 +33,7 @@ class _On_B_Ikinci_UniteState extends State<On_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Hz.Muhammed ve Gençlik"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Sahabi", "Alim", "el-Emin", "İştişare", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Kur’an-ı Kerim’de Gençler',

@@ -34,7 +34,7 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                       children: [
                         const UniteAdi("Allah-İnsan İlişkisi"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Esmâ-i Hüsnâ,", "Tilavet", "Kıraat", "Dua", "Kur’an ve Yorumu"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Allah İnancı ve İnsan',

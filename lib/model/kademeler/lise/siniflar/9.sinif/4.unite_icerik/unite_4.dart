@@ -33,7 +33,7 @@ class _Dokuz_D_Dorduncu_UniteState extends State<Dokuz_D_Dorduncu_Unite> {
                         const UniteAdi("Gençlik ve Değerler"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "**** ****"),
+                            "Değer", "Ahlak", "Örf", "Adet", "Ahlak"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

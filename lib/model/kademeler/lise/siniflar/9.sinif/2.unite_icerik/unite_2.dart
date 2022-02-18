@@ -33,7 +33,7 @@ class _Dokuz_B_Ikinci_UniteState extends State<Dokuz_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Din ve İslam"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "İnanç"),
+                        KavramlarOgrenmeAlani("Din", "Fıtrat", "Hanif", "İman", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Dinin Tanımı ve Kaynağı',

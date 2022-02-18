@@ -33,7 +33,7 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("İslam ve İbadet"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "İbadet"),
+                        KavramlarOgrenmeAlani("İbadet", "Mükellef", "Salih Amel", "İhlas", "İbadet"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'İslam’da İbadet ve Kapsamı',

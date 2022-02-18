@@ -34,7 +34,7 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                       children: [
                         const UniteAdi("İslam ve Bilim"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("İlim", "Bilim", "Alim", "Bilgin", "Din ve Kültür"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Din-Bilim İlişkisi',

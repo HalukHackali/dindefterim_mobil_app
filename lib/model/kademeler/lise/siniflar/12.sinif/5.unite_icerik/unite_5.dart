@@ -33,7 +33,7 @@ class _Oniki_E_Besinci_UniteState extends State<Oniki_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("Hint Ve Çin Dinleri"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Karma", "Tanasüh", "Reekarnasyon", "", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'Hinduizm',

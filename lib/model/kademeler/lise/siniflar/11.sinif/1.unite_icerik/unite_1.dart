@@ -34,7 +34,7 @@ class Onbir_A_Birinci_UniteState extends State<Onbir_A_Birinci_Unite> {
                       children: [
                         const UniteAdi("Dünya ve Ahiret"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Ahiret", "Vefat", "Cenaze", "", "İnaç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Varoluşun ve Hayatın Anlamı',

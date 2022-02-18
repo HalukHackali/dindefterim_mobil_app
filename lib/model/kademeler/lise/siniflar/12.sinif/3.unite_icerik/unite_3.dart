@@ -33,7 +33,7 @@ class _Oniki_C_Ucuncu_UniteState extends State<Oniki_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("İslam Düşüncesinde Tasavvufi Yorum"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Tasavvuf", "Edep", "Mürşid", "Erkan", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Tasavvufi Düşüncenin Oluşumu',

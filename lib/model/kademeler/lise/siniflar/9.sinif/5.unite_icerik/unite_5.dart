@@ -33,7 +33,7 @@ class _Dokuz_E_Besinci_UniteState extends State<Dokuz_E_Besinci_Unite> {
                       children: [
                         const UniteAdi("Gönül Coğrafyamız"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Kültür", "Medeniyet", "", "", "Din ve Kültür"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'İslam Medeniyeti ve Özellikleri',

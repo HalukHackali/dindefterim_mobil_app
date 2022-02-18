@@ -34,7 +34,7 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                             "İslam Düşüncesinde Siyasi, İtikadi ve Fıkhi Yorumlar"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "**** ****"),
+                            "İtikad", "Mezhep", "Fıkıh", "Tevil", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

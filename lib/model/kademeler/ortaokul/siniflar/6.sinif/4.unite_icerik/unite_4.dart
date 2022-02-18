@@ -33,8 +33,8 @@ class _Bes_D_Dorduncu_UniteState extends State<Bes_D_Dorduncu_Unite> {
                       children: [
                         const UniteAdi("Hz.Muhammed’in Hayatı"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
-                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Davet", "Tebliğ",
+                            "Ensar", "Muhacir", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

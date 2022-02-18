@@ -34,7 +34,7 @@ class _Dort_C_Ucuncu_UniteState extends State<Dort_C_Ucuncu_Unite> {
                         const UniteAdi("Güzel Ahlak"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "****", "Ahlak"),
+                            "Ahlak", "Sevgi", "Saygı", "Nezaket", "Ahlak"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

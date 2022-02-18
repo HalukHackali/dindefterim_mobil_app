@@ -33,7 +33,7 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                       children: [
                         const UniteAdi("Ahlaki Tutum ve Davranışlar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Terbiye", "Saciye", "Şahsiyet", "Karakter", "Ahlaki"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'İslam Ahlakının Konusu ve Gayesi',

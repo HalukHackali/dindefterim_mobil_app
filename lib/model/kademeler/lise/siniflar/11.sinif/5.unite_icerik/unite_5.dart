@@ -33,7 +33,7 @@ class _Onbir_E_Besinci_UniteState extends State<Onbir_E_Besinci_Unite> {
                         const UniteAdi("Yahudilik ve Hrisityanlık"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "**** ****"),
+                            "Kitab-ı Mukaddes", "Ahd-i atik,", "Ahd-i cedit,", "Sinagog", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

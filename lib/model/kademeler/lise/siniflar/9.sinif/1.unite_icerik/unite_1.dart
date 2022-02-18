@@ -34,7 +34,7 @@ class Dokuz_A_Birinci_UniteState extends State<Dokuz_A_Birinci_Unite> {
                       children: [
                         const UniteAdi("Bilgi ve İnanç"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "İnanç"),
+                        KavramlarOgrenmeAlani("İslam", "İnanç", "Akad", "Vahiy", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'İslam’da Bilgi Kaynakları',

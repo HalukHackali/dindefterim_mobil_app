@@ -2,7 +2,6 @@ import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
 import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
 import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
 
@@ -33,8 +32,8 @@ class _Yedi_D_Dorduncu_UniteState extends State<Yedi_D_Dorduncu_Unite> {
                       children: [
                         const UniteAdi("Allahın Kulu ve Elçisi Hz.Muhammed"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("1.Kavram", "2.Kavram",
-                            "3.Kavram", "4.Kavram", "1.Öğrenme Alanı"),
+                        KavramlarOgrenmeAlani("Risalet", "Nübüvvet",
+                            "Hatem-ul Embiya", "", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

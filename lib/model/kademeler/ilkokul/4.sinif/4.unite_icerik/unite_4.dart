@@ -32,7 +32,7 @@ class _Dort_D_Dorduncu_UniteState extends State<Dort_D_Dorduncu_Unite> {
                       children: [
                         const UniteAdi("Hz. Muhammedi Tanıyalım "),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("Aile", "Mekke", "Medine",
+                        KavramlarOgrenmeAlani("Ehl-i Beyt", "Mevlid", "Cahiliye",
                             "El-Emin", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(

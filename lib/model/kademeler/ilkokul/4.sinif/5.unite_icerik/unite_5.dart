@@ -32,7 +32,7 @@ class _Dort_E_Besinci_UniteState extends State<Dort_E_Besinci_Unite> {
                         const UniteAdi("Din ve Temizlik"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "İbadet"),
+                            "Abdest", "Taharet", "", "", "İbadet"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,

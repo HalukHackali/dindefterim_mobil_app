@@ -33,7 +33,7 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Kuranda Bazı Kavramlar"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Hidayet", "İhsan", "İhlas", "Takva", "Kur’an ve Yorumu"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'İslam’ın Aydınlık Yolu: Hidayet',

@@ -35,7 +35,7 @@ class _Oniki_B_Ikinci_UniteState extends State<Oniki_B_Ikinci_Unite> {
                       children: [
                         const UniteAdi("Anadoluda İslam"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Alim", "Fakih", "Tasavvuf", "Veli", "Din ve Kültür"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Türklerin Müslüman Olmaları',

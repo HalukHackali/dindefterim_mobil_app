@@ -33,7 +33,7 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                       children: [
                         const UniteAdi("Güncel Dini Meseleler"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("İcma", "Helal", "Mekruh", "Mübah", "İnanç"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                             'Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler',

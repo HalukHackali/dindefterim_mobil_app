@@ -33,7 +33,7 @@ class _On_C_Ucuncu_UniteState extends State<On_C_Ucuncu_Unite> {
                       children: [
                         const UniteAdi("Din ve Hayat"),
                         const SizedBox(height: 10),
-                        KavramlarOgrenmeAlani("***", "***", "***", "***", "**** ****"),
+                        KavramlarOgrenmeAlani("Din", "Sanat", "İktisat", "Sosyal Değişim", "Din ve Kültür"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(context,
                           'Din, Kültür ve Sanat',

@@ -34,7 +34,7 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                         const UniteAdi("Kurana Göre Hz. Muhammed"),
                         const SizedBox(height: 10),
                         KavramlarOgrenmeAlani(
-                            "***", "***", "***", "***", "**** ****"),
+                            "Hadis", "Sünnet", "Üsve-i Hasene", "Hetemü'ün-Enbiya", "Hz.Muhammed"),
                         const SizedBox(height: 10),
                         unitAltKonuAdiBant(
                           context,
