@@ -1,7 +1,6 @@
 import 'package:dindefterim_sari/core/constants.dart';
 import 'package:dindefterim_sari/core/size_confige.dart';
 import 'package:flutter/material.dart';
-
 import '1.unite_icerik/unite_1.dart';
 import '2.unite_icerik/unite_2.dart';
 import '3.unite_icerik/unite_3.dart';
