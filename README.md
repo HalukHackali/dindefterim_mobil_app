@@ -44,7 +44,7 @@ Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması ve İnternet Sitesi
 > - anasayfa tasarım
 ----
 
-<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/Screenshot.png" width="400">
+<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/tel_1.png" width="400">
 
 ---
 ### My top 10 technologies
