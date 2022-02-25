@@ -34,6 +34,9 @@ Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması
 
 www.dindefterim.com
 
+[![DinDefterim Mobil App İndir](http://tiny.cc/dindefterim)](https://github.com/HalukHackali)
+
+
 
 > ### Uygulamanın Kısmen Bitmiş Bölümleri
 > - lib/okul/ortaokul/
