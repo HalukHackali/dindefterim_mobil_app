@@ -32,7 +32,7 @@ or <a href="mailto:halukh@protonmail.com"><b>email</b></a> me.
 
 Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması ve İnternet Sitesi
 
-# www.dindefterim.com
+### www.dindefterim.com
 
 # [![DinDefterim Mobil App İndir](https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/badges/gp.png)](http://tiny.cc/dindefterim)
 
