@@ -34,7 +34,7 @@ Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması
 
 www.dindefterim.com
 
-[![DinDefterim Mobil App İndir](http://tiny.cc/dindefterim)](http://tiny.cc/dindefterim)
+[![DinDefterim Mobil App İndir](https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/badges/g10.png)](http://tiny.cc/dindefterim)
 
 
 
