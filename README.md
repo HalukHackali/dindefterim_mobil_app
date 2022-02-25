@@ -22,7 +22,7 @@ Please feel free to clone/fork projects, raise issues and submit PRs if you thin
 Ask me anything <a href="https://github.com/HalukHackali/dindefterim_mobil_app/issues/new"><b>here</b></a><br>
 or <a href="mailto:halukh@protonmail.com"><b>email</b></a> me.
 
-<i>Happy Coding!</i> 😊
+<i>Happy Coding!</i> 😊 
 
 </div>
 
