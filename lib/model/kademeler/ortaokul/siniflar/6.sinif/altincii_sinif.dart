@@ -32,7 +32,8 @@ class _altincinciSinifState extends State<altincinciSinif> {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: const Color(0xffEFF2F7),
-              fontSize: getRelativeWidth(0.061),
+              fontSize: UIHelper.getSiniflarTitleHeight() * 0.8,
+              // fontSize: getRelativeWidth(0.061),
             ),
           ),
           bottom: const TabBar(
@@ -43,6 +44,7 @@ class _altincinciSinifState extends State<altincinciSinif> {
               Tab(text: "4.Ünite"),
               Tab(text: "5.Ünite"),
             ],
+            indicator: BoxDecoration(color: Color(0xff586191)),
             indicatorColor: Color(0xff586191),
             labelColor: Color(0xffEFF2F7),
           ),

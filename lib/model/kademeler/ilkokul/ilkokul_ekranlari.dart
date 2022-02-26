@@ -37,7 +37,9 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: kHardTextColor,
-              fontSize: getRelativeWidth(0.061),
+
+              //fontSize: getRelativeWidth(0.061),
+              fontSize: UIHelper.getSiniflarTitleHeight(),
             ),
           ),
         ),
@@ -83,6 +85,7 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                   const SizedBox(
                     height: 10.0,
                   ),
+            /*
                   const KademeCardWidget(
                     kategoriIcon: Icon(Icons.favorite),
                     sinifAdi: "9-10-11-12",
@@ -91,6 +94,7 @@ class _IlkokulEkranlariState extends State<IlkokulEkranlari> {
                     kademefRenk: Color(0xff85E4FD),
                     kademefRenk_2:  Color(0xffFFCA8C),
                   ),
+                  */
                   const SizedBox(
                     height: 30.0,
                   ),

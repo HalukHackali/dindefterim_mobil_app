@@ -126,6 +126,7 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
               const SizedBox(
                 height: 10.0,
               ),
+              /*
               const KademeCardWidget(
                 kategoriIcon: Icon(Icons.favorite),
                 sinifAdi: "9-10-11-12",
@@ -134,6 +135,7 @@ class _OrtaokulEkranlariState extends State<OrtaokulEkranlari> {
                 kademefRenk: Color(0xff85E4FD),
                 kademefRenk_2: Color(0xffFFCA8C),
               ),
+              */
               const SizedBox(
                 height: 30.0,
               ),

@@ -26,10 +26,10 @@ class UIHelper {
   UIHelper._();
 //////////////////////////////////////////// CONTAINER BANNER
   static double getAppBannerContainerWidgetHeight(){
-    return ScreenUtil().orientation == Orientation.portrait ? 0.45.sh : 0.95.sw;
+    return ScreenUtil().orientation == Orientation.portrait ? 0.75.sh : 0.98.sw;
   }
   static double getAppBannerContainerWidgetWidth(){
-    return ScreenUtil().orientation == Orientation.portrait ? 0.15.sh : 0.95.sw;
+    return ScreenUtil().orientation == Orientation.portrait ? 0.15.sh : 0.99.sw;
   }
 ///////////////////////////////////////////// BANNER
   static double getAppBannerWidgetHeight(){
@@ -78,7 +78,7 @@ class UIHelper {
 
 ////////////////////////////////////////////////// SINIFLAR BAŞLIK
   static double getSiniflarTitleHeight(){
-    return ScreenUtil().orientation == Orientation.portrait ? 0.04.sh : 0.03.sw;
+    return ScreenUtil().orientation == Orientation.portrait ? 0.03.sh : 0.03.sw;
   }
   static double getSiniflarTitleWidth(){
     return ScreenUtil().orientation == Orientation.portrait ? 0.07.sh : 0.10.sw;

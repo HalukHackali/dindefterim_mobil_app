@@ -26,6 +26,7 @@ class Data {
       icon: LineIcons.heart,
       kademeLink: const OrtaokulEkranlari(),
     ),
+    /*
     Kamede(
       title: "Lise",
       kademelerNumber: '9-10-11-12',
@@ -38,6 +39,8 @@ class Data {
       icon: LineIcons.heart,
       kademeLink: const sekizinciSinif(),
     ),
+
+    */
   ];
 
   static final siniflarList = [
@@ -81,6 +84,7 @@ class Data {
       reviewScore: 2,
       sinifLink: const sekizinciSinif(),
     ),
+    /*
     Sinif(
       name: "9.Sınıf",
       speciality: "Lise",
@@ -89,5 +93,6 @@ class Data {
       reviewScore: 9,
       sinifLink: const DokuzuncuSinif(),
     ),
+     */
   ];
 }

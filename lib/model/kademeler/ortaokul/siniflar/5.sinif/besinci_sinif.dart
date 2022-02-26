@@ -44,6 +44,7 @@ class _besinciSinifState extends State<besinciSinif> {
               Tab(text: "4.Ünite"),
               Tab(text: "5.Ünite"),
             ],
+            indicator: BoxDecoration(color: Color(0xff586191)),
             indicatorColor: Color(0xff586191),
             labelColor: Color(0xffEFF2F7),
           ),

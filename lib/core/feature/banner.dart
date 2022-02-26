@@ -8,49 +8,47 @@ class MainScreenBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        SizedBox(
-          //width: getRelativeWidth(0.94),
-          width: UIHelper.getAppBannerWidgetWidth(),
-          height: UIHelper.getAppBannerWidgetHeight(),
-          //height: getRelativeHeight(0.22),
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              Container(
-                width: UIHelper.getAppBannerContainerWidgetHeight(),
-                height: UIHelper.getAppBannerContainerWidgetWidth(),
-                //width: getRelativeWidth(0.88),
-                //height: getRelativeHeight(0.17),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30),
-                  boxShadow: const [
-                    BoxShadow(
-                      blurRadius: 30,
-                      offset: Offset(0, 15),
-                      color: kPrimaryDarkColor,
-                    )
-                  ],
-                  gradient: const LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    colors: [
-                      Color(0xffFEA741),
-                      Color(0xffFFCA8C),
+    return Padding(
+      padding: const EdgeInsets.all(6.0),
+      child: Stack(
+        children: [
+          SizedBox(
+            //width: getRelativeWidth(0.94),
+            width: UIHelper.getAppBannerWidgetWidth(),
+            height: UIHelper.getAppBannerWidgetHeight(),
+            //height: getRelativeHeight(0.22),
+            child: Stack(
+              alignment: Alignment.center,
+              children: [
+                Container(
+                  width: UIHelper.getAppBannerContainerWidgetHeight(),
+                  height: UIHelper.getAppBannerContainerWidgetWidth(),
+                  //width: getRelativeWidth(0.88),
+                  //height: getRelativeHeight(0.17),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    boxShadow: const [
+                      BoxShadow(
+                        blurRadius: 30,
+                        offset: Offset(0, 15),
+                        color: kPrimaryDarkColor,
+                      )
                     ],
+                    gradient: const LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        Color(0xffFEA741),
+                        Color(0xffFFCA8C),
+                      ],
+                    ),
                   ),
-                ),
-                child: Padding(
-                  padding:
-                      //EdgeInsets.symmetric(horizontal: getRelativeWidth(0.04)),
-                      const EdgeInsets.all(1),
                   child: Row(
-                    //crossAxisAlignment: CrossAxisAlignment.center,
-                    //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Stack(
-                        // alignment: Alignment.center,
+                        alignment: Alignment.center,
                         children: [
                           SizedBox(
                             height: UIHelper.getAppLogoWidgetHeight(),
@@ -59,7 +57,7 @@ class MainScreenBanner extends StatelessWidget {
                             //width: UIHelper.getAppLogoWidgetHeight(),
                             child: Image.asset(
                               "assets/app_logo/logo.png",
-                              scale: 0.8,
+                              scale: 0.5,
                             ),
                           ),
                         ],
@@ -111,57 +109,57 @@ class MainScreenBanner extends StatelessWidget {
                     ],
                   ),
                 ),
-              ),
-            ],
-          ),
-        ),
-        Positioned.fill(
-          child: Align(
-            alignment: Alignment.topRight,
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                  vertical: getRelativeHeight(0.028),
-                  horizontal: getRelativeWidth(0.070)),
-              child: SizedBox(
-                height: UIHelper.getAppIconWidgetHeight(),
-                  //height: getRelativeWidth(0.06),
-                  //width: getRelativeWidth(0.06),
-                  child: Image.asset("assets/images/send.png")),
+              ],
             ),
           ),
-        ),
-        Positioned.fill(
-          child: Align(
-            alignment: Alignment.bottomLeft,
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                  vertical: getRelativeHeight(0.01),
-                  horizontal: getRelativeWidth(0.04)),
-              child: SizedBox(
+          Positioned.fill(
+            child: Align(
+              alignment: Alignment.topRight,
+              child: Padding(
+                padding: EdgeInsets.symmetric(
+                    vertical: getRelativeHeight(0.028),
+                    horizontal: getRelativeWidth(0.070)),
+                child: SizedBox(
                   height: UIHelper.getAppIconWidgetHeight(),
-                //height: getRelativeWidth(0.08),
-                  //width: getRelativeWidth(0.08),
-                  child: Image.asset("assets/images/pencil.png")),
-            ),
-          ),
-        ),
-        Positioned.fill(
-          child: Align(
-            alignment: Alignment.topLeft,
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                  vertical: getRelativeHeight(0.001),
-                  horizontal: getRelativeWidth(0.01)),
-              child: SizedBox(
-                height: UIHelper.getAppIconWidgetHeight(),
-                //height: getRelativeWidth(0.11),
-                //width: getRelativeWidth(0.11),
-                child: Image.asset("assets/images/book_1.png"),
+                    //height: getRelativeWidth(0.06),
+                    //width: getRelativeWidth(0.06),
+                    child: Image.asset("assets/images/send.png")),
               ),
             ),
           ),
-        ),
-      ],
+          Positioned.fill(
+            child: Align(
+              alignment: Alignment.bottomLeft,
+              child: Padding(
+                padding: EdgeInsets.symmetric(
+                    vertical: getRelativeHeight(0.01),
+                    horizontal: getRelativeWidth(0.04)),
+                child: SizedBox(
+                    height: UIHelper.getAppIconWidgetHeight(),
+                  //height: getRelativeWidth(0.08),
+                    //width: getRelativeWidth(0.08),
+                    child: Image.asset("assets/images/pencil.png")),
+              ),
+            ),
+          ),
+          Positioned.fill(
+            child: Align(
+              alignment: Alignment.topLeft,
+              child: Padding(
+                padding: EdgeInsets.symmetric(
+                    vertical: getRelativeHeight(0.001),
+                    horizontal: getRelativeWidth(0.01)),
+                child: SizedBox(
+                  height: UIHelper.getAppIconWidgetHeight(),
+                  //height: getRelativeWidth(0.11),
+                  //width: getRelativeWidth(0.11),
+                  child: Image.asset("assets/images/book_1.png"),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
