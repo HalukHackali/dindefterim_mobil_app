@@ -22,7 +22,7 @@ Please feel free to clone/fork projects, raise issues and submit PRs if you thin
 Ask me anything <a href="https://github.com/HalukHackali/dindefterim_mobil_app/issues/new"><b>here</b></a><br>
 or <a href="mailto:halukh@protonmail.com"><b>email</b></a> me.
 
-<i>Happy Coding!</i> 😊
+<i>Happy Coding!</i> 😊 
 
 </div>
 
@@ -30,9 +30,12 @@ or <a href="mailto:halukh@protonmail.com"><b>email</b></a> me.
 
 #  <img src="https://github.com/HalukHackali/dindefterim_mobil_app/blob/master/assets/app_logo/logo.png" width="60"> dindefterim_mobil_app
 
-Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması
+Din Kültürü ve Ahlak Bilgisi Dersleri Mobil Uygulaması ve İnternet Sitesi
 
-www.dindefterim.com
+### www.dindefterim.com
+
+# [![DinDefterim Mobil App İndir](https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/badges/gp.png)](http://tiny.cc/dindefterim)
+
 
 
 > ### Uygulamanın Kısmen Bitmiş Bölümleri
@@ -41,7 +44,7 @@ www.dindefterim.com
 > - anasayfa tasarım
 ----
 
-<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/Screenshot.png" width="400">
+<img src="https://raw.githubusercontent.com/HalukHackali/dindefterim_mobil_app/master/assets/images/tel_1.png" width="400">
 
 ---
 ### My top 10 technologies
