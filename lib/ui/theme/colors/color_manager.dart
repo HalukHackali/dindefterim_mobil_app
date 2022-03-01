@@ -20,6 +20,7 @@ class _AppColors {
   final Color lightBlue = const Color(0xff4C7ABA);
   final Color primaryLogo = const Color(0xff3465A4);
   final Color appYellow = const Color(0xffFFC107);
+
 }
 
 abstract class IColors {
@@ -32,7 +33,6 @@ abstract class IColors {
   Color? tabbarNormalColor;
   Brightness? brightness;
   ColorScheme? colorScheme;
-
 }
 
 

@@ -38,18 +38,18 @@ class _Dokuz_E_Besinci_UniteState extends State<Dokuz_E_Besinci_Unite> {
                         unitAltKonuAdiBant(context,
                             'İslam Medeniyeti ve Özellikleri',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İslam Medeniyeti ve Özellikleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'İslam Medeniyetinin Farklı Coğrafyalardaki İzleri',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İslam Medeniyetinin Farklı Coğrafyalardaki İzleri',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Dokuz_E_Besinci_UniteState extends State<Dokuz_E_Besinci_Unite> {
                             context,
                             'Hucurât Suresi 13. Ayet',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Hucurât Suresi 13. Ayet',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),

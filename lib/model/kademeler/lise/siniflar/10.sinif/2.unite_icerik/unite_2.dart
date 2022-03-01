@@ -38,18 +38,18 @@ class _On_B_Ikinci_UniteState extends State<On_B_Ikinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Kur’an-ı Kerim’de Gençler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Kur’an-ı Kerim’de Gençler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Bir Genç Olarak Hz.Muhammed',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Bir Genç Olarak Hz.Muhammed',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _On_B_Ikinci_UniteState extends State<On_B_Ikinci_Unite> {
                           context,
                           'Hz.Muhammed ve Gençler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Hz.Muhammed ve Gençler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _On_B_Ikinci_UniteState extends State<On_B_Ikinci_Unite> {
                           context,
                           'Bazı Genç Sahabiler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Bazı Genç Sahabiler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _On_B_Ikinci_UniteState extends State<On_B_Ikinci_Unite> {
                           context,
                           'Âl-i İmrân Suresi 159. Ayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Âl-i İmrân Suresi 159. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

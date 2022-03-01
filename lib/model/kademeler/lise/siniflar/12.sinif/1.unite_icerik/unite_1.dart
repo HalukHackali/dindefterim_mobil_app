@@ -39,18 +39,18 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Din-Bilim İlişkisi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Din-Bilim İlişkisi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'İslam Medeniyetinde Bilim ve Düşüncenin Gelişimi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam Medeniyetinde Bilim ve Düşüncenin Gelişimi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -58,9 +58,9 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                           context,
                           'İslam Medeniyetinde Öne Çıkan Eğitim Kurumları',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam Medeniyetinde Öne Çıkan Eğitim Kurumları',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -68,9 +68,9 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                           context,
                           'Müslümanların Bilim Alanında Yaptığı Öncü ve Özgün Çalışmalar',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Müslümanların Bilim Alanında Yaptığı Öncü ve Özgün Çalışmalar',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -78,9 +78,9 @@ class Oniki_A_Birinci_UniteState extends State<Oniki_A_Birinci_Unite> {
                           context,
                           'Fâtır Suresi 27-28. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Fâtır Suresi 27-28. Ayetler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

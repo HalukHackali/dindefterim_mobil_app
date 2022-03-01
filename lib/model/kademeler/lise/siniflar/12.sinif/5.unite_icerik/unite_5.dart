@@ -38,18 +38,18 @@ class _Oniki_E_Besinci_UniteState extends State<Oniki_E_Besinci_Unite> {
                         unitAltKonuAdiBant(context,
                             'Hinduizm',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Hinduizm',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'Budizm',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Budizm',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Oniki_E_Besinci_UniteState extends State<Oniki_E_Besinci_Unite> {
                             context,
                             'Konfüçyanizm',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Konfüçyanizm',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _Oniki_E_Besinci_UniteState extends State<Oniki_E_Besinci_Unite> {
                             context,
                             'Taoizm',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Taoizm',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),

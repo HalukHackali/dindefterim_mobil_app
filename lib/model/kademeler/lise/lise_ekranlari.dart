@@ -7,8 +7,6 @@ import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart'
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/10.sinif/onuncu_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/9.sinif/dokuzuncu_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/ortaokul_ekranlari.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
-import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';
 import 'package:dindefterim_sari/ui/widget/base/diveder_page_widget.dart';
 import 'package:dindefterim_sari/ui/widget/base/sinif_divider_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/old_sinif_card_widget.dart';

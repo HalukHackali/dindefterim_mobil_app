@@ -39,18 +39,18 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Allah İnancı ve İnsan',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah İnancı ve İnsan',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Allah’ın Varlığı ve Birliği',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah’ın Varlığı ve Birliği',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -58,9 +58,9 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                           context,
                           'Allah’ın İsim ve Sıfatları',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah’ın İsim ve Sıfatları',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -68,9 +68,9 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                           context,
                           'Kur’an-ı Kerim’de İnsan ve Özellikleri',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Kur’an-ı Kerim’de İnsan ve Özellikleri',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -78,9 +78,9 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                           context,
                           'İnsanın Allah İle İrtibatı',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İnsanın Allah İle İrtibatı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -88,9 +88,9 @@ class On_A_Birinci_UniteState extends State<On_A_Birinci_Unite> {
                           context,
                           'Rûm Suresi 18-27. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Rûm Suresi 18-27. Ayetler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

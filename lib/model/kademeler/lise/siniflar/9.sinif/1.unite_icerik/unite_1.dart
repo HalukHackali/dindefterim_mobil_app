@@ -42,18 +42,18 @@ class Dokuz_A_Birinci_UniteState extends State<Dokuz_A_Birinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'İslam’da Bilgi Kaynakları',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             '1.Alt konu başlığı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'İslam İnancında İmanın Mahiyeti',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam İnancında İmanın Mahiyeti',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -61,9 +61,9 @@ class Dokuz_A_Birinci_UniteState extends State<Dokuz_A_Birinci_Unite> {
                           context,
                           'İsrâ 36. Ayet ve Mülk  23. Ayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İsrâ 36. Ayet ve Mülk  23. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

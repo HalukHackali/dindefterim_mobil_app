@@ -39,18 +39,18 @@ class _Oniki_B_Ikinci_UniteState extends State<Oniki_B_Ikinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Türklerin Müslüman Olmaları',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Türklerin Müslüman Olmaları',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Milletimizin İslam Anlayışının Oluşmasında Etkili Olan Bazı Şahsiyetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Milletimizin İslam Anlayışının Oluşmasında Etkili Olan Bazı Şahsiyetler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -58,9 +58,9 @@ class _Oniki_B_Ikinci_UniteState extends State<Oniki_B_Ikinci_Unite> {
                           context,
                           'Nisâ Suresi 69. Ayetı',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Nisâ Suresi 69. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

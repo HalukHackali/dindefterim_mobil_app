@@ -38,18 +38,18 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                         unitAltKonuAdiBant(context,
                             'Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Dinî Meselelerin Çözümünde Temel İlke ve Yöntemler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'İktisadi Hayatla İlgili Meseleler',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İktisadi Hayatla İlgili Meseleler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                             context,
                             'Gıda Maddeleri ve Bağımlılıkla İlgili Meselelerı',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Gıda Maddeleri ve Bağımlılıkla İlgili Meseleler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                             context,
                             'Sağlık ve Tıpla İlgili Meseleler',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Sağlık ve Tıpla İlgili Meseleler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _OnikiD_Dorduncu_UniteState extends State<OnikiD_Dorduncu_Unite> {
                             context,
                             'En’âm suresi 151-152. Ayetler',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'En’âm suresi 151-152. Ayetler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),

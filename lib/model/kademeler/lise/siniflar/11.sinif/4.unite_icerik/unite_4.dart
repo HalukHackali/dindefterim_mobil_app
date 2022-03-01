@@ -39,8 +39,8 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                           context,
                           'İnançla İlgili Felsefi Yaklaşımlar',
                           const UniteIcerik(
-                            unideninAdi: 'İnançla İlgili Felsefi Yaklaşımlar',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'İnançla İlgili Felsefi Yaklaşımlar',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -51,8 +51,8 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                           context,
                           'Yeni Dinî Hareketler',
                           const UniteIcerik(
-                            unideninAdi: 'Yeni Dinî Hareketler',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'Yeni Dinî Hareketler',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -63,8 +63,8 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                           context,
                           'En’âm Suresi 59. Ayet',
                           const UniteIcerik(
-                            unideninAdi: 'En’âm Suresi 59. Ayet',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'En’âm Suresi 59. Ayet',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -75,8 +75,8 @@ class _Onbir_D_Dorduncu_UniteState extends State<Onbir_D_Dorduncu_Unite> {
                           context,
                           'Lokmân Suresi 27. Ayet',
                           const UniteIcerik(
-                            unideninAdi: 'Lokmân Suresi 27. Ayet',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'Lokmân Suresi 27. Ayet',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),

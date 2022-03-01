@@ -39,8 +39,8 @@ class _Dokuz_D_Dorduncu_UniteState extends State<Dokuz_D_Dorduncu_Unite> {
                           context,
                           'Değerler ve Değerlerin Kaynağı',
                           const UniteIcerik(
-                            unideninAdi: 'Değerler ve Değerlerin Kaynağı',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'Değerler ve Değerlerin Kaynağı',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -51,9 +51,9 @@ class _Dokuz_D_Dorduncu_UniteState extends State<Dokuz_D_Dorduncu_Unite> {
                           context,
                           'Gençlerin Kişilik Gelişiminde Değerlerin Yeri ve Önemi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Gençlerin Kişilik Gelişiminde Değerlerin Yeri ve Önemi',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -64,9 +64,9 @@ class _Dokuz_D_Dorduncu_UniteState extends State<Dokuz_D_Dorduncu_Unite> {
                           context,
                           'Temel Değerler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Temel Değerler',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -77,9 +77,9 @@ class _Dokuz_D_Dorduncu_UniteState extends State<Dokuz_D_Dorduncu_Unite> {
                           context,
                           'İsrâ Suresi 23-29. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İsrâ Suresi 23-29. Ayetler',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),

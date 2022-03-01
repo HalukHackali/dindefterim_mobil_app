@@ -40,9 +40,9 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                           context,
                           'Dinî Yorum Farklılıklarının Sebepleri',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                                 'Dinî Yorum Farklılıklarının Sebepleri',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -53,9 +53,9 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                           context,
                           'Dinî Yorumlarla İlgili Bazı Kavramlar',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Dinî Yorumlarla İlgili Bazı Kavramlar',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -66,9 +66,9 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                           context,
                           'İslam Düşüncesinde İtikadi ve Siyasi Yorumlar',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam Düşüncesinde İtikadi ve Siyasi Yorumlar',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -79,9 +79,9 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                           context,
                           'İslam Düşüncesinde Fıkhi Yorumlar',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam Düşüncesinde Fıkhi Yorumlar',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -92,8 +92,8 @@ class _On_E_Besinci_UniteState extends State<On_E_Besinci_Unite> {
                           context,
                           'Nisâ Suresi 59. Ayet',
                           const UniteIcerik(
-                            unideninAdi: 'Nisâ Suresi 59. Ayet',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: 'Nisâ Suresi 59. Ayet',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),

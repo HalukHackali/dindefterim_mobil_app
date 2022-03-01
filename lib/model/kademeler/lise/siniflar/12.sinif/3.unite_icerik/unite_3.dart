@@ -38,18 +38,18 @@ class _Oniki_C_Ucuncu_UniteState extends State<Oniki_C_Ucuncu_Unite> {
                         unitAltKonuAdiBant(context,
                           'Tasavvufi Düşüncenin Oluşumu',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Tasavvufi Düşüncenin Oluşumu',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Tasavvufi Düşüncenin Ahlaki Boyutu',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Tasavvufi Düşüncenin Ahlaki Boyutu',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Oniki_C_Ucuncu_UniteState extends State<Oniki_C_Ucuncu_Unite> {
                           context,
                           'Kültürümüzde Etkin Olan Tasavvufi Yorumlar',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Kültürümüzde Etkin Olan Tasavvufi Yorumlar',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _Oniki_C_Ucuncu_UniteState extends State<Oniki_C_Ucuncu_Unite> {
                           context,
                           'Hucurât Suresi 10. Ayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Hucurât Suresi 10. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

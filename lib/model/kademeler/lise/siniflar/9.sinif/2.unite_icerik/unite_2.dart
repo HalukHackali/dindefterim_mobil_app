@@ -38,18 +38,18 @@ class _Dokuz_B_Ikinci_UniteState extends State<Dokuz_B_Ikinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Dinin Tanımı ve Kaynağı',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Dinin Tanımı ve Kaynağı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'İnsanın Doğası ve Din',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İnsanın Doğası ve Din',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Dokuz_B_Ikinci_UniteState extends State<Dokuz_B_Ikinci_Unite> {
                           context,
                           'İman ve İslam İlişkisi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İman ve İslam İlişkisi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _Dokuz_B_Ikinci_UniteState extends State<Dokuz_B_Ikinci_Unite> {
                           context,
                           'İslam İnanç Esaslarının Özellikleri',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam İnanç Esaslarının Özellikleri',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _Dokuz_B_Ikinci_UniteState extends State<Dokuz_B_Ikinci_Unite> {
                           context,
                           'Nisâ Suresi 136. Ayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Nisâ Suresi 136. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

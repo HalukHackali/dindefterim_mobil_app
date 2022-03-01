@@ -38,18 +38,18 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                         unitAltKonuAdiBant(context,
                           'İslam’da İbadet ve Kapsamı',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’da İbadet ve Kapsamı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'İslam’da İbadetin Amacı ve Önemi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’da İbadetin Amacı ve Önemi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                           context,
                           'İslam’da İbadet Yükümlülüğü',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’da İbadet Yükümlülüğü',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                           context,
                           'İslam’da İbadetlerin Temel İlkeleri',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’da İbadetlerin Temel İlkeleri',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                           context,
                           'İslam’da İbadet Ahlak İlişkisi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’da İbadet Ahlak İlişkisi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -87,9 +87,9 @@ class _Dokuz_C_Ucuncu_UniteState extends State<Dokuz_C_Ucuncu_Unite> {
                           context,
                           'Bakara Suresi 177. Ayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Bakara Suresi 177. Ayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

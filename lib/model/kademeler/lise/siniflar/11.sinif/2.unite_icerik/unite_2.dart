@@ -40,9 +40,9 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                           context,
                           'Hz.Muhammed’in Şahsiyeti',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Hz.Muhammed’in Şahsiyeti',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -53,8 +53,8 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                           context,
                           'Hz.Muhammed’in Peygamberlik Yönü',
                           const UniteIcerik(
-                            unideninAdi: '2.Alt konu başlığı',
-                            mdLinkF: UniteIcerikMarkDown(
+                            konuAdi: '2.Alt konu başlığı',
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -65,9 +65,9 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                           context,
                           'Hz. Muhammed’e Bağlılık ve İtaat',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Hz. Muhammed’e Bağlılık ve İtaat',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),
@@ -78,9 +78,9 @@ class _Onbir_B_Ikinci_UniteState extends State<Onbir_B_Ikinci_Unite> {
                           context,
                           'Ahzâb Suresi 45-46. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Ahzâb Suresi 45-46. Ayetler',
-                            mdLinkF: UniteIcerikMarkDown(
+                            mdLinkF: KonuIcerikMarkDown(
                               mdLink:
                                   "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",
                             ),

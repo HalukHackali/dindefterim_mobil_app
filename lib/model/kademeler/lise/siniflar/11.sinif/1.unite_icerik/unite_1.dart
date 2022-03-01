@@ -39,18 +39,18 @@ class Onbir_A_Birinci_UniteState extends State<Onbir_A_Birinci_Unite> {
                         unitAltKonuAdiBant(context,
                           'Varoluşun ve Hayatın Anlamı',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Varoluşun ve Hayatın Anlamı',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Ahiret Âlemi',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Ahiret Âlemi',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -58,9 +58,9 @@ class Onbir_A_Birinci_UniteState extends State<Onbir_A_Birinci_Unite> {
                           context,
                           'Ahirete Uğurlama',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Ahirete Uğurlama',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -68,9 +68,9 @@ class Onbir_A_Birinci_UniteState extends State<Onbir_A_Birinci_Unite> {
                           context,
                           'Bakara Suresi 153-157. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Bakara Suresi 153-157. Ayetler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

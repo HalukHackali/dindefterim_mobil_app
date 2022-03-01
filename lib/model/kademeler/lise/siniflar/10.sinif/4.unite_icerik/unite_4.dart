@@ -38,18 +38,18 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                         unitAltKonuAdiBant(context,
                             'İslam Ahlakının Konusu ve Gayesi',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İslam Ahlakının Konusu ve Gayesi',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                             'İslam Ahlakının Kaynakları',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İslam Ahlakının Kaynakları',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                             context,
                             'Ahlak ve Terbiye İlişkisi',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Ahlak ve Terbiye İlişkisi',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                             context,
                             'İslam Ahlakında Yerilen Bazı Davranışlar',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'İslam Ahlakında Yerilen Bazı Davranışlar',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _On_D_Dorduncu_UniteState extends State<On_D_Dorduncu_Unite> {
                             context,
                             'Hucurât Suresi 11-12. Ayetler',
                             const UniteIcerik(
-                              unideninAdi:
+                              konuAdi:
                               'Hucurât Suresi 11-12. Ayetler',
-                              mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                              mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                             ),
                             ),
                         const SizedBox(height: 5),

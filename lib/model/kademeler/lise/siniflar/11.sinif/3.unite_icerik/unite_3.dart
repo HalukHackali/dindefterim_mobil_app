@@ -38,18 +38,18 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                         unitAltKonuAdiBant(context,
                           'İslam’ın Aydınlık Yolu: Hidayet',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İslam’ın Aydınlık Yolu: Hidayet',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
                         unitAltKonuAdiBant(context,
                           'Allah’ı Görüyormuşçasına Yaşamak: İhsan',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah’ı Görüyormuşçasına Yaşamak: İhsan',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -57,9 +57,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'Allah İçin Samimiyet: İhlas',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah İçin Samimiyet: İhlas',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -67,9 +67,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'Allah’ın Emir ve Yasaklarına Riayet: Takva',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah’ın Emir ve Yasaklarına Riayet: Takva',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -77,9 +77,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'Dosdoğru Yol: Sırat-ı Müstakim',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Dosdoğru Yol: Sırat-ı Müstakim',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -87,9 +87,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'Allah Yolunda Mücahede: Cihat',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Allah Yolunda Mücahede: Cihat',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -97,9 +97,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'İyi, Doğru ve Güzel Davranış: Salih Amel',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'İyi, Doğru ve Güzel Davranış: Salih Amel',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),
@@ -107,9 +107,9 @@ class _Onbir_C_Ucuncu_UniteState extends State<Onbir_C_Ucuncu_Unite> {
                           context,
                           'Kehf Suresi 107-110. Ayetler',
                           const UniteIcerik(
-                            unideninAdi:
+                            konuAdi:
                             'Kehf Suresi 107-110. Ayetler',
-                            mdLinkF:  UniteIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
+                            mdLinkF:  KonuIcerikMarkDown(mdLink: "assets/markdown/siniflar_md/5.siniflar_md/5_1_1_unite_icerik.md",),
                           ),
                         ),
                         const SizedBox(height: 5),

@@ -5,12 +5,12 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/services.dart';
 
 class UniteIcerik extends StatelessWidget {
-  final String unideninAdi;
+  final String konuAdi;
   final Widget mdLinkF;
 
   const UniteIcerik({
     Key? key,
-    required this.unideninAdi,
+    required this.konuAdi,
     required this.mdLinkF,
   }) : super(key: key);
 
@@ -25,7 +25,7 @@ class UniteIcerik extends StatelessWidget {
           ),
           backgroundColor: const Color(0xff77E2FE),
           title: Text(
-            unideninAdi,
+            konuAdi,
             style: TextStyle(
               color: kHardTextColor,
               fontWeight: FontWeight.bold,
@@ -40,9 +40,9 @@ class UniteIcerik extends StatelessWidget {
   }
 }
 
-class UniteIcerikMarkDown extends StatelessWidget {
+class KonuIcerikMarkDown extends StatelessWidget {
   final String mdLink;
-  const UniteIcerikMarkDown({Key? key, required this.mdLink}) : super(key: key);
+  const KonuIcerikMarkDown({Key? key, required this.mdLink}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
