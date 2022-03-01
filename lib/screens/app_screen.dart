@@ -1,13 +1,13 @@
-import 'package:dindefterim_sari/core/feature/search_field.dart';
+import 'package:dindefterim_sari/feature/search_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import '../../screens/layout/drawer_menu.dart';
-import '../constants.dart';
-import '../size_confige.dart';
-import 'banner.dart';
-import 'botton_nav_bar_model.dart';
-import 'kademeler_list.dart';
-import 'siniflar_list.dart';
+import '../config/constants.dart';
+import '../config/size_confige.dart';
+import '../ui/layout/drawer_menu.dart';
+import '../ui/widget/banner.dart';
+import '../model/botton_nav_bar_model.dart';
+import '../ui/widget/kademeler_list.dart';
+import '../ui/widget/siniflar_list.dart';
 
 class AppScreen extends StatefulWidget {
    const AppScreen({Key? key}) : super(key: key);

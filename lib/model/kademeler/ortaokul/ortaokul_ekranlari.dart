@@ -1,6 +1,6 @@
-import 'package:dindefterim_sari/core/constants.dart';
-import 'package:dindefterim_sari/core/feature/bottom_navigation_bar.dart';
-import 'package:dindefterim_sari/core/size_confige.dart';
+import 'package:dindefterim_sari/config/constants.dart';
+import 'package:dindefterim_sari/ui/widget/bottom_navigation_bar.dart';
+import 'package:dindefterim_sari/config/size_confige.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/6.sinif/altincii_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/7.sinif/yedinci_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ortaokul/siniflar/8.sinif/sekizinci_sinif.dart';

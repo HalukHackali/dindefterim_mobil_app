@@ -1,7 +1,8 @@
-import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
-import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
-import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
-import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
+import '../../../../../ui/layout/kavramlar_ogrenme_alani_widget.dart';
+import '../../../../../ui/layout/unite_adi.dart';
+import '../../../../../ui/layout/unite_alt_konu_adi.dart';
+import '../../../../../ui/layout/unite_icerik.dart';
+
 import 'package:flutter/material.dart';
 
 class Dort_E_Besinci_Unite extends StatefulWidget {

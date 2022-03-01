@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../constants.dart';
-import '../size_confige.dart';
+import '../../config/constants.dart';
+import '../../config/size_confige.dart';
 import 'dart:math' as math;
 
-import 'app_screen.dart';
+import '../../screens/app_screen.dart';
 
 class BottomNavigation extends StatelessWidget {
   final List<IconData> itemIcons;

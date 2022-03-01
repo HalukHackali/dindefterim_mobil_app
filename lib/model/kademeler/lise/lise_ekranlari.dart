@@ -1,8 +1,8 @@
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/11.sinif/onbirinci_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/12.sinif/onikinci_sinif.dart';
 import 'package:flutter/material.dart';
-import 'package:dindefterim_sari/core/constants.dart';
-import 'package:dindefterim_sari/core/feature/botton_nav_bar_model.dart';
+import 'package:dindefterim_sari/config/constants.dart';
+import 'package:dindefterim_sari/model/botton_nav_bar_model.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/10.sinif/onuncu_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/siniflar/9.sinif/dokuzuncu_sinif.dart';

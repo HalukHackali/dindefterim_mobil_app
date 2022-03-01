@@ -1,8 +1,8 @@
-import 'package:dindefterim_sari/core/data/data.dart';
+import 'package:dindefterim_sari/data/data.dart';
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
-import '../size_confige.dart';
+import '../../config/constants.dart';
+import '../../config/size_confige.dart';
 
 class KademelerList extends StatelessWidget {
   const KademelerList({Key? key}) : super(key: key);

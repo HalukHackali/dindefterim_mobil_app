@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'bottom_navigation_bar.dart';
+import '../ui/widget/bottom_navigation_bar.dart';
 
 class ButtomNavBarModel extends StatefulWidget {
   const ButtomNavBarModel({Key? key}) : super(key: key);

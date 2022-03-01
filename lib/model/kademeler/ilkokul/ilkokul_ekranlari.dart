@@ -1,7 +1,6 @@
-import 'package:dindefterim_sari/core/constants.dart';
-import 'package:dindefterim_sari/core/feature/botton_nav_bar_model.dart';
-import 'package:dindefterim_sari/core/size_confige.dart';
-import 'package:dindefterim_sari/model/kademeler/lise/lise_ekranlari.dart';
+import 'package:dindefterim_sari/config/constants.dart';
+import 'package:dindefterim_sari/model/botton_nav_bar_model.dart';
+import 'package:dindefterim_sari/config/size_confige.dart';
 import 'package:dindefterim_sari/ui/widget/card/sinif_card_widget.dart';
 import 'package:dindefterim_sari/ui/widget/card/kademe_card_widget.dart';
 import 'package:flutter/material.dart';

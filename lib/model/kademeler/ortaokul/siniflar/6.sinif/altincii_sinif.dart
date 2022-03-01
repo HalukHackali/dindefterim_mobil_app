@@ -1,5 +1,5 @@
-import 'package:dindefterim_sari/core/constants.dart';
-import 'package:dindefterim_sari/core/size_confige.dart';
+import 'package:dindefterim_sari/config/constants.dart';
+import 'package:dindefterim_sari/config/size_confige.dart';
 import 'package:flutter/material.dart';
 
 import '1.unite_icerik/unite_1.dart';

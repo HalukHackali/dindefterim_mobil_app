@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'core/feature/app_screen.dart';
-import 'core/size_confige.dart';
+import 'screens/app_screen.dart';
+import 'config/size_confige.dart';
 
 /*
 void main() {

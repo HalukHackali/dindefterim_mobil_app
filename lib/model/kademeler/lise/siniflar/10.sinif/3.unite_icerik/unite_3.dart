@@ -1,8 +1,8 @@
-import 'package:dindefterim_sari/screens/layout/kavramlar_ogrenme_alani_widget.dart';
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
-import 'package:dindefterim_sari/screens/layout/unite_adi.dart';
-import 'package:dindefterim_sari/screens/layout/unite_alt_konu_adi.dart';
-import 'package:dindefterim_sari/screens/layout/unite_icerik.dart';
+import 'package:dindefterim_sari/ui/layout/kavramlar_ogrenme_alani_widget.dart';
+import 'package:dindefterim_sari/ui/layout/no_ready_page.dart';
+import 'package:dindefterim_sari/ui/layout/unite_adi.dart';
+import 'package:dindefterim_sari/ui/layout/unite_alt_konu_adi.dart';
+import 'package:dindefterim_sari/ui/layout/unite_icerik.dart';
 import 'package:flutter/material.dart';
 
 class On_C_Ucuncu_Unite extends StatefulWidget {

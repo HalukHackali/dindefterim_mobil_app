@@ -1,5 +1,5 @@
-import 'package:dindefterim_sari/core/model/kademe.dart';
-import 'package:dindefterim_sari/core/model/sinif.dart';
+import 'package:dindefterim_sari/model/kademe.dart';
+import 'package:dindefterim_sari/model/sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/4.sinif/dorduncu_sinif.dart';
 import 'package:dindefterim_sari/model/kademeler/ilkokul/ilkokul_ekranlari.dart';
 import 'package:dindefterim_sari/model/kademeler/lise/lise_ekranlari.dart';

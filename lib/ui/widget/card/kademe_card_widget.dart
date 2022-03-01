@@ -1,4 +1,4 @@
-import 'package:dindefterim_sari/core/size_confige.dart';
+import 'package:dindefterim_sari/config/size_confige.dart';
 import 'package:flutter/material.dart';
 
 

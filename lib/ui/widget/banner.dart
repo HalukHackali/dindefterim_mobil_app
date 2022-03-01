@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
-import '../size_confige.dart';
+import '../../config/constants.dart';
+import '../../config/size_confige.dart';
 
 class MainScreenBanner extends StatelessWidget {
   const MainScreenBanner({Key? key}) : super(key: key);

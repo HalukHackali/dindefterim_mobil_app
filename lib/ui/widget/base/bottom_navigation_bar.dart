@@ -1,6 +1,7 @@
-import 'package:dindefterim_sari/core/feature/app_screen.dart';
-import 'package:dindefterim_sari/screens/layout/no_ready_page.dart';
+import 'package:dindefterim_sari/screens/app_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../../layout/no_ready_page.dart';
 
 
 

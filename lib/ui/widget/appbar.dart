@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../size_confige.dart';
+import '../../config/size_confige.dart';
 
 class UserAppBar extends StatelessWidget {
    const UserAppBar({Key? key}) : super(key: key);
