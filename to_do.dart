@@ -19,7 +19,7 @@
 
 // finished: App Logo tasarlandı
 
-// todo: Renk şablonu oluşturulacak
+// finished: Renk şablonu oluşturulacak
 
 // todo: 'Dökümanlar' sayfası hazırlanacak
 
