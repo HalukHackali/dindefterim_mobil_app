@@ -1,0 +1,39 @@
+# Emoji desteği
+
+Markdown(
+    controller: controller,
+    selectable: true,
+    data: 'Insert emoji here😀 ',
+)
+
+----------------------------------------------------------------------------------------------
+
+import 'package:markdown/markdown.dart' as md;
+
+Markdown(
+    controller: controller,
+    selectable: true,
+    data: 'Insert emoji :smiley: here',
+    extensionSet: md.ExtensionSet(
+      md.ExtensionSet.gitHubFlavored.blockSyntaxes,
+      [md.EmojiSyntax(), ...md.ExtensionSet.gitHubFlavored.inlineSyntaxes],
+    ),
+)
+
+
+================================================================================================
+
+# Görüntü Desteği
+
+bu Imgetiketi yalnızca aşağıdaki resim konumlarını destekler:
+
+    Ağdan: Ön eki şu şekilde olan bir URL kullanın: http://veya https://.
+
+    Cihazdaki yerel dosyalardan: Dosyaya mutlak bir yol kullanın, örneğin dosya
+    adını bilinen bir depolama konumu tarafından döndürülen yolla birleştirmek,
+    tarafından sağlananlar gibi path_provider Eklenti.
+
+    Paketlenmiş varlıklara atıfta bulunan görüntü konumlarından: resource:. beğenmek resource:assets/image.png.
+
+
+================================================================================================
