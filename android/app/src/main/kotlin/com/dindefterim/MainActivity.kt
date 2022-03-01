@@ -1,4 +1,4 @@
-package com.dindefterim.haluk.dindefterim_sari
+package com.dindefterim
 
 import io.flutter.embedding.android.FlutterActivity
 
