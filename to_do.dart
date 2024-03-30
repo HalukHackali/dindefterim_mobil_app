@@ -3,46 +3,46 @@
 // learn:
 // finished:
 
-// finished: Ünite konu sayfası yapıldı.
+// todo: 'Ünite Soruları' eklenecek ⭕️
 
-// finished: 'Ünite kavramları' eklenecek (4-5-6-7-8-9-10-11-12 sınıflar için)
+// todo: 'Ayarlar' sayfası eklenecek ❌
 
-// finished: 'Öğrenme Alanları' eklenecek (4-6-7-9-10-11-12 sınıflar için)
+// todo: 'Kullanıcı' sayfası eklenecek ❌
 
-// todo: 'Ünite Soruları' eklenecek
+// todo: 'Dökümanlar' sayfası hazırlanacak ⭕️
 
-// todo: 'Ayarlar' sayfası eklenecek
+// todo: 'Testler' sayfası hazırlanacak ⭕️
 
-// todo: 'Kullanıcı' sayfası eklenecek
+// todo: Video-Ses dosyaları hazırlanacak ⭕️
 
-// fixme: 'Drawer' menu düzenlenecek
+// todo: Video-Ses dosyaları eklenecek ⭕️
 
-// finished: App Logo tasarlandı
+// fixme: 'Drawer' menu düzenlenecek ❌
 
-// finished: Renk şablonu oluşturulacak
+// learn: 'FireBase' öğrenilecek ⭕️
 
-// todo: 'Dökümanlar' sayfası hazırlanacak
+// learn: 'LocalStorage' öğrenilecek ⭕️
 
-// todo: 'Testler' sayfası hazırlanacak
+// learn: 'API' ekleme öğrenilecek ⭕️
 
-// todo: Video-Ses dosyaları hazırlanacak
+// learn: 'Services' konusu öğrenilecek ⭕️
 
-// todo: Video-Ses dosyaları eklenecek
+// learn: 'Provider' konusu öğrenilecek ⭕️
 
-// finished: 'MarkDown' içerik ekleme öğrenildi
+// learn: 'Sliver' konusu öğrenilecek ⭕️
 
-// learn: 'FireBase' öğrenilecek
+// finished: Ünite konu sayfası yapıldı. ✅
 
-// learn: 'LocalStorage' öğrenilecek
+// finished: 'Ünite kavramları' eklenecek (4-5-6-7-8-9-10-11-12 sınıflar için) ✅
 
-// learn: 'API' ekleme öğrenilecek
+// finished: 'Öğrenme Alanları' eklenecek (4-6-7-9-10-11-12 sınıflar için) ✅
 
-// learn: 'Services' konusu öğrenilecek
+// finished: App Logo tasarlandı ✅
 
-// learn: 'Provider' konusu öğrenilecek
+// finished: Renk şablonu oluşturulacak ✅
 
-// learn: 'Sliver' konusu öğrenilecek
+// finished: 'MarkDown' içerik ekleme öğrenildi ✅
 
-// finished: Yazı fontları gözden geçirilecek
+// finished: Yazı fontları gözden geçirilecek ✅
 
-// finished: App iskeleti yapıldı
+// finished: App iskeleti yapıldı ✅
